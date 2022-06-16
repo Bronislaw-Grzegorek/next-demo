@@ -1,0 +1,83 @@
+DIAGNOSIS:
+
+THYROID, LEFT, EXCISION FOR FLOW CYTOMETRY:
+- NO IDENTIFIABLE B CELLS;
+- SEE COMMENT.
+
+Comment: Viability: 100%. The cells were analyzed for forward and side
+scatter and for immunophenotype using antibodies to CD2, CD11b, CD45,
+CD20, surface kappa light chains, surface lambda light chains, CD19,
+FMC-7, CD23, CD5, CD103, CD11c, CD25, HLA-DR, CD38, CD10, and CD49d.
+
+Analysis of the dot plots of forward versus side scatter and CD45 versus
+side scatter disclosed a large amount of debris and a few possible
+lymphocytes. Analysis of the lymphocytes showed a few T cells but no B
+cells.
+
+The analysis contained too few B lymphocytes for evaluation. See also
+surgical pathology case (S14-17669).
+
+
+Clinical Diagnosis and History:
+Left thyroid mass; one piece, 1.0 x 0.5 x 0.25 cm.
+
+Tissue(s) Submitted:
+Left thyroid mass in RPMI media for flow cytometry
+
+Gross Description:
+Received: left thyroid mass in RPMI media
+Collected: 5/5/2014
+Received in Lab: 5/5/2014
+Processed: 5/6/2014
+
+
+
+
+DIAGNOSIS:
+
+LEFT THYROID MASS, INCISIONAL BIOPSY:
+- DIFFUSE LARGE B CELL LYMPHOMA, WITH HIGH-GRADE FEATURES
+- SEE COMMENT
+
+Comment: Sections demonstrate sheets of intermediate-sized to
+large-sized atypical lymphocytes with vesicular chromatin, nuclear
+membrane irregularities, and variably prominent nucleoli. The areas
+with intermediate-sized nuclei are somewhat necrotic in appearance, with
+increased amounts of apoptotic cells and small, shrunken,
+necrotic-appearing lymphocytes. The sheets of large atypical
+lymphocytes are present in a background of chronic lymphocytic
+thyroiditis with features of Hashimoto's thyroiditis. There are also
+associated foci of chronic inflammation with increased reactive T-cells
+and residual CD23-positive follicular dendritic cell meshworks. The
+large atypical lymphoid cells are diffusely positive for CD20 and BCL-6.
+CD10 is positive but with weak intensity. BCL-2 is negative. CD23 is
+focally positive within the large atypical lymphoid cells. Cytokeratin
+AE1/AE3 highlights residual follicular epithelium but is negative within
+the malignant cell population. The Ki-67/MIB-1 proliferation rate is
+markedly elevated (greater than 80%, and possibly greater than 90%).
+CD3 and CD5 stain interspersed T-cells. The corresponding flow
+cytometric evaluation (S14-17867) is non-contributory due to lack of
+viable lymphoid cells (presumably due to necrosis).
+
+The histologic and immunophenotypic findings are indicative of diffuse
+large B-cell lymphoma, probably arising in the context of a chronic
+lymphocytic thyroiditis. In addition, the lymphoma has high-grade
+features (markedly elevated Ki67 proliferation rate and lack of BCL-2
+expression). Therefore, if clinically indicated, additional testing for
+C-MYC, BCL-2, and BCL-6 gene rearrangements by FISH analysis can be
+performed as reference laboratory send-out tests, upon request.
+
+Case shown in consultation to Dr. Fricke, and findings discussed with
+Dr. Saleh on May 7, 2014.
+
+SURGICAL PATHOLOGY CASE SUMMARY
+MACROSCOPIC SUMMARY
+Specimen: thyroid mass
+Procedure: Biopsy
+Tumor Site: thryoid
+MICROSCOPIC SUMMARY
+Histologic Type: Diffuse Large B cell lymphoma, with high grade
+features
+ANCILLARY STUDIES
+Immunophenotyping (Flow Cytometry and/or IHC): Performed; see RESULTS
+ABOVE
