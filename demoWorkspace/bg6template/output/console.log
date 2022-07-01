@@ -1,0 +1,12 @@
+--------------------------------------------------------------------------------
+Date: 01-Jul-2022_13-57-12
+--------------------------------------------------------------------------------
+Loading project: "bg6template"
+Model Error: C:\Users\grzegore\GitProjects\next-demo\demoWorkspace\templates\foundation_template.xml Line:27011 Column:12 The text "Fnd0CompleteReworkRevDecisionSetLOV" cannot exceed "32" characters. ( Template Name : "foundation" )
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Date: 01-Jul-2022_14-33-37
+--------------------------------------------------------------------------------
+Loading project: "bg6template"
+Model Error: C:\Users\grzegore\GitProjects\next-demo\demoWorkspace\bg6template\extensions\default.xml Line:4 Column:78 Undefined constant name "Fnd0SelectedLocales". ( Template Name : "bg6template" )
+--------------------------------------------------------------------------------

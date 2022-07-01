@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="BG6_DemoOjbect" parentClassName="Item" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="bg6_demo_attr1" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="bg6_demo_arrt2" description="" attributeType="POM_int"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+   </TcClass>
+   <TcClass className="BG6_DemoOjbectMasterS" parentClassName="ItemMaster" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="BG6_DemoOjbectRevMasterS" parentClassName="ItemVersionMaster"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="BG6_DemoOjbectRevision" parentClassName="ItemRevision" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <OperationInputType typeName="BG6_DemoOjbectCreI" parentTypeName="ItemCreI" typeClassName="BG6_DemoOjbectCreI"
+       description="CreateInput object for &quot;BG6_DemoOjbect&quot; business object"
+       isAbstract="false" artifactName="BG6_DemoOjbectCreI"/>
+   <OperationInputType typeName="BG6_DemoOjbectMasterCreI" parentTypeName="Item MasterCreI"
+       typeClassName="BG6_DemoOjbectMasterCreI" description="CreateInput object for &quot;BG6_DemoOjbectMaster&quot; business object"
+       isAbstract="false" artifactName="BG6_DemoOjbectMasterCreI"/>
+   <OperationInputType typeName="BG6_DemoOjbectMasterSCreI" parentTypeName="ItemMasterCreI"
+       typeClassName="BG6_DemoOjbectMasterSCreI" description="CreateInput object for &quot;BG6_DemoOjbectMasterS&quot; business object"
+       isAbstract="false" artifactName="BG6_DemoOjbectMasterSCreI"/>
+   <OperationInputType typeName="BG6_DemoOjbectMasterSSvAI" parentTypeName="ItemMasterSvAI"
+       typeClassName="BG6_DemoOjbectMasterSSvAI" description="SaveAsInput object for &quot;BG6_DemoOjbectMasterS&quot; business object"
+       isAbstract="false" artifactName="BG6_DemoOjbectMasterSSvAI"/>
+   <OperationInputType typeName="BG6_DemoOjbectMasterSvAI" parentTypeName="Item MasterSvAI"
+       typeClassName="BG6_DemoOjbectMasterSvAI" description="SaveAsInput object for &quot;BG6_DemoOjbectMaster&quot; business object"
+       isAbstract="false" artifactName="BG6_DemoOjbectMasterSvAI"/>
+   <OperationInputType typeName="BG6_DemoOjbectRevMasterSCreI" parentTypeName="ItemVersionMasterCreI"
+       typeClassName="BG6_DemoOjbectRevMasterSCreI" description="CreateInput object for &quot;BG6_DemoOjbectRevMasterS&quot; business object"
+       isAbstract="false" artifactName="BG6_DemoOjbectRevMasterSCreI"/>
+   <OperationInputType typeName="BG6_DemoOjbectRevMasterSSvAI" parentTypeName="ItemVersionMasterSvAI"
+       typeClassName="BG6_DemoOjbectRevMasterSSvAI" description="SaveAsInput object for &quot;BG6_DemoOjbectRevMasterS&quot; business object"
+       isAbstract="false" artifactName="BG6_DemoOjbectRevMasterSSvAI"/>
+   <OperationInputType typeName="BG6_DemoOjbectRevisionCreI" parentTypeName="ItemRevisionCreI"
+       typeClassName="BG6_DemoOjbectRevisionCreI" description="CreateInput object for &quot;BG6_DemoOjbectRevision&quot; business object"
+       isAbstract="false" artifactName="BG6_DemoOjbectRevisionCreI"/>
+   <OperationInputType typeName="BG6_DemoOjbectRevisionRevI" parentTypeName="ItemRevisionRevI"
+       typeClassName="BG6_DemoOjbectRevisionRevI" description="ReviseInput object for &quot;BG6_DemoOjbectRevision&quot; business object"
+       isAbstract="false" artifactName="BG6_DemoOjbectRevisionRevI"/>
+   <OperationInputType typeName="BG6_DemoOjbectRevisionSvAI" parentTypeName="ItemRevisionSvAI"
+       typeClassName="BG6_DemoOjbectRevisionSvAI" description="SaveAsInput object for &quot;BG6_DemoOjbectRevision&quot; business object"
+       isAbstract="false" artifactName="BG6_DemoOjbectRevisionSvAI"/>
+   <OperationInputType typeName="BG6_DemoOjbectRevision_alt0CreI" parentTypeName="ItemRevision MasterCreI"
+       typeClassName="BG6_DemoOjbectRevision_alt0CreI" description="CreateInput object for &quot;BG6_DemoOjbectRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="BG6_DemoOjbectRevision_alt0CreI"/>
+   <OperationInputType typeName="BG6_DemoOjbectRevision_alt0SvAI" parentTypeName="ItemRevision MasterSvAI"
+       typeClassName="BG6_DemoOjbectRevision_alt0SvAI" description="SaveAsInput object for &quot;BG6_DemoOjbectRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="BG6_DemoOjbectRevision_alt0SvAI"/>
+   <OperationInputType typeName="BG6_DemoOjbectSvAI" parentTypeName="ItemSvAI" typeClassName="BG6_DemoOjbectSvAI"
+       description="SaveAsInput object for &quot;BG6_DemoOjbect&quot; business object"
+       isAbstract="false" artifactName="BG6_DemoOjbectSvAI"/>
+   <TcForm typeName="BG6_DemoOjbectMaster" parentTypeName="Item Master" typeClassName="Form"
+       description="MasterForm object for &quot;BG6_DemoOjbect&quot; business object"
+       isAbstract="false" artifactName="BG6_DemoOjbectMaster" functionality="BG6_template"
+       formStorageClassName="BG6_DemoOjbectMasterS"/>
+   <TcForm typeName="BG6_DemoOjbectRevisionMaster" parentTypeName="ItemRevision Master"
+       typeClassName="Form" description="MasterForm object for &quot;BG6_DemoOjbectRevision&quot; business object"
+       isAbstract="false" artifactName="BG6_DemoOjbectRevisionMaster" functionality="BG6_template"
+       formStorageClassName="BG6_DemoOjbectRevMasterS"/>
+   <TcStandardType typeName="BG6_DemoOjbect" parentTypeName="Item" typeClassName="BG6_DemoOjbect"
+       description="For Demo" isAbstract="false" artifactName="BG6_DemoOjbect" functionality="BG6_template"/>
+   <TcStandardType typeName="BG6_DemoOjbectMasterS" parentTypeName="ItemMaster" typeClassName="BG6_DemoOjbectMasterS"
+       description="Form Storage object for &quot;BG6_DemoOjbectMaster&quot; business object"
+       isAbstract="false" artifactName="BG6_DemoOjbectMasterS" functionality="BG6_template"/>
+   <TcStandardType typeName="BG6_DemoOjbectRevMasterS" parentTypeName="ItemVersionMaster"
+       typeClassName="BG6_DemoOjbectRevMasterS" description="Form Storage object for &quot;BG6_DemoOjbectRevMaster&quot; business object"
+       isAbstract="false" artifactName="BG6_DemoOjbectRevMasterS" functionality="BG6_template"/>
+   <TcStandardType typeName="BG6_DemoOjbectRevision" parentTypeName="ItemRevision"
+       typeClassName="BG6_DemoOjbectRevision" description="ItemRevision object for &quot;BG6_DemoOjbect&quot;  business object"
+       isAbstract="false" artifactName="BG6_DemoOjbectRevision" functionality="BG6_template"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BG6_DemoOjbect" value="BG6_DemoOjbectCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BG6_DemoOjbectMaster"
+       value="BG6_DemoOjbectMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BG6_DemoOjbectMasterS"
+       value="BG6_DemoOjbectMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BG6_DemoOjbectRevision"
+       value="BG6_DemoOjbectRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BG6_DemoOjbectRevisionMaster"
+       value="BG6_DemoOjbectRevision_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BG6_DemoOjbectRevMasterS"
+       value="BG6_DemoOjbectRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="BG6_DemoOjbect" value="BG6_DemoOjbectRevision"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BG6_DemoOjbect" value="BG6_DemoOjbectMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BG6_DemoOjbectRevision"
+       value="BG6_DemoOjbectRevisionMaster"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="BG6_DemoOjbectRevision"
+       value="BG6_DemoOjbectRevisionRevI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BG6_DemoOjbect" value="BG6_DemoOjbectSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BG6_DemoOjbectMaster"
+       value="BG6_DemoOjbectMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BG6_DemoOjbectMasterS"
+       value="BG6_DemoOjbectMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BG6_DemoOjbectRevision"
+       value="BG6_DemoOjbectRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BG6_DemoOjbectRevisionMaster"
+       value="BG6_DemoOjbectRevision_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BG6_DemoOjbectRevMasterS"
+       value="BG6_DemoOjbectRevMasterSSvAI"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BG6_DemoOjbect" propertyName="bg6_demo_arrt2"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BG6_DemoOjbect" propertyName="bg6_demo_attr1"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BG6_DemoOjbect" propertyName="bg6_demo_arrt2"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BG6_DemoOjbect" propertyName="bg6_demo_attr1"
+       value="Write"/>
+</Add>
+</TcBusinessData>
