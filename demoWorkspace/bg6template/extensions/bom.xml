@@ -3,19 +3,19 @@
 <Add>
    <TcClass className="BG6_DemoOjbect" parentClassName="Item" isExportable="false"
        isUninstantiable="false" isUninheritable="false" description="">
-     <TcAttribute attributeName="bg6_demo_attr1" description="" attributeType="POM_string"
+     <TcAttribute attributeName="bg6_demo_attr1" description="Modified by Bronek" attributeType="POM_string"
          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
          isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
          isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
          upperBoundValue=""/>
-     <TcAttribute attributeName="bg6_demo_arrt2" description="" attributeType="POM_int"
+     <TcAttribute attributeName="bg6_demo_arrt2" description="Modified by Bronek" attributeType="POM_int"
          maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
          isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
          isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
          upperBoundValue=""/>
    </TcClass>
    <TcClass className="BG6_DemoOjbectMasterS" parentClassName="ItemMaster" isExportable="false"
-       isUninstantiable="false" isUninheritable="false" description=""/>
+       isUninstantiable="false" isUninheritable="false" description="Modified by Bronek"/>
    <TcClass className="BG6_DemoOjbectRevMasterS" parentClassName="ItemVersionMaster"
        isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
    <TcClass className="BG6_DemoOjbectRevision" parentClassName="ItemRevision" isExportable="false"
