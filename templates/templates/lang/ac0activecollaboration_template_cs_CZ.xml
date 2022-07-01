@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:16:11 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Ac0ActiveCollabDataProvider" locale="cs_CZ" status="Approved">Poskytovatel dat aplikace Active Collaborartion</key>
+   <key id="BusinessObject{::}Ac0CommentStatsRecord" locale="cs_CZ" status="Approved">Statistiky komentáře</key>
+   <key id="BusinessObject{::}Ac0Comment" locale="cs_CZ" status="Approved">Komentář</key>
+   <key id="BusinessObject{::}Ac0ConversationIncludeRel" locale="cs_CZ" status="Approved">Relace zahrnutí konverzace</key>
+   <key id="BusinessObject{::}Ac0ConversationSrcRel" locale="cs_CZ" status="Approved">Relace zdroje konverzace</key>
+   <key id="BusinessObject{::}Ac0Conversation" locale="cs_CZ" status="Approved">Konverzace</key>
+   <key id="BusinessObject{::}Ac0SubscriptionRecord" locale="cs_CZ" status="Approved">Předplatné</key>
+   <key id="BusinessObject{::}Ac0UserFeedRecord" locale="cs_CZ" status="Approved">Záznam uživatelského kanálu</key>
+   <key id="LOVValueDescription{::}Ac0IncludedActions{::}Snapshot" locale="cs_CZ" status="Approved">Představuje akci pro přidání 3D snímku do konverzace.</key>
+   <key id="LOVValueDescription{::}Ac0IncludedActions{::}TaggedObj" locale="cs_CZ" status="Approved">Představuje akci pro označení uživatele v konverzaci.</key>
+   <key id="LOVValueDescription{::}Ac0IncludedActions{::}UserMention" locale="cs_CZ" status="Approved">Představuje akci pro zmínku o objektu procesu v konverzaci.</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}ConvTypeChanged" locale="cs_CZ" status="Approved">Představuje typ zprávy, když uživatel změní typ konverzace.</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}MultipleActions" locale="cs_CZ" status="Approved">Představuje typ zprávy, když uživatel změní více polí a všechny změny jsou seskupeny do jedné zprávy.</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}ParticipantAdded" locale="cs_CZ" status="Approved">Představuje typ zprávy, když uživatel přidá účastníka do konverzace.</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}ParticipantRemoved" locale="cs_CZ" status="Approved">Představuje typ zprávy, když uživatel odebere účastníka z konverzace.</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}PriorityChanged" locale="cs_CZ" status="Approved">Představuje typ zprávy, když uživatel změní prioritu konverzace.</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}StatusChanged" locale="cs_CZ" status="Approved">Představuje typ zprávy, když uživatel změní stav konverzace.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationPriority{::}High" locale="cs_CZ" status="Approved">Představuje účinnou konverzaci s vysokou prioritou.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationPriority{::}Low" locale="cs_CZ" status="Approved">Představuje účinnou konverzaci s nízkou prioritou.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationPriority{::}Medium" locale="cs_CZ" status="Approved">Představuje účinnou konverzaci se střední prioritou.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationStatus{::}Closed" locale="cs_CZ" status="Approved">Představuje účinnou konverzaci, pro kterou se provádí akce.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationStatus{::}In Progress" locale="cs_CZ" status="Approved">Představuje účinnou konverzaci, která je kontrolována účastníky.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationStatus{::}Open" locale="cs_CZ" status="Approved">Představuje účinnou konverzaci, která je otevřená.</key>
+   <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}ACTIVE_COLLABORATION" locale="cs_CZ" status="Approved">Active Collaboration</key>
+   <key id="LOVValue{::}Ac0IncludedActions{::}Snapshot" locale="cs_CZ" status="Approved">Snímek</key>
+   <key id="LOVValue{::}Ac0IncludedActions{::}TaggedObj" locale="cs_CZ" status="Approved">Označený objekt</key>
+   <key id="LOVValue{::}Ac0IncludedActions{::}UserMention" locale="cs_CZ" status="Approved">Zmínka o uživateli</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}ConvTypeChanged" locale="cs_CZ" status="Approved">Změněn typ konverzace</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}MultipleActions" locale="cs_CZ" status="Approved">Více akcí</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}ParticipantAdded" locale="cs_CZ" status="Approved">Přidán účastník</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}ParticipantRemoved" locale="cs_CZ" status="Approved">Odebrán účastník</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}PriorityChanged" locale="cs_CZ" status="Approved">Priorita změněna</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}StatusChanged" locale="cs_CZ" status="Approved">Status se změnil</key>
+   <key id="LOVValue{::}Ac0ConversationPriority{::}High" locale="cs_CZ" status="Approved">Vysoký</key>
+   <key id="LOVValue{::}Ac0ConversationPriority{::}Low" locale="cs_CZ" status="Approved">Nízký</key>
+   <key id="LOVValue{::}Ac0ConversationPriority{::}Medium" locale="cs_CZ" status="Approved">Střední</key>
+   <key id="LOVValue{::}Ac0ConversationStatus{::}Closed" locale="cs_CZ" status="Approved">Uzavřený</key>
+   <key id="LOVValue{::}Ac0ConversationStatus{::}In Progress" locale="cs_CZ" status="Approved">Probíhá</key>
+   <key id="LOVValue{::}Ac0ConversationStatus{::}Open" locale="cs_CZ" status="Approved">Otevřít</key>
+   <key id="LOVValue{::}Fnd0SourceApplicationType{::}ACTIVE_COLLABORATION" locale="cs_CZ" status="Approved">Active Collaboration</key>
+   <key id="Property{::}Ac0CommentStatsRecord{::}ac0Comment" locale="cs_CZ" status="Approved">Komentář</key>
+   <key id="Property{::}Ac0CommentStatsRecord{::}ac0IsUpvoted" locale="cs_CZ" status="Approved">Kladně hodnoceno</key>
+   <key id="Property{::}Ac0CommentStatsRecord{::}ac0UserId" locale="cs_CZ" status="Approved">Uživatel</key>
+   <key id="Property{::}Ac0Comment{::}ac0AutoMsgType" locale="cs_CZ" status="Approved">Automatizovaný typ zprávy</key>
+   <key id="Property{::}Ac0Comment{::}ac0CommentTitle" locale="cs_CZ" status="Approved">Nadpis komentáře</key>
+   <key id="Property{::}Ac0Comment{::}ac0CreateDate" locale="cs_CZ" status="Approved">Datum tvorby</key>
+   <key id="Property{::}Ac0Comment{::}ac0CreateUserId" locale="cs_CZ" status="Approved">Vytvořit uživatele</key>
+   <key id="Property{::}Ac0Comment{::}ac0DateModified" locale="cs_CZ" status="Approved">Datum úpravy</key>
+   <key id="Property{::}Ac0Comment{::}ac0IsQuestion" locale="cs_CZ" status="Approved">Dotaz</key>
+   <key id="Property{::}Ac0Comment{::}ac0OwningConversation" locale="cs_CZ" status="Approved">Vlastnící konverzace</key>
+   <key id="Property{::}Ac0Comment{::}ac0PlainText" locale="cs_CZ" status="Approved">Prostý text</key>
+   <key id="Property{::}Ac0Comment{::}ac0RichText" locale="cs_CZ" status="Approved">Formát RTF</key>
+   <key id="Property{::}Ac0Comment{::}ac0RootComment" locale="cs_CZ" status="Approved">Zdrojový komentář</key>
+   <key id="Property{::}Ac0ConversationIncludeRel{::}ac0Comment" locale="cs_CZ" status="Approved">Komentář</key>
+   <key id="Property{::}Ac0ConversationIncludeRel{::}ac0IncludeAction" locale="cs_CZ" status="Approved">Zahrnout akci</key>
+   <key id="Property{::}Ac0ConversationIncludeRel{::}ac0IncludedObj" locale="cs_CZ" status="Approved">Zahrnutý objekt</key>
+   <key id="Property{::}Ac0ConversationSrcRel{::}ac0Conversation" locale="cs_CZ" status="Approved">Konverzace</key>
+   <key id="Property{::}Ac0ConversationSrcRel{::}ac0SourceRefString" locale="cs_CZ" status="Approved">Zdrojový identifikátor</key>
+   <key id="Property{::}Ac0ConversationSrcRel{::}ac0Source" locale="cs_CZ" status="Approved">Zdroj</key>
+   <key id="Property{::}Ac0Conversation{::}ac0ClosingUserId" locale="cs_CZ" status="Approved">Uzavírající uživatel</key>
+   <key id="Property{::}Ac0Conversation{::}ac0CreateUserId" locale="cs_CZ" status="Approved">Vytvořit uživatele</key>
+   <key id="Property{::}Ac0Conversation{::}ac0DateClosed" locale="cs_CZ" status="Approved">Datum uzavření</key>
+   <key id="Property{::}Ac0Conversation{::}ac0IsPrivate" locale="cs_CZ" status="Approved">Soukromý</key>
+   <key id="Property{::}Ac0Conversation{::}ac0Priority" locale="cs_CZ" status="Approved">Priorita</key>
+   <key id="Property{::}Ac0Conversation{::}ac0PrivateParticipants" locale="cs_CZ" status="Approved">Účastníci</key>
+   <key id="Property{::}Ac0Conversation{::}ac0Status" locale="cs_CZ" status="Approved">Stav</key>
+   <key id="Property{::}Ac0SubscriptionRecord{::}ac0TargetConversation" locale="cs_CZ" status="Approved">Cílová konverzace</key>
+   <key id="Property{::}Ac0SubscriptionRecord{::}ac0TargetObject" locale="cs_CZ" status="Approved">Cílový objekt</key>
+   <key id="Property{::}Ac0SubscriptionRecord{::}ac0UserId" locale="cs_CZ" status="Approved">Uživatel</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0AffectedComment" locale="cs_CZ" status="Approved">Ovlivněný komentář</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0AffectedConversation" locale="cs_CZ" status="Approved">Ovlivněná konverzace</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0AffectedUserId" locale="cs_CZ" status="Approved">Ovlivněný uživatel</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0EntryDate" locale="cs_CZ" status="Approved">Datum zadání</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0IsRead" locale="cs_CZ" status="Approved">Čtení</key>
+   <key id="Event{::}Ac0_Conversation_Notification" locale="cs_CZ" status="Approved">Upozornění konverzace</key>
+</Add>
+</TcBusinessDataLocalization>

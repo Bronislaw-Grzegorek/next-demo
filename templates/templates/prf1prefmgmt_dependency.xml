@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2020.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="13.0_0" displayName="Preference Management" enableOpsDataDeploy="false" guid="9E6BC13FD90E3DE3AE464EC283A369FC" isDescriptionMandatory="true" name="prf1prefmgmt" optional="true" prefixes="Prf1" teamcenterTemplate="true">
+    <include file="foundation_template.xml"/>
+    <include file="aws2_template.xml"/>
+    <include file="adm1admconsolecore_template.xml"/>
+</TcBusinessDataIncludes>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2020.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Tue Nov 02 07:18:05 PM 2021" TcVersion="tc13000.0.0">
+    <Add>
+   <Library createRelease="tc9000.1.2" description="Shape Search Service" isThirdParty="false" name="SS1SoaShapeSearch" namespace="SS1::Soa::ShapeSearch" serviceLibrary="true">
+     <DependentOn name="awp0aws2"/>
+   </Library>
+   <ServiceInterface createRelease="tc9000.1.2" dependencies="" description="ShapeSearch service." libraryName="SS1SoaShapeSearch" name="ShapeSearch" namespace="SS1::Soa::ShapeSearch" serviceLibraryRef=""/>
+   <Struct createRelease="tc9000.1.2" description="Return structure for ShapeSearchGetID operation." isPublished="false" name="ShapeSearchGetIDResponse" namespace="SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch" scope="SS1::Soa::ShapeSearch::ShapeSearch">
+     <StructElement description="The Geolus object ID." name="geolusID">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="The standard Service Data." name="serviceData">
+       <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="tc9000.1.2" description="The values to be set on the shape search and filtering result. The structure is used in performShapeSearch operation." isPublished="false" name="ShapeSearchInput" namespace="SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch" scope="SS1::Soa::ShapeSearch::ShapeSearch">
+     <StructElement description="A shape search query string. The primay shape search input object. The string should be a geolus object id." name="qryStr">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="A filter indicating the nature of shape i.e. identical, similar etc." name="partShape">
+       <DataTypeRefParam dataType="int"/>
+     </StructElement>
+     <StructElement description="A filter indicating  shape search size similarty starting  range." name="partSizeBegin">
+       <DataTypeRefParam dataType="int"/>
+     </StructElement>
+     <StructElement description="A filter indicating  shape search size similarty ending range." name="partSizeEnd">
+       <DataTypeRefParam dataType="int"/>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="tc9000.1.2" description="The shape search profile setting information." isPublished="false" name="ShapeSearchProfile" namespace="SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch" scope="SS1::Soa::ShapeSearch::ShapeSearch">
+     <StructElement description="A list of the server profiles display value like Identical, Similar and Very similar." name="profileName">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="std::string"/>
+       </DataTypeRefParam>
+     </StructElement>
+     <StructElement description="The default profile used to indicate the shape filter." name="defaultProfile">
+       <DataTypeRefParam dataType="int"/>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="tc9000.1.2" description="ShapeSearchProfileInput structure capture the inputs required for the specific language of profile value, this structure is used in findShapeSearchProfiles operation." isPublished="false" name="ShapeSearchProfileInput" namespace="SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch" scope="SS1::Soa::ShapeSearch::ShapeSearch">
+     <StructElement description="To request profile display value in a specific language. The language is default if the locale is empty." name="profileLocale">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="tc9000.1.2" description="Return structure for findShapeSearchProfiles operation." isPublished="false" name="ShapeSearchProfilesResponse" namespace="SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch" scope="SS1::Soa::ShapeSearch::ShapeSearch">
+     <StructElement description="The shape search server profiles value and default profile." name="profile">
+       <DataTypeRefParam dataType="SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch::ShapeSearchProfile"/>
+     </StructElement>
+     <StructElement description="The standard Service Data" name="serviceData">
+       <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="tc9000.1.2" description="Return structure for performShapeSearch operation." isPublished="false" name="ShapeSearchResponse" namespace="SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch" scope="SS1::Soa::ShapeSearch::ShapeSearch">
+     <StructElement description="The result from shape search server." name="searchResult">
+       <DataTypeRefParam dataType="SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch::ShapeSearchResults"/>
+     </StructElement>
+     <StructElement description="The standard Service Data." name="serviceData">
+       <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="tc9000.1.2" description="The shape search results to be set." isPublished="false" name="ShapeSearchResults" namespace="SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch" scope="SS1::Soa::ShapeSearch::ShapeSearch">
+     <StructElement description="A list of the business object UID returned from the shape search." name="businessObjectUIDs">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="std::string"/>
+       </DataTypeRefParam>
+     </StructElement>
+     <StructElement description="The number of objects returned." name="numOfObjects">
+       <DataTypeRefParam dataType="int"/>
+     </StructElement>
+   </Struct>
+   <OperationTemplate accessControl="false" const="false" createRelease="tc9000.1.2" description="The operation gets the Geolus object ID. The Geolus is the engine of shape search. The Geolus object ID is used to perform shape search. And the Geolus object id can be used check whether the object is indexed to Geolus. If the object does not be indexed to Geolus, the result will be empty.&#10;Use Cases:&#10;The operation provides following user case.&#10;Use Case 1: You can check whether the Teamcenter object is indexed to Geolus. &#10;Use Case 2: The Geolus object ID can be used to perform shape search." id="SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch::ShapeSearchGetIDResponse#SS1::Soa::ShapeSearch::ShapeSearch::getGeolusID#const,std::string" name="SS1::Soa::ShapeSearch::ShapeSearch::getGeolusID" returnConst="false" returnDescription="The Geolus object ID. &#10;The following partial errors may be returned:&#10;117002: The specified Teamcenter object UID is empty. &#10;117003: Failed to retrieve the Geolus object ID." returnFreeMemory="false" static="false">
+     <OperationReturnDataTypeRef dataType="SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch::ShapeSearchGetIDResponse" qualifier=""/>
+     <OperationParameter const="true" defaultValue="" description="A Teamcenter object UID." freeOutputMemory="false" inputOutput="Input" name="objectUID">
+       <OperationParameterDataTypeRef dataType="std::string" qualifier=""/>
+     </OperationParameter>
+   </OperationTemplate>
+   <OperationTemplate accessControl="false" const="false" createRelease="tc9000.1.2" description="This operation finds the number of profiles served and display value of each profile in a choice of languages. The operation takes the specific language and sends a request to server to get the display value for profiles and the default profile of server. The profile value uses the default language if the server doesn't know the locale or the locale is empty. &#10;Use Cases:&#10;The operation provides following user case.&#10;Use Case 1: You can find the profiles and their order provided by the server. &#10;Use Case 2: Query default profile used for searches on web pages or from plugin clients." id="SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch::ShapeSearchProfilesResponse#SS1::Soa::ShapeSearch::ShapeSearch::findShapeSearchProfiles#const,SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch::ShapeSearchProfileInput" name="SS1::Soa::ShapeSearch::ShapeSearch::findShapeSearchProfiles" returnConst="false" returnDescription="The profiles count, the profiles display value and the default profile is in the structure. The order of the profiles display value is the same as the order of the server setting.&#10;The following partial errors may be returned:&#10;117001: Failed to retrieve shape search profiles." returnFreeMemory="false" static="false">
+     <OperationReturnDataTypeRef dataType="SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch::ShapeSearchProfilesResponse" qualifier=""/>
+     <OperationParameter const="true" defaultValue="" description="The display value of the profiles in a specific language." freeOutputMemory="false" inputOutput="Input" name="profileLocale">
+       <OperationParameterDataTypeRef dataType="SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch::ShapeSearchProfileInput" qualifier=""/>
+     </OperationParameter>
+   </OperationTemplate>
+   <OperationTemplate accessControl="false" const="false" createRelease="tc9000.1.2" description="This operation performs a shape search.  The shape search is based on the query string, the shape, the beginning size and the ending size. If the query string is empty, a partial error is returned in Service Data. If the query string is not a Geolus object ID, the result will be empty.&#10;Use Cases:&#10;The operation provides following user case.&#10;Use Case 1: You can perform shape search to get the Teamcenter objects as the search conditions." id="SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch::ShapeSearchResponse#SS1::Soa::ShapeSearch::ShapeSearch::performShapeSearch#const,SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch::ShapeSearchInput,&amp;" name="SS1::Soa::ShapeSearch::ShapeSearch::performShapeSearch" returnConst="false" returnDescription="The list of shape search result which is the object UID and the number of results.  &#10;The following partial errors may be returned:&#10;117004: The specified Geolus object ID is empty.&#10;117005: Failed to retrieve the shape search result." returnFreeMemory="false" static="false">
+     <OperationReturnDataTypeRef dataType="SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch::ShapeSearchResponse" qualifier=""/>
+     <OperationParameter const="true" defaultValue="" description="The required input parameters including the query string, the shape similarity, the beginning size and the ending size to perform the search." freeOutputMemory="false" inputOutput="Input" name="shapeSearchInput">
+       <OperationParameterDataTypeRef dataType="SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch::ShapeSearchInput" qualifier="&amp;"/>
+     </OperationParameter>
+   </OperationTemplate>
+   <OperationTemplate accessControl="false" const="false" createRelease="tc9000.1.2" description="This operation checks the status of the Geolus shape search server.  This operation should be called before using any other ShapeSearch operation." id="Teamcenter::Soa::Server::ServiceData#SS1::Soa::ShapeSearch::ShapeSearch::shapeSearchServerQuery" name="SS1::Soa::ShapeSearch::ShapeSearch::shapeSearchServerQuery" returnConst="false" returnDescription="An empty response indicates the Geolus server is ready. On failure the following partial error is returned: &#10;117006:Status query failed. The Geolus server is not running." returnFreeMemory="false" static="false">
+     <OperationReturnDataTypeRef dataType="Teamcenter::Soa::Server::ServiceData" qualifier=""/>
+   </OperationTemplate>
+   <Operation canOverride="false" component="" createRelease="tc9000.1.2" dependencies="" description="This operation finds the number of profiles served and display value of each profile in a choice of languages. The operation takes the specific language and sends a request to server to get the display value for profiles and the default profile of server. The profile value uses the default language if the server doesn't know the locale or the locale is empty. &#10;Use Cases:&#10;The operation provides following user case.&#10;Use Case 1: You can find the profiles and their order provided by the server. &#10;Use Case 2: Query default profile used for searches on web pages or from plugin clients." exceptionCondition="" id="findShapeSearchProfiles#const,SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch::ShapeSearchProfileInput" interface="SS1::Soa::ShapeSearch::ShapeSearch" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="findShapeSearchProfiles" opTemplate="SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch::ShapeSearchProfilesResponse#SS1::Soa::ShapeSearch::ShapeSearch::findShapeSearchProfiles#const,SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch::ShapeSearchProfileInput" returnDescription="The profiles count, the profiles display value and the default profile is in the structure. The order of the profiles display value is the same as the order of the server setting.&#10;The following partial errors may be returned:&#10;117001: Failed to retrieve shape search profiles." useCase="">
+     <ParameterInfo description="The display value of the profiles in a specific language." parameterName="profileLocale"/>
+   </Operation>
+   <Operation canOverride="false" component="" createRelease="tc9000.1.2" dependencies="" description="The operation gets the Geolus object ID. The Geolus is the engine of shape search. The Geolus object ID is used to perform shape search. And the Geolus object id can be used check whether the object is indexed to Geolus. If the object does not be indexed to Geolus, the result will be empty.&#10;Use Cases:&#10;The operation provides following user case.&#10;Use Case 1: You can check whether the Teamcenter object is indexed to Geolus. &#10;Use Case 2: The Geolus object ID can be used to perform shape search." exceptionCondition="" id="getGeolusID#const,std::string" interface="SS1::Soa::ShapeSearch::ShapeSearch" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="getGeolusID" opTemplate="SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch::ShapeSearchGetIDResponse#SS1::Soa::ShapeSearch::ShapeSearch::getGeolusID#const,std::string" returnDescription="The Geolus object ID. &#10;The following partial errors may be returned:&#10;117002: The specified Teamcenter object UID is empty. &#10;117003: Failed to retrieve the Geolus object ID." useCase="">
+     <ParameterInfo description="A Teamcenter object UID." parameterName="objectUID"/>
+   </Operation>
+   <Operation canOverride="false" component="" createRelease="tc9000.1.2" dependencies="" description="This operation performs a shape search.  The shape search is based on the query string, the shape, the beginning size and the ending size. If the query string is empty, a partial error is returned in Service Data. If the query string is not a Geolus object ID, the result will be empty.&#10;Use Cases:&#10;The operation provides following user case.&#10;Use Case 1: You can perform shape search to get the Teamcenter objects as the search conditions." exceptionCondition="" id="performShapeSearch#const,SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch::ShapeSearchInput,&amp;" interface="SS1::Soa::ShapeSearch::ShapeSearch" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="performShapeSearch" opTemplate="SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch::ShapeSearchResponse#SS1::Soa::ShapeSearch::ShapeSearch::performShapeSearch#const,SS1::Soa::Internal::ShapeSearch::_2012_10::ShapeSearch::ShapeSearchInput,&amp;" returnDescription="The list of shape search result which is the object UID and the number of results.  &#10;The following partial errors may be returned:&#10;117004: The specified Geolus object ID is empty.&#10;117005: Failed to retrieve the shape search result." useCase="">
+     <ParameterInfo description="The required input parameters including the query string, the shape similarity, the beginning size and the ending size to perform the search." parameterName="shapeSearchInput"/>
+   </Operation>
+   <Operation canOverride="false" component="" createRelease="tc9000.1.2" dependencies="" description="This operation checks the status of the Geolus shape search server.  This operation should be called before using any other ShapeSearch operation." exceptionCondition="" id="shapeSearchServerQuery#" interface="SS1::Soa::ShapeSearch::ShapeSearch" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="shapeSearchServerQuery" opTemplate="Teamcenter::Soa::Server::ServiceData#SS1::Soa::ShapeSearch::ShapeSearch::shapeSearchServerQuery" returnDescription="An empty response indicates the Geolus server is ready. On failure the following partial error is returned: &#10;117006:Status query failed. The Geolus server is not running." useCase=""/>
+
+   <Library createRelease="tc9000.1.2" description="Shape Search library" isThirdParty="false" name="ss1shapesearch" namespace="" serviceLibrary="false">
+     <DependentOn name="metaframework"/>
+     <DependentOn name="tccore"/>
+     <DependentOn name="tc"/>
+     <DependentOn name="cxpom"/>
+     <DependentOn name="ae"/>
+     <DependentOn name="bom"/>
+     <DependentOn name="tie"/>
+     <DependentOn name="awp0aws2"/>
+   </Library>
+   <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="cs_CZ,de_DE,en_US,es_ES,fr_FR,it_IT,ja_JP,ko_KR,pl_PL,pt_BR,ru_RU,zh_CN,zh_TW"/>
+
+   <OperationTemplate accessControl="false" const="false" createRelease="Awp03.4.0" description="This operation checks if the object has Geolus Id or not." id="int#ss1::shapesearch::Fnd0ConditionHelper::ss1HasGeolusId#const,tag_t$bool,*" name="ss1::shapesearch::Fnd0ConditionHelper::ss1HasGeolusId" returnConst="false" returnDescription="" returnFreeMemory="false" static="false">
+     <OperationReturnDataTypeRef dataType="int" qualifier=""/>
+     <OperationParameter const="true" defaultValue="" description="The object for which the Geolous Id is to be searched." freeOutputMemory="false" inputOutput="Input" name="object">
+       <OperationParameterDataTypeRef dataType="tag_t" qualifier=""/>
+     </OperationParameter>
+     <OperationParameter const="false" defaultValue="" description="true if the object has Geolus Id; false if not." freeOutputMemory="false" inputOutput="Output" name="hasGeolusId">
+       <OperationParameterDataTypeRef dataType="bool" qualifier="*"/>
+     </OperationParameter>
+   </OperationTemplate>
+   <OperationTemplate accessControl="false" const="false" createRelease="Awp03.4.0" description="This operation checks if the Geolus server is running or not." id="int#ss1::shapesearch::Fnd0ConditionHelper::ss1IsGeolusServerRunning#bool,*" name="ss1::shapesearch::Fnd0ConditionHelper::ss1IsGeolusServerRunning" returnConst="false" returnDescription="" returnFreeMemory="false" static="false">
+     <OperationReturnDataTypeRef dataType="int" qualifier=""/>
+     <OperationParameter const="false" defaultValue="" description="Check if the Geolus server is running." freeOutputMemory="false" inputOutput="Output" name="isGeolusServerRunning">
+       <OperationParameterDataTypeRef dataType="bool" qualifier="*"/>
+     </OperationParameter>
+   </OperationTemplate>
+   <OperationInputType artifactName="SS1ShapeSearchDataProviderCreI" description="" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="SS1ShapeSearchDataProviderCreI" typeName="SS1ShapeSearchDataProviderCreI"/>
+   <OperationInputType artifactName="SS1ShapeSearchDataProviderSvAI" description="" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="SS1ShapeSearchDataProviderSvAI" typeName="SS1ShapeSearchDataProviderSvAI"/>
+   <TcRuntimeType artifactName="SS1ShapeSearchDataProvider" description="Shape Search Data Provider used by Active Workspace" isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="SS1ShapeSearchDataProvider" typeName="SS1ShapeSearchDataProvider"/>
+   <BusinessObjectInterface createRelease="Awp03.4.0" description="Interface Name for Business Object Fnd0ConditionHelper" libraryName="ss1shapesearch" name="Fnd0ConditionHelper" namespace="ss1::shapesearch" primaryInterface="false" typeName="Fnd0ConditionHelper"/>
+   <BusinessObjectInterface createRelease="Awp03.4.0" description="Interface Name for Business Object SS1ShapeSearchDataProvider" libraryName="ss1shapesearch" name="SS1ShapeSearchDataProvider" namespace="ss1::shapesearch" primaryInterface="true" typeName="SS1ShapeSearchDataProvider"/>
+   <Operation canOverride="false" component="" createRelease="Awp03.4.0" dependencies="" description="This operation checks if the object has Geolus Id or not." exceptionCondition="" id="ss1HasGeolusId#const,tag_t$bool,*" interface="ss1::shapesearch::Fnd0ConditionHelper" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="ss1HasGeolusId" opTemplate="int#ss1::shapesearch::Fnd0ConditionHelper::ss1HasGeolusId#const,tag_t$bool,*" returnDescription="" useCase="">
+     <ParameterInfo description="The object for which the Geolous Id is to be searched." parameterName="object"/>
+     <ParameterInfo description="true if the object has Geolus Id; false if not." parameterName="hasGeolusId"/>
+   </Operation>
+   <Operation canOverride="false" component="" createRelease="Awp03.4.0" dependencies="" description="This operation checks if the Geolus server is running or not." exceptionCondition="" id="ss1IsGeolusServerRunning#bool,*" interface="ss1::shapesearch::Fnd0ConditionHelper" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="ss1IsGeolusServerRunning" opTemplate="int#ss1::shapesearch::Fnd0ConditionHelper::ss1IsGeolusServerRunning#bool,*" returnDescription="" useCase="">
+     <ParameterInfo description="Check if the Geolus server is running." parameterName="isGeolusServerRunning"/>
+   </Operation>
+   <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="SS1ShapeSearchDataProvider"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="SS1ShapeSearchDataProvider" value="SS1ShapeSearchDataProviderCreI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="SS1ShapeSearchDataProvider" value="SS1ShapeSearchDataProviderSvAI"/>
+
+   <Condition description="Check if the object can perform shape search." expression="o.IMAN_Rendering != null AND u.fnd0ConditionHelper.fnd0isValuePresentInPref(&quot;SS1_DASS_enable&quot;, &quot;true&quot;) AND u.fnd0ConditionHelper.ss1IsGeolusServerRunning()=true AND u.fnd0ConditionHelper.ss1HasGeolusId(o)=true" name="SS1CanDoShapeSearch" secured="false">
+     <ConditionParameter name="o" parameterTypeName="ItemRevision"/>
+     <ConditionParameter name="u" parameterTypeName="UserSession"/>
+   </Condition>
+   <Command commandId="SS1ShapeSearch" description="ShapeSearchCommandHandler" displayName="Shape Search Command" icon="SS1ShapeSearch" mnemonic="" requiresUserInput="false" selectionModel="Single" tooltip="Shape Search Command"/>
+   <Command commandId="SS1ShapeSearchFilter" description="Shape Search filter" displayName="Shape Search Filter" icon="SS1ShapeSearchFilter" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Shape Search Filter"/>
+   <CommandAttach anchorId="Awp0Release" childCommandId="SS1ShapeSearch" commandCollectionId="Awp0GlobalCommands_oneStep" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Awp0SearchFilter" childCommandId="SS1ShapeSearchFilter" commandCollectionId="Awp0SearchResults_navigation" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <Icon description="Shape Search Command" name="SS1ShapeSearch"/>
+   <Icon description="Shape Search Filter" name="SS1ShapeSearchFilter"/>
+   <CommandConditionAttach commandCollectionId="" commandId="SS1ShapeSearch" conditionName="SS1CanDoShapeSearch"/>
+</Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

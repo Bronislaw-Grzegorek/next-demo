@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:28 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Um0AdminGroupdataProvider" locale="ko_KR" status="Approved">관리 그룹 데이터 제공자</key>
+   <key id="BusinessObject{::}Um0AdminRoledataProvider" locale="ko_KR" status="Approved">관리 역할 데이터 제공자</key>
+   <key id="BusinessObject{::}Um0AdminUserdataProvider" locale="ko_KR" status="Approved">관리 사용자 데이터 제공자</key>
+   <key id="BusinessObject{::}um0AdminDataProvider" locale="ko_KR" status="Approved">관리자 데이터 제공자</key>
+
+   <key id="CommandDisplayName{::}Um0AddInAnOrganization" locale="ko_KR" status="Approved">추가</key>
+   <key id="CommandDisplayName{::}Um0ChangePassword" locale="ko_KR" status="Approved">암호 변경</key>
+   <key id="CommandDisplayName{::}Um0CreateGroup" locale="ko_KR" status="Approved">추가</key>
+   <key id="CommandDisplayName{::}Um0CreateRole" locale="ko_KR" status="Approved">추가</key>
+   <key id="CommandDisplayName{::}Um0CreateUser" locale="ko_KR" status="Approved">추가</key>
+   <key id="CommandDisplayName{::}Um0NavigateObject" locale="ko_KR" status="Approved">탐색</key>
+   <key id="CommandDisplayName{::}Um0RemoveAdminObjects" locale="ko_KR" status="Approved">제거</key>
+   <key id="CommandDisplayName{::}Um0ShowAddObjects" locale="ko_KR" status="Approved">추가</key>
+   <key id="ConditionDescription{::}Um0AddInAnOrganizationCmdCond" locale="ko_KR" status="Approved">"도구 및 정보" 패널에서 "추가" 명령의 가시성 조건입니다. 이 명령은 선택된 개체가 "제한 없음" 선택 모드를 가진 "그룹" 유형일 경우에만 보입니다.</key>
+   <key id="ConditionDescription{::}Um0RemoveAdminObjectsCmdCond" locale="ko_KR" status="Approved">"제거" 명령의 가시성 조건입니다. 이 명령은 2차 작업 영역에서 선택된 개체가 "역할" 또는 "사용자" 유형일 경우에만 보입니다..</key>
+   <key id="ConditionDescription{::}Um0ShowAddObjectsCmdCond" locale="ko_KR" status="Approved">2차 작업 영역 개체에서 "추가" 명령의 가시성 조건입니다. 이 명령은 선택한 개체가 "그룹" 또는 "그룹" 또는 "역할" 유형일 경우에만 보입니다".</key>
+</Add>
+</TcBusinessDataLocalization>

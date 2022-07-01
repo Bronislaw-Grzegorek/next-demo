@@ -1,0 +1,8 @@
+
+<svg data-name="Layer 1" id="Layer_1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <polygon class="aw-theme-iconOutline" fill="#464646" points="7.5 7 1 7 1 2 17 2 17 6.5 16 6.5 16 3 2 3 2 6 7.5 6 7.5 7"/>
+  <rect class="aw-theme-iconOutline" fill="#464646" height="1" width="15" x="7.5" y="14"/>
+  <rect class="aw-theme-iconOutline" fill="#464646" height="1" width="15" x="7.5" y="10"/>
+  <rect class="aw-theme-iconOutline" fill="#464646" height="1" width="15" x="7.5" y="18"/>
+  <path class="aw-theme-iconOutline" d="M23,23H7V6H23ZM8,22H22V7H8Z" fill="#464646"/>
+</svg>

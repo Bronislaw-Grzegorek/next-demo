@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2020.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="13.0_0" displayName="Active Workspace User Management" enableOpsDataDeploy="false" guid="04A9489F7F5D51E0B521903B748C87B3" isDescriptionMandatory="true" name="um0usermanagement" optional="true" prefixes="Um0" teamcenterTemplate="true">
+    <include file="foundation_template.xml"/>
+    <include file="aws2_template.xml"/>
+</TcBusinessDataIncludes>

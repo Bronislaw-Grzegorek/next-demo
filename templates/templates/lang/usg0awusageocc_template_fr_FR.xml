@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:29 PM 2021">
+    <Add>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0ArchetypeType" locale="fr_FR" status="Approved">Type Archétype</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevDesc" locale="fr_FR" status="Approved">Description d'utilisation</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevEffFormula" locale="fr_FR" status="Approved">Effectivité de révision d'utilisation</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevId" locale="fr_FR" status="Approved">Révision d'utilisation</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevLastModDate" locale="fr_FR" status="Approved">Date de dernière modification</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevLastModUser" locale="fr_FR" status="Approved">Utilisateur de la dernière modification</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevName" locale="fr_FR" status="Approved">Nom d'utilisation</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevOwningGroup" locale="fr_FR" status="Approved">ID de groupe de l'utilisation</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevOwningUser" locale="fr_FR" status="Approved">Propriétaire de l'utilisation</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevRelStatus" locale="fr_FR" status="Approved">Statut de validation de l'utilisation</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRev" locale="fr_FR" status="Approved">Occurrence de l'utilisation</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccThreadId" locale="fr_FR" status="Approved">ID d'utilisation</key>
+</Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:28 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Um0AdminGroupdataProvider" locale="cs_CZ" status="Approved">Poskytovatel dat skupiny správce</key>
+   <key id="BusinessObject{::}Um0AdminRoledataProvider" locale="cs_CZ" status="Approved">Poskytovatel dat role správce</key>
+   <key id="BusinessObject{::}Um0AdminUserdataProvider" locale="cs_CZ" status="Approved">Poskytovatel dat uživatele s rolí správce</key>
+   <key id="BusinessObject{::}um0AdminDataProvider" locale="cs_CZ" status="Approved">Poskytovatel dat správce</key>
+
+   <key id="CommandDisplayName{::}Um0AddInAnOrganization" locale="cs_CZ" status="Approved">Přidat</key>
+   <key id="CommandDisplayName{::}Um0ChangePassword" locale="cs_CZ" status="Approved">Změnit heslo</key>
+   <key id="CommandDisplayName{::}Um0CreateGroup" locale="cs_CZ" status="Approved">Přidat</key>
+   <key id="CommandDisplayName{::}Um0CreateRole" locale="cs_CZ" status="Approved">Přidat</key>
+   <key id="CommandDisplayName{::}Um0CreateUser" locale="cs_CZ" status="Approved">Přidat</key>
+   <key id="CommandDisplayName{::}Um0NavigateObject" locale="cs_CZ" status="Approved">Procházet</key>
+   <key id="CommandDisplayName{::}Um0RemoveAdminObjects" locale="cs_CZ" status="Approved">Odebrat</key>
+   <key id="CommandDisplayName{::}Um0ShowAddObjects" locale="cs_CZ" status="Approved">Přidat</key>
+   <key id="ConditionDescription{::}Um0AddInAnOrganizationCmdCond" locale="cs_CZ" status="Approved">Podmínka viditelnosti příkazu "Přidat" na panelu "Nástroje a informace". Příkaz je viditelný pouze v případě, že je vybraný objekt typu "Skupina" s režimem výběru "Libovolný".</key>
+   <key id="ConditionDescription{::}Um0RemoveAdminObjectsCmdCond" locale="cs_CZ" status="Approved">Podmínka viditelnosti příkazu "Odebrat". Příkaz by měl být viditelný pouze v případě, že je vybraný objekt typu "Role" nebo "Uživatel" v sekundární pracovní oblasti.</key>
+   <key id="ConditionDescription{::}Um0ShowAddObjectsCmdCond" locale="cs_CZ" status="Approved">Podmínka viditelnosti příkazu "Přidat" u objektů sekundární pracovní oblasti. Příkaz je viditelný pouze v případě, že je vybraný objekt typu "Skupina" nebo "Role".</key>
+</Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:28 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Um0AdminGroupdataProvider" locale="en_US" status="Approved">Admin Group data Provider</key>
+   <key id="BusinessObject{::}Um0AdminRoledataProvider" locale="en_US" status="Approved">Admin Role data Provider</key>
+   <key id="BusinessObject{::}Um0AdminUserdataProvider" locale="en_US" status="Approved">Admin User data Provider</key>
+   <key id="BusinessObject{::}um0AdminDataProvider" locale="en_US" status="Approved">Admin Data Provider</key>
+
+   <key id="CommandDisplayName{::}Um0AddInAnOrganization" locale="en_US" status="Approved">Add</key>
+   <key id="CommandDisplayName{::}Um0ChangePassword" locale="en_US" status="Approved">Change Password</key>
+   <key id="CommandDisplayName{::}Um0CreateGroup" locale="en_US" status="Approved">Add</key>
+   <key id="CommandDisplayName{::}Um0CreateRole" locale="en_US" status="Approved">Add</key>
+   <key id="CommandDisplayName{::}Um0CreateUser" locale="en_US" status="Approved">Add</key>
+   <key id="CommandDisplayName{::}Um0NavigateObject" locale="en_US" status="Approved">Navigate</key>
+   <key id="CommandDisplayName{::}Um0RemoveAdminObjects" locale="en_US" status="Approved">Remove</key>
+   <key id="CommandDisplayName{::}Um0ShowAddObjects" locale="en_US" status="Approved">Add</key>
+   <key id="ConditionDescription{::}Um0AddInAnOrganizationCmdCond" locale="en_US" status="Approved">Condition for the visibility of the "Add" command on the "Tools and Information" panel. The command is visible only when the selected object is of type "Group" with "Any" selection mode.</key>
+   <key id="ConditionDescription{::}Um0RemoveAdminObjectsCmdCond" locale="en_US" status="Approved">Condition for visibility of the "Remove" command. The command should be visible only when the selected object is of type "Role" or "User" on the Secondary Work Area..</key>
+   <key id="ConditionDescription{::}Um0ShowAddObjectsCmdCond" locale="en_US" status="Approved">Condition for the visibility of the "Add" command on Secondary Work Area objects. The command is visible only when the selected object is of type "Group" or "Role".</key>
+</Add>
+</TcBusinessDataLocalization>

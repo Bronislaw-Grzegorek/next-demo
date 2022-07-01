@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2020.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Tue Nov 02 07:18:28 PM 2021" TcVersion="tc13000.0.0">
+    <Add>
+   <Library createRelease="Awp03.3.0" description="Library for Active Workspace for usermanagement solution" isThirdParty="false" name="um0usermanagement" namespace="" serviceLibrary="false">
+     <DependentOn name="metaframework"/>
+     <DependentOn name="tccore"/>
+     <DependentOn name="tc"/>
+     <DependentOn name="cxpom"/>
+   </Library>
+   <OperationInputType artifactName="Um0AdminGroupdataProviderCreI" description="CreateInput object for &quot;Um0AdminGroupdataProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Um0AdminGroupdataProviderCreI" typeName="Um0AdminGroupdataProviderCreI"/>
+   <OperationInputType artifactName="Um0AdminGroupdataProviderSvAI" description="SaveAsInput object for &quot;Um0AdminGroupdataProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Um0AdminGroupdataProviderSvAI" typeName="Um0AdminGroupdataProviderSvAI"/>
+   <OperationInputType artifactName="Um0AdminRoledataProviderCreI" description="CreateInput object for &quot;Um0AdminRoledataProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Um0AdminRoledataProviderCreI" typeName="Um0AdminRoledataProviderCreI"/>
+   <OperationInputType artifactName="Um0AdminRoledataProviderSvAI" description="SaveAsInput object for &quot;Um0AdminRoledataProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Um0AdminRoledataProviderSvAI" typeName="Um0AdminRoledataProviderSvAI"/>
+   <OperationInputType artifactName="Um0AdminUserdataProviderCreI" description="CreateInput object for &quot;Um0AdminUserdataProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Um0AdminUserdataProviderCreI" typeName="Um0AdminUserdataProviderCreI"/>
+   <OperationInputType artifactName="Um0AdminUserdataProviderSvAI" description="SaveAsInput object for &quot;Um0AdminUserdataProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Um0AdminUserdataProviderSvAI" typeName="Um0AdminUserdataProviderSvAI"/>
+   <OperationInputType artifactName="um0AdminDataProviderCreI" description="CreateInput object for &quot;um0AdminDataProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="um0AdminDataProviderCreI" typeName="um0AdminDataProviderCreI"/>
+   <OperationInputType artifactName="um0AdminDataProviderSvAI" description="SaveAsInput object for &quot;um0AdminDataProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="um0AdminDataProviderSvAI" typeName="um0AdminDataProviderSvAI"/>
+   <TcRuntimeType artifactName="Um0AdminGroupdataProvider" description="Um0AdminGroupdataProvider for usermanagement module to provide Groups information" isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Um0AdminGroupdataProvider" typeName="Um0AdminGroupdataProvider"/>
+   <TcRuntimeType artifactName="Um0AdminRoledataProvider" description="Um0AdminRoledataProvider  for usermanagement module to provide roles information" isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Um0AdminRoledataProvider" typeName="Um0AdminRoledataProvider"/>
+   <TcRuntimeType artifactName="Um0AdminUserdataProvider" description="Um0AdminUserdataProvider for usermanagement module to provide Users information" isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Um0AdminUserdataProvider" typeName="Um0AdminUserdataProvider"/>
+   <TcRuntimeType artifactName="um0AdminDataProvider" description="um0AdminDataProvider for usermanagement module" isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="um0AdminDataProvider" typeName="um0AdminDataProvider"/>
+   <BusinessObjectInterface createRelease="Awp03.3.0" description="Interface Name for Business Object um0AdminDataProvider" libraryName="um0usermanagement" name="um0AdminDataProvider" namespace="um0usermanagement" primaryInterface="true" typeName="um0AdminDataProvider"/>
+   <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="um0AdminDataProvider"/>
+   <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Um0AdminGroupdataProvider"/>
+   <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Um0AdminRoledataProvider"/>
+   <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Um0AdminUserdataProvider"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="um0AdminDataProvider" value="um0AdminDataProviderCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="Um0AdminGroupdataProvider" value="Um0AdminGroupdataProviderCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="Um0AdminRoledataProvider" value="Um0AdminRoledataProviderCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="Um0AdminUserdataProvider" value="Um0AdminUserdataProviderCreI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="um0AdminDataProvider" value="um0AdminDataProviderSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="Um0AdminGroupdataProvider" value="Um0AdminGroupdataProviderSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="Um0AdminRoledataProvider" value="Um0AdminRoledataProviderSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="Um0AdminUserdataProvider" value="Um0AdminUserdataProviderSvAI"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" propertyName="default_group" typeName="User" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" propertyName="fnd0citizenships" typeName="User" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" propertyName="nationality" typeName="User" value="true"/>
+   <Functionality description="Component for the template - um0usermanagement" displayName="usermanagement" enabledForVerificationRules="false" name="Um0usermanagement"/>
+
+   <Condition description="Condition for the visibility of the &quot;Add&quot; command on the &quot;Tools and Information&quot; panel. The command is visible only when the selected object is of type Group with &quot;Any&quot; selection mode." expression="(u.fnd0ConditionHelper.awp0IsObjectType(c.awp0GetContextValueTag(&quot;UrlParameter_s_uid&quot;),&quot;Group&quot;)) OR (u.fnd0ConditionHelper.awp0IsObjectType(o,&quot;Group&quot;))" name="Um0AddInAnOrganizationCmdCond" secured="false">
+     <ConditionParameter name="c" parameterTypeName="Fnd0ClientContext"/>
+     <ConditionParameter name="o" parameterTypeName="BusinessObject"/>
+     <ConditionParameter name="u" parameterTypeName="UserSession"/>
+   </Condition>
+   <Condition description="Condition for visibility of Remove command. Remove command should be visible only when selected object is of type Role or User on secondary work area." expression="(u.fnd0ConditionHelper.awp0IsObjectType(s.awp0GetContextValueTag(&quot;UrlParameter_s_uid&quot;),&quot;Group&quot;) AND u.fnd0ConditionHelper.awp0IsObjectType(o,&quot;Role&quot;)) OR (u.fnd0ConditionHelper.awp0IsObjectType(s.awp0GetContextValueTag(&quot;UrlParameter_s_uid&quot;),&quot;Role&quot;) AND u.fnd0ConditionHelper.awp0IsObjectType(o,&quot;User&quot;))" name="Um0RemoveAdminObjectsCmdCond" secured="false">
+     <ConditionParameter name="s" parameterTypeName="Fnd0ClientContext"/>
+     <ConditionParameter name="o" parameterTypeName="BusinessObject"/>
+     <ConditionParameter name="u" parameterTypeName="UserSession"/>
+   </Condition>
+   <Condition description="Condition for the visibility of the &quot;Add&quot; command on Secondary Work Area objects. The command is visible only when the selected object is of type Group or Role." expression="u.fnd0ConditionHelper.awp0IsObjectType(o,&quot;Group&quot;) OR u.fnd0ConditionHelper.awp0IsObjectType(o,&quot;Role&quot;)" name="Um0ShowAddObjectsCmdCond" secured="false">
+     <ConditionParameter name="o" parameterTypeName="BusinessObject"/>
+     <ConditionParameter name="u" parameterTypeName="UserSession"/>
+   </Condition>
+   <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="cs_CZ,de_DE,en_US,es_ES,fr_FR,it_IT,ja_JP,ko_KR,pl_PL,pt_BR,ru_RU,zh_CN,zh_TW"/>
+   <Command commandId="Um0AddInAnOrganization" description="To add Admin objects in an orgnaization tab" displayName="Add" icon="Awp0AddIcon" mnemonic="" requiresUserInput="false" selectionModel="Single" tooltip="Add"/>
+   <Command commandId="Um0ChangePassword" description="Change password command" displayName="Change Password" icon="Awp0ChangePassword" mnemonic="" requiresUserInput="false" selectionModel="Single" tooltip="Change Password"/>
+   <Command commandId="Um0CreateGroup" description="Create Group Command" displayName="Add" icon="Awp0AddIcon" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Add"/>
+   <Command commandId="Um0CreateRole" description="Create Role Command" displayName="Add" icon="Awp0AddIcon" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Add"/>
+   <Command commandId="Um0CreateUser" description="Create User Command" displayName="Add" icon="Awp0AddIcon" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Add"/>
+   <Command commandId="Um0NavigateObject" description="Navigate object command for cell" displayName="Navigate" icon="Awp0NavigateObject" mnemonic="" requiresUserInput="false" selectionModel="Single" tooltip="Navigate"/>
+   <Command commandId="Um0RemoveAdminObjects" description="To remove Admin objects." displayName="Remove" icon="Awp0RemoveIcon" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Remove"/>
+   <Command commandId="Um0ShowAddObjects" description="To add roles or users to selected Group or Role respectively in an Organization tab." displayName="Add" icon="Awp0AddIcon" mnemonic="" requiresUserInput="false" selectionModel="Single" tooltip="Add"/>
+   <CommandCollection commandCollectionId="Um0ObjectNavigation_cell" description="Cell Commands for Organization sublocation" displayName="Object_Navigation_Cell" mnemonic="" renderingHint=""/>
+   <CommandCollection commandCollectionId="Um0ShowGroupCommands_toolsAndInfo" description="Command collection for tools and info panel for Groups sublocation" displayName="Um0ShowGroupCommands_toolsAndInfo" mnemonic="" renderingHint=""/>
+   <CommandCollection commandCollectionId="Um0ShowOrganizationCommands_toolsAndInfo" description="Command collection for tools and info panel for Organization sublocation" displayName="Um0ShowGroupCommands_toolsAndInfo" mnemonic="" renderingHint=""/>
+   <CommandCollection commandCollectionId="Um0ShowPeople_display" description="Command collection for displaying objects in people location and its sublocation" displayName="Um0ShowPeople_display" mnemonic="" renderingHint="aw_commandGroup"/>
+   <CommandCollection commandCollectionId="Um0ShowRoleCommands_toolsAndInfo" description="Command collection for tools and info panel for Roles sublocation" displayName="Um0ShowRoleCommands_toolsAndInfo" mnemonic="" renderingHint=""/>
+   <CommandCollection commandCollectionId="Um0ShowUserCommands_toolsAndInfo" description="Command collection for tools and info panel for Users sublocation" displayName="Um0ShowUserCommands_toolsAndInfo" mnemonic="" renderingHint=""/>
+   <CommandCollection commandCollectionId="Um0ShowUsermanagementCommands_oneStep" description="Command collection for one step Admin User Management." displayName="Um0ShowUsermanagementCommands_oneStep" mnemonic="" renderingHint=""/>
+   <ClientScope clientName="AWClient" description="Client Scope for Groups sublocation" displayName="Um0ShowGroup" hostingClientName="" name="Um0ShowGroup"/>
+   <ClientScope clientName="AWClient" description="Client Scope for Organization sublocation" displayName="Um0ShowOrganization" hostingClientName="" name="Um0ShowOrganization"/>
+   <ClientScope clientName="AWClient" description="Client Scope for Roles sublocation" displayName="Um0ShowRole" hostingClientName="" name="Um0ShowRole"/>
+   <ClientScope clientName="AWClient" description="Client Scope for Users sublocation" displayName="Um0ShowUser" hostingClientName="" name="Um0ShowUser"/>
+   <CommandAttach anchorId="Awp0NameValueCreate" childCommandId="Um0ShowAddObjects" commandCollectionId="Awp0GlobalCommands_xrt" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="" childCommandId="Um0NavigateObject" commandCollectionId="Um0ObjectNavigation_cell" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="" childCommandId="Um0CreateGroup" commandCollectionId="Um0ShowGroupCommands_toolsAndInfo" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="" childCommandId="Um0AddInAnOrganization" commandCollectionId="Um0ShowOrganizationCommands_toolsAndInfo" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="" childCommandId="Um0ChangePassword" commandCollectionId="Um0ShowOrganizationCommands_toolsAndInfo" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="" childCommandId="Awp0ModelObjListDisplayToggles" commandCollectionId="Um0ShowPeople_display" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="true"/>
+   <CommandAttach anchorId="" childCommandId="Um0CreateRole" commandCollectionId="Um0ShowRoleCommands_toolsAndInfo" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Um0CreateUser" childCommandId="Um0ChangePassword" commandCollectionId="Um0ShowUserCommands_toolsAndInfo" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="" childCommandId="Um0CreateUser" commandCollectionId="Um0ShowUserCommands_toolsAndInfo" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="" childCommandId="Um0RemoveAdminObjects" commandCollectionId="Um0ShowUsermanagementCommands_oneStep" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandCollectionAttach clientScopeId="Um0ShowGroup" commandCollectionId="Um0ShowGroupCommands_toolsAndInfo" type="aw_toolsAndInfo"/>
+   <CommandCollectionAttach clientScopeId="Um0ShowGroup" commandCollectionId="Um0ShowPeople_display" type="aw_display"/>
+   <CommandCollectionAttach clientScopeId="Um0ShowGroup" commandCollectionId="Um0ShowUsermanagementCommands_oneStep" type="aw_oneStep"/>
+   <CommandCollectionAttach clientScopeId="Um0ShowOrganization" commandCollectionId="Um0ObjectNavigation_cell" type="aw_cell"/>
+   <CommandCollectionAttach clientScopeId="Um0ShowOrganization" commandCollectionId="Um0ShowOrganizationCommands_toolsAndInfo" type="aw_toolsAndInfo"/>
+   <CommandCollectionAttach clientScopeId="Um0ShowOrganization" commandCollectionId="Um0ShowPeople_display" type="aw_display"/>
+   <CommandCollectionAttach clientScopeId="Um0ShowOrganization" commandCollectionId="Um0ShowUsermanagementCommands_oneStep" type="aw_oneStep"/>
+   <CommandCollectionAttach clientScopeId="Um0ShowRole" commandCollectionId="Um0ShowPeople_display" type="aw_display"/>
+   <CommandCollectionAttach clientScopeId="Um0ShowRole" commandCollectionId="Um0ShowRoleCommands_toolsAndInfo" type="aw_toolsAndInfo"/>
+   <CommandCollectionAttach clientScopeId="Um0ShowUser" commandCollectionId="Um0ShowPeople_display" type="aw_display"/>
+   <CommandCollectionAttach clientScopeId="Um0ShowUser" commandCollectionId="Um0ShowUserCommands_toolsAndInfo" type="aw_toolsAndInfo"/>
+   <CommandConditionAttach commandCollectionId="" commandId="Um0AddInAnOrganization" conditionName="Um0AddInAnOrganizationCmdCond"/>
+   <CommandConditionAttach commandCollectionId="" commandId="Um0RemoveAdminObjects" conditionName="Um0RemoveAdminObjectsCmdCond"/>
+   <CommandConditionAttach commandCollectionId="" commandId="Um0ShowAddObjects" conditionName="Um0ShowAddObjectsCmdCond"/>
+</Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

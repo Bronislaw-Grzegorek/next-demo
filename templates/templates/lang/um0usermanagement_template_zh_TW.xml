@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:28 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Um0AdminGroupdataProvider" locale="zh_TW" status="Approved">管理群組資料提供程式</key>
+   <key id="BusinessObject{::}Um0AdminRoledataProvider" locale="zh_TW" status="Approved">管理角色資料提供程式</key>
+   <key id="BusinessObject{::}Um0AdminUserdataProvider" locale="zh_TW" status="Approved">管理使用者資料提供程式</key>
+   <key id="BusinessObject{::}um0AdminDataProvider" locale="zh_TW" status="Approved">管理資料提供程式</key>
+
+   <key id="CommandDisplayName{::}Um0AddInAnOrganization" locale="zh_TW" status="Approved">新增</key>
+   <key id="CommandDisplayName{::}Um0ChangePassword" locale="zh_TW" status="Approved">變更密碼</key>
+   <key id="CommandDisplayName{::}Um0CreateGroup" locale="zh_TW" status="Approved">新增</key>
+   <key id="CommandDisplayName{::}Um0CreateRole" locale="zh_TW" status="Approved">新增</key>
+   <key id="CommandDisplayName{::}Um0CreateUser" locale="zh_TW" status="Approved">新增</key>
+   <key id="CommandDisplayName{::}Um0NavigateObject" locale="zh_TW" status="Approved">導覽</key>
+   <key id="CommandDisplayName{::}Um0RemoveAdminObjects" locale="zh_TW" status="Approved">移除</key>
+   <key id="CommandDisplayName{::}Um0ShowAddObjects" locale="zh_TW" status="Approved">新增</key>
+   <key id="ConditionDescription{::}Um0AddInAnOrganizationCmdCond" locale="zh_TW" status="Approved">決定「工具和資訊」面板上「新增」指令可見性的條件。僅當選定物件屬於「群組」類型且選取模式設為「任何」時，此指令才可見。</key>
+   <key id="ConditionDescription{::}Um0RemoveAdminObjectsCmdCond" locale="zh_TW" status="Approved">決定「移除」指令可見性的條件。僅當選定物件在輔助工作區域屬於「角色」或者「使用者」類型時，該指令才可見。</key>
+   <key id="ConditionDescription{::}Um0ShowAddObjectsCmdCond" locale="zh_TW" status="Approved">決定輔助工作區域物件上「新增」指令可見性的條件。僅當選定物件屬於「群組」或者「角色」類型時，此指令才可見。</key>
+</Add>
+</TcBusinessDataLocalization>

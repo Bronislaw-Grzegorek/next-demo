@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:21 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Sub0SubscriptionProvider" locale="de_DE" status="Approved">Abonnementanbieter</key>
+   <key id="BusinessObject{::}Sub0NotificationProvider" locale="de_DE" status="Approved">Benachrichtigungsanbieter</key>
+   <key id="BusinessObject{::}Sub0SubscribleTypesProvider" locale="de_DE" status="Approved">Anbieter für abonnierbare Typen</key>
+
+   <key id="CommandDisplayName{::}Sub0AddFollower" locale="de_DE" status="Approved">Follower hinzufügen</key>
+   <key id="CommandDisplayName{::}Sub0AddSubscriptionCriteria" locale="de_DE" status="Approved">Hinzufügen</key>
+   <key id="CommandDisplayName{::}Sub0CreateObjectTypeSubscription" locale="de_DE" status="Approved">Folgt Typ</key>
+   <key id="CommandDisplayName{::}Sub0DeleteMessage" locale="de_DE" status="Approved">Meldungen löschen</key>
+   <key id="CommandDisplayName{::}Sub0DeleteSubscription" locale="de_DE" status="Approved">Löschen</key>
+   <key id="CommandDisplayName{::}Sub0EditSubscriptionCriteria" locale="de_DE" status="Approved">Bearbeiten</key>
+   <key id="CommandDisplayName{::}Sub0SaveAsSubscription" locale="de_DE" status="Approved">Speichern unter</key>
+   <key id="CommandDisplayName{::}Sub0Subscribe" locale="de_DE" status="Approved">Folgen</key>
+   <key id="CommandDisplayName{::}Sub0TemporaryTransferNotification" locale="de_DE" status="Approved">Benachrichtigung übertragen</key>
+   <key id="ConditionDescription{::}Sub0CopyCmdCond" locale="de_DE" status="Approved">Diese Bedingung wird für ImanSubscription-Objekte immer als "false" ausgewertet.</key>
+   <key id="ConditionDescription{::}Sub0DeleteSubscriptionCmdCond" locale="de_DE" status="Approved">Diese Bedingung bestimmt, ob das weitergegebene Abonnementobjekt gelöscht werden kann oder nicht.</key>
+   <key id="ConditionDescription{::}Sub0SaveAsSubscriptionCmdCond" locale="de_DE" status="Approved">Diese Bedingung bestimmt, ob das weitergegebene Abonnementobjekt gespeichert werden darf oder nicht.</key>
+   <key id="ConditionDescription{::}Sub0StartEditTableCmdCond" locale="de_DE" status="Approved">Mit dieser Bedingung werden ImanSubscription-Objekte immer als "false" ausgewertet.</key>
+   <key id="ConditionDescription{::}Sub0TemporaryTransferNotificationCmdCond" locale="de_DE" status="Approved">Diese Bedingung bestimmt, ob das weitergegebene Abonnementobjekt temporär übertragen werden darf oder nicht.</key>
+</Add>
+</TcBusinessDataLocalization>

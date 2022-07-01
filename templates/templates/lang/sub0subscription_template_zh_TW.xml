@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:21 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Sub0SubscriptionProvider" locale="zh_TW" status="Approved">訂閱提供程式</key>
+   <key id="BusinessObject{::}Sub0NotificationProvider" locale="zh_TW" status="Approved">通知提供程式</key>
+   <key id="BusinessObject{::}Sub0SubscribleTypesProvider" locale="zh_TW" status="Approved">可訂閱類型提供程式</key>
+
+   <key id="CommandDisplayName{::}Sub0AddFollower" locale="zh_TW" status="Approved">新增關注者</key>
+   <key id="CommandDisplayName{::}Sub0AddSubscriptionCriteria" locale="zh_TW" status="Approved">新增</key>
+   <key id="CommandDisplayName{::}Sub0CreateObjectTypeSubscription" locale="zh_TW" status="Approved">關注類型</key>
+   <key id="CommandDisplayName{::}Sub0DeleteMessage" locale="zh_TW" status="Approved">刪除訊息</key>
+   <key id="CommandDisplayName{::}Sub0DeleteSubscription" locale="zh_TW" status="Approved">刪除</key>
+   <key id="CommandDisplayName{::}Sub0EditSubscriptionCriteria" locale="zh_TW" status="Approved">編輯</key>
+   <key id="CommandDisplayName{::}Sub0SaveAsSubscription" locale="zh_TW" status="Approved">另存新檔</key>
+   <key id="CommandDisplayName{::}Sub0Subscribe" locale="zh_TW" status="Approved">關注</key>
+   <key id="CommandDisplayName{::}Sub0TemporaryTransferNotification" locale="zh_TW" status="Approved">傳遞通知</key>
+   <key id="ConditionDescription{::}Sub0CopyCmdCond" locale="zh_TW" status="Approved">該條件總是將 ImanSubscription 物件評估為 false。</key>
+   <key id="ConditionDescription{::}Sub0DeleteSubscriptionCmdCond" locale="zh_TW" status="Approved">此條件確定通過的訂閱物件是否可刪除。</key>
+   <key id="ConditionDescription{::}Sub0SaveAsSubscriptionCmdCond" locale="zh_TW" status="Approved">此條件確定通過的訂閱物件是否允許另存新檔。</key>
+   <key id="ConditionDescription{::}Sub0StartEditTableCmdCond" locale="zh_TW" status="Approved">該條件始終將 ImanSubscription 物件評估為 false。</key>
+   <key id="ConditionDescription{::}Sub0TemporaryTransferNotificationCmdCond" locale="zh_TW" status="Approved">此條件確定通過的訂閱物件是否允許臨時轉讓。</key>
+</Add>
+</TcBusinessDataLocalization>

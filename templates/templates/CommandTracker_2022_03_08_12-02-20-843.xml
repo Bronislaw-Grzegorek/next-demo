@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Commands>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=SKIP -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/aws2/aws2_preference_skip.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:50" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/aws2_preference_skip.xml" checksum="1733310614"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=OVERRIDE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/aws2/aws2_preference_override.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:50" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/aws2_preference_override.xml" checksum="141199965"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=MERGE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/aws2/aws2_preference_merge.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:50" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/aws2_preference_merge.xml" checksum="3720264186"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=SKIP -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/aws2/data/search/aws2search_preference_skip.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:50" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/data/search/aws2search_preference_skip.xml" checksum="3581264386"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=OVERRIDE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/aws2/data/search/aws2search_preference_override.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:50" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/data/search/aws2search_preference_override.xml" checksum="3793080147"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=MERGE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/aws2/data/search/aws2search_preference_merge.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:50" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/data/search/aws2search_preference_merge.xml" checksum="117178223"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=OVERRIDE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/aws2/data/requirements/req_preference_override.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:50" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/req_preference_override.xml" checksum="1560910431"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=SKIP -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/aws2/data/requirements/req_preference_skip.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:50" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/req_preference_skip.xml" checksum="3250847215"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=MERGE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/aws2/data/requirements/req_preference_merge.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:50" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/req_preference_merge.xml" checksum="453321235"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=OVERRIDE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/aws2/tie/aws2tie_preference_override.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:50" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/tie/aws2tie_preference_override.xml" checksum="3239396171"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=MERGE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/aws2/tie/aws2tie_preference_merge.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:50" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/tie/aws2tie_preference_merge.xml" checksum="1479297929"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=MERGE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/aws2/mcadintegration/aws2mcadintegration_preference_merge.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:50" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/mcadintegration/aws2mcadintegration_preference_merge.xml" checksum="2678675770"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=OVERRIDE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/aws2/pie/aws2pie_preference_override.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:50" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/pie/aws2pie_preference_override.xml" checksum="2156091613"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=MERGE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/aws2/pie/aws2pie_preference_merge.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:50" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/pie/aws2pie_preference_merge.xml" checksum="1361981383"/>
+   </Command>
+   <Command value="plmxml_import -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -xml_file=${TC_INSTALL_DIR}/aws2/data/requirements/suspicionmgmt_template.xml -transfermode=workflow_template_overwrite" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:50" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/suspicionmgmt_template.xml" checksum="1381726521"/>
+   </Command>
+   <Command value="tcxml_import -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -scope_rules -scope_rules_mode=overwrite -file=${TC_INSTALL_DIR}/aws2/data/search/Awp0SearchFolderImportExport.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:51" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/data/search/Awp0SearchFolderImportExport.xml" checksum="1517822926"/>
+   </Command>
+   <Command value="tcxml_import -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -scope_rules -scope_rules_mode=overwrite -file=${TC_INSTALL_DIR}/aws2/data/search/Awp0SearchFolderImport.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:51" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/data/search/Awp0SearchFolderImport.xml" checksum="2938925508"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=SKIP -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/activeworkspacebom/data/awb0_preference_skip.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:51" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/awb0_preference_skip.xml" checksum="384349172"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=OVERRIDE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/activeworkspacebom/data/awb0_preference_override.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:51" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/awb0_preference_override.xml" checksum="2763076283"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=MERGE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/activeworkspacebom/data/awb0_preference_merge.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:51" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/awb0_preference_merge.xml" checksum="1397373660"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=OVERRIDE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/activeworkspacebom/data/entcba/awb0_entcba_preference_override.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:51" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/entcba/awb0_entcba_preference_override.xml" checksum="1647104252"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=MERGE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/activeworkspacebom/data/entcba/awb0_entcba_preference_merge.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:51" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/entcba/awb0_entcba_preference_merge.xml" checksum="988792232"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=OVERRIDE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/activeworkspacebom/data/workset/awb0_workset_preference_override.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:51" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/workset/awb0_workset_preference_override.xml" checksum="2988177030"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=MERGE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/activeworkspacebom/data/workset/awb0_workset_preference_merge.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:51" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/workset/awb0_workset_preference_merge.xml" checksum="774795239"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=OVERRIDE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/activeworkspacebom/data/viewercontribution/awb0_viewersnapshot_preference_override.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:51" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/viewercontribution/awb0_viewersnapshot_preference_override.xml" checksum="1405380946"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=MERGE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/activeworkspacebom/data/viewercontribution/awb0_viewersnapshot_preference_merge.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:51" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/viewercontribution/awb0_viewersnapshot_preference_merge.xml" checksum="2773010315"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=OVERRIDE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/aud0auditaw/aud0auditaw_preference_override.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:51" application="aud0auditaw" commandFile="${TC_INSTALL_DIR}/aud0auditaw/install_aud0auditaw.default">
+      <File path="${TC_INSTALL_DIR}/aud0auditaw/aud0auditaw_preference_override.xml" checksum="1590517402"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=MERGE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/aud0auditaw/aud0auditaw_preference_merge.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:51" application="aud0auditaw" commandFile="${TC_INSTALL_DIR}/aud0auditaw/install_aud0auditaw.default">
+      <File path="${TC_INSTALL_DIR}/aud0auditaw/aud0auditaw_preference_merge.xml" checksum="3590059050"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -scope=Group -target=dba -preference=AWC_show_audit_logs -values=true -action=OVERRIDE" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:51" application="aud0auditaw" commandFile="${TC_INSTALL_DIR}/aud0auditaw/install_aud0auditaw.default">
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=MERGE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/aut0authorizationaws/aut0authorizationaws_preference_merge.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:51" application="aut0authorizationaws" commandFile="${TC_INSTALL_DIR}/aut0authorizationaws/install_aut0authorizationaws.default">
+      <File path="${TC_INSTALL_DIR}/aut0authorizationaws/aut0authorizationaws_preference_merge.xml" checksum="1840838873"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=SKIP -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/aut0authorizationaws/aut0authorizationaws_preference_skip.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:51" application="aut0authorizationaws" commandFile="${TC_INSTALL_DIR}/aut0authorizationaws/install_aut0authorizationaws.default">
+      <File path="${TC_INSTALL_DIR}/aut0authorizationaws/aut0authorizationaws_preference_skip.xml" checksum="1678058608"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=OVERRIDE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/relationshipviewer/preferences.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:51" application="relationshipviewer" commandFile="${TC_INSTALL_DIR}/relationshipviewer/install_relationshipviewer.default">
+      <File path="${TC_INSTALL_DIR}/relationshipviewer/preferences.xml" checksum="3416511837"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=MERGE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/relationshipviewer/relationshipviewer_preferences_merge.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:52" application="relationshipviewer" commandFile="${TC_INSTALL_DIR}/relationshipviewer/install_relationshipviewer.default">
+      <File path="${TC_INSTALL_DIR}/relationshipviewer/relationshipviewer_preferences_merge.xml" checksum="1594747371"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=OVERRIDE -scope=SITE -file=${TC_INSTALL_DIR}/rb0reportingaw/data/rb0reportingaw_Pref.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:52" application="rb0reportingaw" commandFile="${TC_INSTALL_DIR}/rb0reportingaw/install_rb0reportingaw.default">
+      <File path="${TC_INSTALL_DIR}/rb0reportingaw/data/rb0reportingaw_Pref.xml" checksum="864222766"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -scope=SITE -action=MERGE -context=Teamcenter -file=${TC_INSTALL_DIR}/rb0reportingaw/data/rb0reportingaw_merge_preferences.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:52" application="rb0reportingaw" commandFile="${TC_INSTALL_DIR}/rb0reportingaw/install_rb0reportingaw.default">
+      <File path="${TC_INSTALL_DIR}/rb0reportingaw/data/rb0reportingaw_merge_preferences.xml" checksum="223895099"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=OVERRIDE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/sub0subscription/sub0subscription_preference_override.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:52" application="sub0subscription" commandFile="${TC_INSTALL_DIR}/sub0subscription/install_sub0subscription.default">
+      <File path="${TC_INSTALL_DIR}/sub0subscription/sub0subscription_preference_override.xml" checksum="3352905836"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=MERGE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/sub0subscription/sub0subscription_preference_merge.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:10:52" application="sub0subscription" commandFile="${TC_INSTALL_DIR}/sub0subscription/install_sub0subscription.default">
+      <File path="${TC_INSTALL_DIR}/sub0subscription/sub0subscription_preference_merge.xml" checksum="4145970086"/>
+   </Command>
+   <Command value="install_xml_stylesheet_datasets -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -input=${TC_INSTALL_DIR}/aws2/data/import_aws2_stylesheets.txt -filepath=${TC_INSTALL_DIR}/aws2/data -replace" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:32" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/data/import_aws2_stylesheets.txt" checksum="2541847706"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0DatasetSummary.xml" checksum="4121436922"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0EPMPerformSignoffTaskInfoSummary.xml" checksum="2782385771"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0EPMPerformSignoffTaskSummary.xml" checksum="1341559881"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0EPMTaskSummary.xml" checksum="1333838165"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0EPMTaskInfoSummary.xml" checksum="476614380"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0FolderSummary.xml" checksum="2380375485"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0FolderSummaryForShowObjectLocation.xml" checksum="3851655741"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0ImanRelationInfoSummary.xml" checksum="2303286265"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0ItemSummary.xml" checksum="122867104"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0ItemSummaryForShowObjectLocation.xml" checksum="1225104799"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0ItemRevSummary.xml" checksum="608024402"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0ItemRevRevise.xml" checksum="2555769040"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0ItemRevSaveAs.xml" checksum="2071245162"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0DocumentRevSummary.xml" checksum="3328128038"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0ItemRevInfoSummary.xml" checksum="2655767680"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0BOMLineInfoSummary.xml" checksum="34464067"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0PartSummary.xml" checksum="1527322194"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0PartRevisionSummary.xml" checksum="2386549683"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0PartRevisionSummaryForShowObjectLocation.xml" checksum="4230326312"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0_RR_EPMPerformSignoffTaskSummaryRR.xml" checksum="707944604"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0UserInfoSummary.xml" checksum="974742772"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0UserSummary.xml" checksum="3208985239"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0VolumeInfoSummary.xml" checksum="134345453"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0VolumeSummary.xml" checksum="273080582"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0GroupInfoSummary.xml" checksum="3649113219"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0GroupSummary.xml" checksum="1983439244"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0WorkspaceObjectSummary.xml" checksum="3496249832"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0WorkspaceObjectInfoSummary.xml" checksum="327495809"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0ItemCreate.xml" checksum="1281706033"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0DocumentCreate.xml" checksum="2428510251"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0Fnd0LogicalBlockSummary.xml" checksum="2612394846"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0Fnd0LogicalBlockRevisionSummary.xml" checksum="421612995"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0Fnd0LogicalBlockRevisionSummaryForShowObjectLocation.xml" checksum="3676130175"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0Fnd0SystemModelSummary.xml" checksum="2642392817"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0Fnd0SystemModelRevisionSummary.xml" checksum="3559442094"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0Fnd0SystemModelRevisionSummaryForShowObjectLocation.xml" checksum="4152142666"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0FunctionalitySummary.xml" checksum="3179456183"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0FunctionalityRevisionSummary.xml" checksum="616945151"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0FunctionalityRevisionSummaryForShowObjectLocation.xml" checksum="163495233"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0EPMReviewTaskSummary.xml" checksum="2820989887"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0EPMReviewTaskInfoSummary.xml" checksum="4025884266"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0EPMSignoffSummary.xml" checksum="1575038997"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0EPMSignoffInfoSummary.xml" checksum="3331257988"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0ServiceDiscrepancyCreate.xml" checksum="1206194215"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0SnapShotViewDataSummary.xml" checksum="3346542582"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0SnapShotViewDataInfoSummary.xml" checksum="2801941815"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Sam9AWDocumentCreate.xml" checksum="2392514739"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0ParticipantInfoSummary.xml" checksum="468565762"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0ParticipantSummary.xml" checksum="719546415"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0ImanTypeSummary.xml" checksum="2050490199"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0ImanTypeInfoSummary.xml" checksum="3953686142"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0MEOPRevSummary.xml" checksum="1145581304"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0MEProcessRevSummary.xml" checksum="2790735138"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0ProjectSummary.xml" checksum="3282879174"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0ProjectSummaryForShowObjectLocation.xml" checksum="3385831442"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0ProjectInfoSummary.xml" checksum="2227705759"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0ProjectTeamSummary.xml" checksum="2087819972"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0FormSummary.xml" checksum="3618990920"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0FormInfoSummary.xml" checksum="3618990920"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/ProjectListInfo.xml" checksum="3387557772"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0CompanyContactCreate.xml" checksum="2883826450"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0CompanyLocationCreate.xml" checksum="1439200412"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0CompanyContactSummary.xml" checksum="3174768085"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0RelatedDrawings.xml" checksum="3532514254"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0PartCreate.xml" checksum="4189440632"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/LicenseListInfo.xml" checksum="3934595901"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/BriefcaseSummary.xml" checksum="132103891"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0Fnd0NameValueCreate.xml" checksum="4178648200"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0GroupMemberSummary.xml" checksum="2000582624"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0PersonSummary.xml" checksum="4141707277"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0TCCalendarSummary.xml" checksum="3318083459"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0SSP0FrequencySummary.xml" checksum="1886456886"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0SSP0FrequencyRevisionSummary.xml" checksum="3439382750"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0SSP0ServicePartitionSummary.xml" checksum="2925061181"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0SSP0ServicePlanSummary.xml" checksum="3368941927"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0SSP0ServicePlanRevisionSummary.xml" checksum="3452241440"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0SSP0ServiceReqSummary.xml" checksum="3883645081"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0SSP0SkillSummary.xml" checksum="2648312136"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0SSP0SkillRevisionSummary.xml" checksum="625498242"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0SSP0WorkCardSummary.xml" checksum="1395195361"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0SSP0WorkCardRevisionSummary.xml" checksum="933778626"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0SSS0JobCardSummary.xml" checksum="1713836288"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0SSS0JobTaskSummary.xml" checksum="1540673229"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0SSS0SvcWorkOrderRevisionSummary.xml" checksum="202250405"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0RoleSummary.xml" checksum="1252954044"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0CommercialPartCreate.xml" checksum="1070959699"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0CPMarketingBriefRevisionInfoSummary.xml" checksum="2033182698"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0CPMarketingBriefRevisionSummary.xml" checksum="2327329154"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0RawMaterialRevisionInfoSummary.xml" checksum="249167184"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0RawMaterialRevisionSummary.xml" checksum="2694189051"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0CPThemeBoardRevisionInfoSummary.xml" checksum="413102956"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0CPThemeBoardRevisionSummary.xml" checksum="3024521686"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0PSConnectionRevisionSummaryForShowObjectLocation.xml" checksum="1580006813"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Fnd0ClassificationSummary.xml" checksum="1445624830"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0TileTemplateSummary.xml" checksum="271659215"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0TileTemplateInfoSummary.xml" checksum="271659215"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Fnd0ClassificationTab.xml" checksum="17720375"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0FormSaveAs.xml" checksum="3501585445"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/Awp0PublishedObjectSummary.xml" checksum="3313442753"/>
+   </Command>
+   <Command value="install_xml_stylesheet_datasets -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -input=${TC_INSTALL_DIR}/aws2/data/requirements/import_arm0_stylesheets.txt -filepath=${TC_INSTALL_DIR}/aws2/data/requirements -replace" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:32" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/import_arm0_stylesheets.txt" checksum="4193595300"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Awp0RequirementInfoSummary.xml" checksum="2716427122"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Awp0RequirementRevInfoSummary.xml" checksum="633854727"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Awp0RequirementRevisionSummary.xml" checksum="4254322830"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Awp0RequirementRevisionSummaryForShowObjectLocation.xml" checksum="1234271918"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Awp0ParagraphInfoSummary.xml" checksum="191114149"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Awp0ParagraphRevInfoSummary.xml" checksum="980139552"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Awp0ParagraphRevisionSummary.xml" checksum="1730981998"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Awp0ParagraphRevisionSummaryForShowObjectLocation.xml" checksum="1906038744"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Awp0RequirementSpecInfoSummary.xml" checksum="324432781"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Awp0RequirementSpecRevisionSummaryForShowObjectLocation.xml" checksum="1468723746"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Awp0ParagraphSummary.xml" checksum="2785434260"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Awp0RequirementSummary.xml" checksum="222860760"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Awp0RequirementSpecSummary.xml" checksum="3799004161"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Fnd0HTMLObjTmplRevisionSummary.xml" checksum="3236839231"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Fnd0HTMLObjTmplRevInfoSummary.xml" checksum="3085182133"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Fnd0HtmlObjTmplCreate.xml" checksum="129550928"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Awp0TraceabilityMatrixSummary.xml" checksum="3535417271"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/ParagraphCreate.xml" checksum="474939029"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/RequirementCreate.xml" checksum="3682895799"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/RequirementSpecCreate.xml" checksum="728573061"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Awp0ExcelTemplateInfoSummary.xml" checksum="3275124466"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Awp0ExcelTemplateRevInfoSummary.xml" checksum="684785536"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Awp0ExcelTemplateRevisionSummary.xml" checksum="211910193"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Awp0ExcelTemplateSummary.xml" checksum="2004200909"/>
+   </Command>
+   <Command value="install_xml_stylesheet_datasets -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -input=${TC_INSTALL_DIR}/aws2/data/tie/import_aws2_tie_stylesheets.txt -filepath=${TC_INSTALL_DIR}/aws2/data/tie -replace" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:32" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/data/tie/import_aws2_tie_stylesheets.txt" checksum="1517749320"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/tie/Awp0BriefcaseMessageSummary.xml" checksum="1607253005"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/tie/Awp0PLMXMLMessageSummary.xml" checksum="1109213688"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/tie/Awp0BulkOperationsMessageSummary.xml" checksum="1493255673"/>
+   </Command>
+   <Command value="install_xml_stylesheet_datasets -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -input=${TC_INSTALL_DIR}/aws2/data/search/import_search_aw_stylesheets.txt -filepath=${TC_INSTALL_DIR}/aws2/data/search -replace" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:32" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/data/search/import_search_aw_stylesheets.txt" checksum="4188820050"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/search/Awp0SearchFolderSummary.xml" checksum="801852595"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/search/Awp0MySearchFolderSummary.xml" checksum="1180477406"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/search/SavedSearchSummary.xml" checksum="1064684466"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/search/Awp0FullTextSavedSearchSummary.xml" checksum="3445525527"/>
+      <File path="${TC_INSTALL_DIR}/aws2/data/search/Awp0MySearchFolderSummaryForShowObjectLocation.xml" checksum="2478272814"/>
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=TcFtsIndexerCallbacks -library=libawp0aws2 -function=Awp0Aws2_indexer_process_revrules -name=Awp0Aws2-indexer-process-revrules" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:32" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=TcFtsIndexerCallbacks -library=libawp0aws2 -function=Awp0Aws2_indexer_process_revrules2 -name=Awp0Aws2-indexer-process-revrules2" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:32" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=TcFtsIndexerCallbacks -library=libawp0aws2 -function=Awp0Aws2_indexer_process_wso_revrules -name=Awp0RevisableWSO-indexer-process-revrules" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:32" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=TcFtsIndexerCallbacks -library=libics -function=ICS_AW_Indexer_process_classification_props -name=ICS_AW_Indexer_process_classification_props" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:32" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=TcFtsIndexerCallbacks -library=libawp0aws2 -function=Awp0Aws2_indexer_process_lov_l10n -name=Awp0Aws2-indexer-process-lov-l10n" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:32" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=reqmgmt -library=libAwp0reqmgmt -function=AWP0REQMGMT_generateSheet -name=AWP0REQMGMT_generateSheet" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:32" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=Adapter_Callback -library=libawp0aws2 -function=awp0_get_alternate_selection -name=Awp0XRTObjectSetRow" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:33" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=EPMAction -library=libAwp0reqmgmt -function=REQ_initiate_suspects -name=REQ_initiate_suspects" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:33" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=CompareTo_Callback -library=libawp0aws2 -function=AWP0AWS2_get_compareTo_For_ItemRevision -name=ItemRevision" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:33" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+   </Command>
+   <Command value="import_file -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -type=HTML -d=&quot;Awp0TextViewer&quot; -ref=HTML -f=${TC_INSTALL_DIR}/aws2/data/viewers/Awp0TextViewer.html -de=r" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:33" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/data/viewers/Awp0TextViewer.html" checksum="3286002291"/>
+   </Command>
+   <Command value="import_file -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -type=HTML -d=&quot;Awp0ImageViewer&quot; -ref=HTML -f=${TC_INSTALL_DIR}/aws2/data/viewers/Awp0ImageViewer.html -de=r" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:33" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/data/viewers/Awp0ImageViewer.html" checksum="181603328"/>
+   </Command>
+   <Command value="import_file -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -type=HTML -d=&quot;Awp0PdfViewer&quot; -ref=HTML -f=${TC_INSTALL_DIR}/aws2/data/viewers/Awp0PdfViewer.html -de=r" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:33" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/data/viewers/Awp0PdfViewer.html" checksum="777365380"/>
+   </Command>
+   <Command value="import_file -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -type=HTML -d=&quot;Awp0JTViewer&quot; -ref=HTML -f=${TC_INSTALL_DIR}/aws2/data/viewers/Awp0JTViewer.html -de=r" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:33" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/data/viewers/Awp0JTViewer.html" checksum="2485658962"/>
+   </Command>
+   <Command value="import_file -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -type=HTML -d=&quot;Awp0DSMStatusViewer&quot; -ref=HTML -f=${TC_INSTALL_DIR}/aws2/data/viewers/Awp0DSMStatusViewer.html -de=r" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:33" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/data/viewers/Awp0DSMStatusViewer.html" checksum="3808794884"/>
+   </Command>
+   <Command value="import_file -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -type=HTML -d=&quot;Awp0RequirementPreview&quot; -ref=HTML -f=${TC_INSTALL_DIR}/aws2/data/requirements/Awp0RequirementPreview.html -de=r" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:33" application="aws2" commandFile="${TC_INSTALL_DIR}/aws2/install_aws2.default">
+      <File path="${TC_INSTALL_DIR}/aws2/data/requirements/Awp0RequirementPreview.html" checksum="1651915511"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=OVERRIDE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/ac0activecollaboration/ac0_preferences_override.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:33" application="ac0activecollaboration" commandFile="${TC_INSTALL_DIR}/ac0activecollaboration/install_ac0activecollaboration.default">
+      <File path="${TC_INSTALL_DIR}/ac0activecollaboration/ac0_preferences_override.xml" checksum="1295157747"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=MERGE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/ac0activecollaboration/ac0_preferences_merge.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:33" application="ac0activecollaboration" commandFile="${TC_INSTALL_DIR}/ac0activecollaboration/install_ac0activecollaboration.default">
+      <File path="${TC_INSTALL_DIR}/ac0activecollaboration/ac0_preferences_merge.xml" checksum="154882129"/>
+   </Command>
+   <Command value="install_xml_stylesheet_datasets -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -input=${TC_INSTALL_DIR}/ac0activecollaboration/data/xrts/import_s2cl_stylesheets.txt -filepath=${TC_INSTALL_DIR}/ac0activecollaboration/data/xrts -replace" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:34" application="ac0activecollaboration" commandFile="${TC_INSTALL_DIR}/ac0activecollaboration/install_ac0activecollaboration.default">
+      <File path="${TC_INSTALL_DIR}/ac0activecollaboration/data/xrts/import_s2cl_stylesheets.txt" checksum="2666619904"/>
+      <File path="${TC_INSTALL_DIR}/ac0activecollaboration/data/xrts/S2clAnswerSummaryOverride.xml" checksum="0"/>
+      <File path="${TC_INSTALL_DIR}/ac0activecollaboration/data/xrts/S2clCommentaryCreateOverride.xml" checksum="0"/>
+      <File path="${TC_INSTALL_DIR}/ac0activecollaboration/data/xrts/S2clCommentaryInfoPanelOverride.xml" checksum="0"/>
+      <File path="${TC_INSTALL_DIR}/ac0activecollaboration/data/xrts/S2clCommentarySummaryOverride.xml" checksum="0"/>
+      <File path="${TC_INSTALL_DIR}/ac0activecollaboration/data/xrts/S2clEnvelopeSummaryOverride.xml" checksum="0"/>
+      <File path="${TC_INSTALL_DIR}/ac0activecollaboration/data/xrts/S2clExperienceSummaryOverride.xml" checksum="0"/>
+      <File path="${TC_INSTALL_DIR}/ac0activecollaboration/data/xrts/S2clGatewaySiteOverride.xml" checksum="0"/>
+      <File path="${TC_INSTALL_DIR}/ac0activecollaboration/data/xrts/S2clItemRevSummaryOverride.xml" checksum="0"/>
+      <File path="${TC_INSTALL_DIR}/ac0activecollaboration/data/xrts/S2clQuestionSummaryOverride.xml" checksum="0"/>
+      <File path="${TC_INSTALL_DIR}/ac0activecollaboration/data/xrts/S2clTagSummaryOverride.xml" checksum="0"/>
+   </Command>
+   <Command value="plmxml_import -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -xml_file=${TC_INSTALL_DIR}/ac0activecollaboration/data/ac0activecollaboration_saved_queries.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:34" application="ac0activecollaboration" commandFile="${TC_INSTALL_DIR}/ac0activecollaboration/install_ac0activecollaboration.default">
+      <File path="${TC_INSTALL_DIR}/ac0activecollaboration/data/ac0activecollaboration_saved_queries.xml" checksum="3766258997"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -scope=SITE -action=OVERRIDE -file=${TC_INSTALL_DIR}/s2clsocial/data/preferences/s2clsocial_preferences_override.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:34" application="s2clsocial" commandFile="${TC_INSTALL_DIR}/s2clsocial/install_s2clsocial.default">
+      <File path="${TC_INSTALL_DIR}/s2clsocial/data/preferences/s2clsocial_preferences_override.xml" checksum="381849498"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -scope=SITE -action=MERGE -file=${TC_INSTALL_DIR}/s2clsocial/data/preferences/s2clsocial_preferences_merge.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:34" application="s2clsocial" commandFile="${TC_INSTALL_DIR}/s2clsocial/install_s2clsocial.default">
+      <File path="${TC_INSTALL_DIR}/s2clsocial/data/preferences/s2clsocial_preferences_merge.xml" checksum="2130715683"/>
+   </Command>
+   <Command value="install_xml_stylesheet_datasets -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -input=${TC_INSTALL_DIR}/s2clsocial/data/xrts/import_s2cl_stylesheets.txt -filepath=${TC_INSTALL_DIR}/s2clsocial/data/xrts -replace" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:34" application="s2clsocial" commandFile="${TC_INSTALL_DIR}/s2clsocial/install_s2clsocial.default">
+      <File path="${TC_INSTALL_DIR}/s2clsocial/data/xrts/import_s2cl_stylesheets.txt" checksum="1588564566"/>
+      <File path="${TC_INSTALL_DIR}/s2clsocial/data/xrts/S2clAnswerSummary.xml" checksum="1022126645"/>
+      <File path="${TC_INSTALL_DIR}/s2clsocial/data/xrts/S2clCommentaryCreate.xml" checksum="802280526"/>
+      <File path="${TC_INSTALL_DIR}/s2clsocial/data/xrts/S2clCommentaryInfoPanel.xml" checksum="3141154691"/>
+      <File path="${TC_INSTALL_DIR}/s2clsocial/data/xrts/S2clCommentarySummary.xml" checksum="3790512916"/>
+      <File path="${TC_INSTALL_DIR}/s2clsocial/data/xrts/S2clEnvelopeSummary.xml" checksum="3785237616"/>
+      <File path="${TC_INSTALL_DIR}/s2clsocial/data/xrts/S2clExperienceSummary.xml" checksum="63330858"/>
+      <File path="${TC_INSTALL_DIR}/s2clsocial/data/xrts/S2clGatewaySite.xml" checksum="2797958670"/>
+      <File path="${TC_INSTALL_DIR}/s2clsocial/data/xrts/S2clItemRevSummary.xml" checksum="489025054"/>
+      <File path="${TC_INSTALL_DIR}/s2clsocial/data/xrts/S2clQuestionSummary.xml" checksum="955376180"/>
+      <File path="${TC_INSTALL_DIR}/s2clsocial/data/xrts/S2clScalarRatingOverview.xml" checksum="0"/>
+      <File path="${TC_INSTALL_DIR}/s2clsocial/data/xrts/S2clScalarRatingSummary.xml" checksum="0"/>
+      <File path="${TC_INSTALL_DIR}/s2clsocial/data/xrts/S2clTagSummary.xml" checksum="1958096316"/>
+   </Command>
+   <Command value="plmxml_import -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -xml_file=${TC_INSTALL_DIR}/s2clsocial/data/query/S2CL_FIND_COMMENTS.xml -log=${TC_INSTALL_DIR}/s2clsocial/data/query/S2CL_FIND_COMMENTS.import.log" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:34" application="s2clsocial" commandFile="${TC_INSTALL_DIR}/s2clsocial/install_s2clsocial.default">
+      <File path="${TC_INSTALL_DIR}/s2clsocial/data/query/S2CL_FIND_COMMENTS.xml" checksum="2177495148"/>
+   </Command>
+   <Command value="plmxml_import -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -xml_file=${TC_INSTALL_DIR}/s2clsocial/data/query/S2CL_FIND_NOTIFICATIONS.xml -log=${TC_INSTALL_DIR}/s2clsocial/data/query/S2CL_FIND_NOTIFICATIONS.import.log" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:34" application="s2clsocial" commandFile="${TC_INSTALL_DIR}/s2clsocial/install_s2clsocial.default">
+      <File path="${TC_INSTALL_DIR}/s2clsocial/data/query/S2CL_FIND_NOTIFICATIONS.xml" checksum="2013375021"/>
+   </Command>
+   <Command value="install_handlers -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -f=create -id=S2clSubscriptionHandlerId -funcname=S2clSubscriptionHandler -functype=1 -execmode=1 -retrycount=1 -retryinterval=1 -override=true" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:34" application="s2clsocial" commandFile="${TC_INSTALL_DIR}/s2clsocial/install_s2clsocial.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=Customize_Access_Manager -library=libS2clExtensions -function=register_social_delegation_fn -name=register-social-delegation-fn" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:34" application="s2clsocial" commandFile="${TC_INSTALL_DIR}/s2clsocial/install_s2clsocial.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=OccManagementAdapter -library=libawb0occmgmtbom -function=OCCMGMTBOM_init_module -name=OCCMGMTBOM_init_module" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:34" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=OfficeExport -library=libawb0officeexport -function=OFFEXP_get_backing_objects -name=OFFEXP_get_backing_objects" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:34" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=OccManagementAdapter -library=libawb0occmgmt -function=OCCMGMTREPORT_init_module -name=OCCMGMTREPORT_init_module" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:34" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=Check_Element_Indexed_State -library=libawb0officeexport -function=OFFEXP_check_stale_indexed_objects -name=OFFEXP_check_stale_indexed_objects" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:34" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=Substitutes_Callback -library=libawb0occmgmtbom -function=OCCMGMTBOM_getSubstitutes -name=OCCMGMTBOM_getSubstitutes" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:35" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=AWB0_Add_Substitutes_Callback -library=libawb0occmgmtbom -function=OCCMGMTBOM_addSubstitutes -name=OCCMGMTBOM_addSubstitutes" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:35" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=AWB0_Remove_Substitutes_Callback -library=libawb0occmgmtbom -function=OCCMGMTBOM_removeSubstitutes -name=OCCMGMTBOM_removeSubstitutes" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:35" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=AWB0_SourcePropertyName_Callback -library=libawb0occmgmtbom -function=OCCMGMTBOM__getSourcePropertyName -name=OCCMGMTBOM__getSourcePropertyName" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:35" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=OccMgmtReportDataProvider -library=libawb0xlsbom -function=XLSBOM_init_dataprovider -name=XLSBOM_init_dataprovider" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:35" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=Awp0_Alternates_Cmd_visibility_Callback -library=libawb0occmgmtbom -function=OCCMGMTBOM_getAlternateCmdsVisibilityInput -name=OCCMGMTBOM_getAlternateCmdsVisibilityInput" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:35" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=Awp0_View_Alternates_Callback -library=libawb0occmgmtbom -function=OCCMGMTBOM_getViewAlternatesInput -name=OCCMGMTBOM_getViewAlternatesInput" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:35" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=Awp0_Exp_Effectivity_Cmd_visibility_Callback -library=libawb0occmgmtbom -function=OCCMGMTBOM_getExpEffectivityCmdsVisibilityInput -name=OCCMGMTBOM_getExpEffectivityCmdsVisibilityInput" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:35" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=AWB0_Prefer_Substitute_Callback -library=libawb0occmgmtbom -function=OCCMGMTBOM_preferSubstitute -name=OCCMGMTBOM_preferSubstitute" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:35" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=CompareConfigService -library=libAwb0entcba -function=ENTCBA_register_compare_service -name=ENTCBA_register_compare_service" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:35" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_xml_stylesheet_datasets -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -input=${TC_INSTALL_DIR}/activeworkspacebom/data/import_awb0_stylesheets.txt -filepath=${TC_INSTALL_DIR}/activeworkspacebom/data -replace" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:35" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/import_awb0_stylesheets.txt" checksum="2365075787"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Awb0SavedBookMarkCreate.xml" checksum="3424181914"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Awb0DesignElementSummary.xml" checksum="2212123243"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Awb0ElementCreate.xml" checksum="674847012"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Awb0ElementInfoSummary.xml" checksum="28496875"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Awb0ElementSummary.xml" checksum="4173746074"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Awb0ConditionalElementInfoSummary.xml" checksum="3220348289"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Awb0ConditionalElementSummary.xml" checksum="306102134"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Awb0PositionedElementInfoSummary.xml" checksum="322110747"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Awb0PositionedElementSummary.xml" checksum="3557415851"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Awb0PSOccurrenceCreate.xml" checksum="964846849"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Awb0SavedBookmarkSummary.xml" checksum="3954119449"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Awb0SavedBookmarkInfoSummary.xml" checksum="1900183395"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Awb0ItemRevSummaryForShowObjectLocation.xml" checksum="1668419461"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Awb0SavedBookmarkSummaryForShowObjectLocation.xml" checksum="1937852648"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Awb0ContentTab.xml" checksum="1485449547"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Awb0MessageSummary.xml" checksum="2667895412"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Awb0Contexts.xml" checksum="2654629682"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Awb0MarkupElementSummary.xml" checksum="2975085058"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Awb0MarkupElementInfoSummary.xml" checksum="3800575576"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Awb0DesignRevSummaryForShowObjectLocation.xml" checksum="2558028075"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Fnd0AppSessionCreate.xml" checksum="2890475465"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Fnd0AppSessionSaveAs.xml" checksum="1473708081"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Fnd0AppSessionSummaryForShowObjectLocation.xml" checksum="2299926621"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Fnd0AppSessionSummary.xml" checksum="3793199802"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Fnd0AppSessionInfoSummary.xml" checksum="26889082"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/Awb0OccMgmtAttachments.xml" checksum="1691229040"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/UsedInStructures.xml" checksum="1986686957"/>
+   </Command>
+   <Command value="install_xml_stylesheet_datasets -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -input=${TC_INSTALL_DIR}/activeworkspacebom/data/entcba/import_entcba_stylesheets.txt -filepath=${TC_INSTALL_DIR}/activeworkspacebom/data/entcba -replace" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:35" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/entcba/import_entcba_stylesheets.txt" checksum="3978432573"/>
+   </Command>
+   <Command value="install_xml_stylesheet_datasets -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -input=${TC_INSTALL_DIR}/activeworkspacebom/data/workset/import_workset_stylesheets.txt -filepath=${TC_INSTALL_DIR}/activeworkspacebom/data/workset -replace" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:35" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/workset/import_workset_stylesheets.txt" checksum="1211341073"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/workset/Fnd0WorksetCreate.xml" checksum="608412373"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/workset/Fnd0WorksetRevisionSummaryForShowObjectLocation.xml" checksum="277321241"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/workset/Fnd0WorksetRevisionSummary.xml" checksum="956528832"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/workset/Fnd0WorksetRevisionInfoSummary.xml" checksum="3265516658"/>
+   </Command>
+   <Command value="install_xml_stylesheet_datasets -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -input=${TC_INSTALL_DIR}/activeworkspacebom/data/viewercontribution/import_viewercontribution_stylesheets.txt -filepath=${TC_INSTALL_DIR}/activeworkspacebom/data/viewercontribution -replace" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:36" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/viewercontribution/import_viewercontribution_stylesheets.txt" checksum="2665820091"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/viewercontribution/Fnd0SnapshotSummaryForShowObjectLocation.xml" checksum="3271086847"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/viewercontribution/Fnd0SnapshotSummary.xml" checksum="292648099"/>
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/viewercontribution/Fnd0SnapshotInfoSummary.xml" checksum="1209629407"/>
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=Adapter_Callback -library=libawb0occmgmt -function=awb0_get_alternate_selection -name=Awb0Element" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:36" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=ConfiguratorContext_Callback -library=libawb0occmgmt -function=awb0_get_configuratorcontext -name=Awb0Element" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:36" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="plmxml_import -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -xml_file=${TC_INSTALL_DIR}/activeworkspacebom/data/activeworkspacebom_saved_queries.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:36" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+      <File path="${TC_INSTALL_DIR}/activeworkspacebom/data/activeworkspacebom_saved_queries.xml" checksum="2892156044"/>
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=GetVariantConfigurableObject_Callback -library=libawb0occmgmt -function=awb0_get_variantconfigurableobject -name=Awb0Element" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:36" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=Fnd0_ENT_CBA_Provider_Callback -library=libawb0occmgmtbom -function=OCCMGMTBOM_updateAlignedProviderInput -name=Awb0ConditionalElement" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:36" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=MERGE -scope=SITE -preference=TC_customization_libraries -values=libAwb0entcba" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:36" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=GetVariantRules_Callback -library=libawb0occmgmt -function=awb0_get_variantrules -name=Awb0ProductContextInfo" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:36" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=ConfiguredFilter_Callback -library=libawb0occmgmtbom -function=awb0configured_filter -name=Awb0ConfigureFilterFromSolrQuery" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:36" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=UnconfiguredFilter_Callback -library=libawb0occmgmtbom -function=awb0unconfigured_filter -name=Awb0UnconfiguredFilterFromSolrQuery" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:36" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=UnconfiguredFilter_Callback2 -library=libawb0occmgmtbom -function=awb0unconfigured_filter2 -name=Awb0UnconfiguredFilterFromSolrQuery2" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:36" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=ApplyWildcardToFilter_Callback -library=libawb0occmgmtbom -function=awb0apply_wildcard_to_filter -name=Awb0ApplyWildcardToFilter" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:37" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=UnderlyingObject_Callback -library=libawb0occmgmt -function=OCCMGMT_getUnderlyingObject -name=OCCMGMT_getUnderlyingObject" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:37" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_callback -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=create -type=AWSmartDiscoveryIndexInfo -library=libawb0occmgmtbom -function=OCCMGMTBOM_getSmartDiscoveryIndexInfo -name=Awb0SmartDiscoveryIndexInfo" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:37" application="activeworkspacebom" commandFile="${TC_INSTALL_DIR}/activeworkspacebom/install_activeworkspacebom.default">
+   </Command>
+   <Command value="install_xml_stylesheet_datasets -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -input=${TC_INSTALL_DIR}/aud0auditaw/data/import_aud0auditaw_stylesheets.txt -filepath=${TC_INSTALL_DIR}/aud0auditaw/data -replace" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:37" application="aud0auditaw" commandFile="${TC_INSTALL_DIR}/aud0auditaw/install_aud0auditaw.default">
+      <File path="${TC_INSTALL_DIR}/aud0auditaw/data/import_aud0auditaw_stylesheets.txt" checksum="943486759"/>
+      <File path="${TC_INSTALL_DIR}/aud0auditaw/data/Aud0Fnd0AuditLogSummary.xml" checksum="716780587"/>
+      <File path="${TC_INSTALL_DIR}/aud0auditaw/data/Aud0Fnd0AuditLogInfoSummary.xml" checksum="2592413787"/>
+   </Command>
+   <Command value="plmxml_import -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -xml_file=${TC_INSTALL_DIR}/aut0authorizationaws/aut0authorizationaws_queries.xml -import_mode=overwrite" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:37" application="aut0authorizationaws" commandFile="${TC_INSTALL_DIR}/aut0authorizationaws/install_aut0authorizationaws.default">
+      <File path="${TC_INSTALL_DIR}/aut0authorizationaws/aut0authorizationaws_queries.xml" checksum="2953722776"/>
+   </Command>
+   <Command value="install_xml_stylesheet_datasets -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -input=${TC_INSTALL_DIR}/aut0authorizationaws/data/xrts/import_aut0_stylesheets.txt -filepath=${TC_INSTALL_DIR}/aut0authorizationaws/data/xrts -replace" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:37" application="aut0authorizationaws" commandFile="${TC_INSTALL_DIR}/aut0authorizationaws/install_aut0authorizationaws.default">
+      <File path="${TC_INSTALL_DIR}/aut0authorizationaws/data/xrts/import_aut0_stylesheets.txt" checksum="117864588"/>
+      <File path="${TC_INSTALL_DIR}/aut0authorizationaws/data/xrts/Aut0ItemRevSummary.xml" checksum="602763054"/>
+   </Command>
+   <Command value="install_xml_stylesheet_datasets -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -input=${TC_INSTALL_DIR}/relationshipviewer/data/import_relations_stylesheets.txt -filepath=${TC_INSTALL_DIR}/relationshipviewer/data -replace" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:37" application="relationshipviewer" commandFile="${TC_INSTALL_DIR}/relationshipviewer/install_relationshipviewer.default">
+      <File path="${TC_INSTALL_DIR}/relationshipviewer/data/import_relations_stylesheets.txt" checksum="1856951268"/>
+      <File path="${TC_INSTALL_DIR}/relationshipviewer/data/RelationsSummary.xml" checksum="3690657995"/>
+      <File path="${TC_INSTALL_DIR}/relationshipviewer/data/Relations2Summary.xml" checksum="1354436396"/>
+   </Command>
+   <Command value="install_xml_stylesheet_datasets -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -input=${TC_INSTALL_DIR}/rb0reportingaw/data/import_rb0reportingaw_stylesheets.txt -filepath=${TC_INSTALL_DIR}/rb0reportingaw/data -replace" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:38" application="rb0reportingaw" commandFile="${TC_INSTALL_DIR}/rb0reportingaw/install_rb0reportingaw.default">
+      <File path="${TC_INSTALL_DIR}/rb0reportingaw/data/import_rb0reportingaw_stylesheets.txt" checksum="2170278228"/>
+      <File path="${TC_INSTALL_DIR}/rb0reportingaw/data/XMLSummary_ReportDefinition.xml" checksum="2496210828"/>
+      <File path="${TC_INSTALL_DIR}/rb0reportingaw/data/Rb0InContextReportsSubLocation.xml" checksum="229419105"/>
+      <File path="${TC_INSTALL_DIR}/rb0reportingaw/data/Rb0TcRADashboardPage.xml" checksum="1075632658"/>
+   </Command>
+   <Command value="import_file -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -type=HTML -d=&quot;Rb0ReportsPageViewer&quot; -ref=HTML -f=${TC_INSTALL_DIR}/rb0reportingaw/data/viewers/Rb0ReportsPageViewer.html -de=r" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:38" application="rb0reportingaw" commandFile="${TC_INSTALL_DIR}/rb0reportingaw/install_rb0reportingaw.default">
+      <File path="${TC_INSTALL_DIR}/rb0reportingaw/data/viewers/Rb0ReportsPageViewer.html" checksum="1661983605"/>
+   </Command>
+   <Command value="import_file -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -type=HTML -d=&quot;TcRAReportViewer&quot; -ref=HTML -f=${TC_INSTALL_DIR}/rb0reportingaw/data/viewers/TcRAReportViewer.html -de=r" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:38" application="rb0reportingaw" commandFile="${TC_INSTALL_DIR}/rb0reportingaw/install_rb0reportingaw.default">
+      <File path="${TC_INSTALL_DIR}/rb0reportingaw/data/viewers/TcRAReportViewer.html" checksum="505725678"/>
+   </Command>
+   <Command value="import_file -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -type=HTML -d=&quot;Rb0DashboardReportViewer&quot; -ref=HTML -f=${TC_INSTALL_DIR}/rb0reportingaw/data/viewers/Rb0DashboardReportViewer.html -de=r" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:38" application="rb0reportingaw" commandFile="${TC_INSTALL_DIR}/rb0reportingaw/install_rb0reportingaw.default">
+      <File path="${TC_INSTALL_DIR}/rb0reportingaw/data/viewers/Rb0DashboardReportViewer.html" checksum="2436720880"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=OVERRIDE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/shapesearch/preferences.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:38" application="shapesearch" commandFile="${TC_INSTALL_DIR}/shapesearch/install_shapesearch.default">
+      <File path="${TC_INSTALL_DIR}/shapesearch/preferences.xml" checksum="1535963180"/>
+   </Command>
+   <Command value="preferences_manager -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -mode=import -action=MERGE -scope=SITE -context=Teamcenter -file=${TC_INSTALL_DIR}/shapesearch/shapesearch_preference_merge.xml" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:38" application="shapesearch" commandFile="${TC_INSTALL_DIR}/shapesearch/install_shapesearch.default">
+      <File path="${TC_INSTALL_DIR}/shapesearch/shapesearch_preference_merge.xml" checksum="2802921491"/>
+   </Command>
+   <Command value="install_xml_stylesheet_datasets -u=infodba -pf=${TC_USER_PASSWD_FILE} -g=dba -input=${TC_INSTALL_DIR}/sub0subscription/data/import_sub0subscription_stylesheets.txt -filepath=${TC_INSTALL_DIR}/sub0subscription/data -replace" lastExecutionDateAndTimeInUTC="2022-03-07 23:14:38" application="sub0subscription" commandFile="${TC_INSTALL_DIR}/sub0subscription/install_sub0subscription.default">
+      <File path="${TC_INSTALL_DIR}/sub0subscription/data/import_sub0subscription_stylesheets.txt" checksum="1394304711"/>
+      <File path="${TC_INSTALL_DIR}/sub0subscription/data/Awp0ImanSubscriptionSummary.xml" checksum="281155898"/>
+      <File path="${TC_INSTALL_DIR}/sub0subscription/data/Awp0ImanSubscriptionInfoSummary.xml" checksum="198343576"/>
+      <File path="${TC_INSTALL_DIR}/sub0subscription/data/fnd0MessageSummary.xml" checksum="2521368535"/>
+      <File path="${TC_INSTALL_DIR}/sub0subscription/data/fnd0MessageInfoSummary.xml" checksum="2034010627"/>
+      <File path="${TC_INSTALL_DIR}/sub0subscription/data/Sub0ImanSubscriptionCreate.xml" checksum="4106119908"/>
+   </Command>
+</Commands>

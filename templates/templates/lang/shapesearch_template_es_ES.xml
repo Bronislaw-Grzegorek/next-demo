@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:05 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}SS1ShapeSearchDataProvider" locale="es_ES" status="Approved">Proveedor de datos de Búsqueda por forma</key>
+
+   <key id="CommandDisplayName{::}SS1ShapeSearchFilter" locale="es_ES" status="Approved">Filtro de búsqueda por forma</key>
+   <key id="CommandDisplayName{::}SS1ShapeSearch" locale="es_ES" status="Approved">Búsqueda por forma</key>
+   <key id="ConditionDescription{::}SS1CanDoShapeSearch" locale="es_ES" status="Approved">Verifique si el objeto puede realizar una búsqueda por forma.</key>
+</Add>
+</TcBusinessDataLocalization>

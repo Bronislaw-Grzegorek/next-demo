@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:29 PM 2021">
+    <Add>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0ArchetypeType" locale="ja_JP" status="Approved">Archetypeタイプ</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevDesc" locale="ja_JP" status="Approved">使用法の説明</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevEffFormula" locale="ja_JP" status="Approved">使用法リビジョン有効期限</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevId" locale="ja_JP" status="Approved">用途リビジョン</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevLastModDate" locale="ja_JP" status="Approved">使用法最終修正日</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevLastModUser" locale="ja_JP" status="Approved">使用法最終修正ユーザ</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevName" locale="ja_JP" status="Approved">使用名</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevOwningGroup" locale="ja_JP" status="Approved">使用法グループID</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevOwningUser" locale="ja_JP" status="Approved">使用法所有者</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevRelStatus" locale="ja_JP" status="Approved">使用法リリースステータス</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRev" locale="ja_JP" status="Approved">使用法オカレンス</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccThreadId" locale="ja_JP" status="Approved">用途ID</key>
+</Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:28 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Um0AdminGroupdataProvider" locale="es_ES" status="Approved">Proveedor de datos del grupo de administradores</key>
+   <key id="BusinessObject{::}Um0AdminRoledataProvider" locale="es_ES" status="Approved">Proveedor de datos del rol de administrador</key>
+   <key id="BusinessObject{::}Um0AdminUserdataProvider" locale="es_ES" status="Approved">Proveedor de datos de usuarios administradores</key>
+   <key id="BusinessObject{::}um0AdminDataProvider" locale="es_ES" status="Approved">Proveedor de datos administrativos</key>
+
+   <key id="CommandDisplayName{::}Um0AddInAnOrganization" locale="es_ES" status="Approved">Agregar</key>
+   <key id="CommandDisplayName{::}Um0ChangePassword" locale="es_ES" status="Approved">Cambiar contraseña</key>
+   <key id="CommandDisplayName{::}Um0CreateGroup" locale="es_ES" status="Approved">Agregar</key>
+   <key id="CommandDisplayName{::}Um0CreateRole" locale="es_ES" status="Approved">Agregar</key>
+   <key id="CommandDisplayName{::}Um0CreateUser" locale="es_ES" status="Approved">Agregar</key>
+   <key id="CommandDisplayName{::}Um0NavigateObject" locale="es_ES" status="Approved">Navegar</key>
+   <key id="CommandDisplayName{::}Um0RemoveAdminObjects" locale="es_ES" status="Approved">Quitar</key>
+   <key id="CommandDisplayName{::}Um0ShowAddObjects" locale="es_ES" status="Approved">Agregar</key>
+   <key id="ConditionDescription{::}Um0AddInAnOrganizationCmdCond" locale="es_ES" status="Approved">Condición de visibilidad del comando "Agregar" en el panel "Herramientas e información". El comando se encuentra visible solamente si el objeto seleccionado es de tipo Grupo con "cualquier" modo de selección.</key>
+   <key id="ConditionDescription{::}Um0RemoveAdminObjectsCmdCond" locale="es_ES" status="Approved">Condición de visibilidad del comando "Quitar". El comando Quitar debe estar visible solamente si el objeto seleccionado es de tipo Rol o Usuario en un área de trabajo secundaria.</key>
+   <key id="ConditionDescription{::}Um0ShowAddObjectsCmdCond" locale="es_ES" status="Approved">Condición de visibilidad del comando "Agregar" en los objetos del área de trabajo secundaria. El comando se encuentra visible solamente si el objeto seleccionado es de tipo Grupo o Rol.</key>
+</Add>
+</TcBusinessDataLocalization>

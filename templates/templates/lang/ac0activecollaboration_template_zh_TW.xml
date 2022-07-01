@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:16:11 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Ac0ActiveCollabDataProvider" locale="zh_TW" status="Approved">主動協同資料提供程式</key>
+   <key id="BusinessObject{::}Ac0CommentStatsRecord" locale="zh_TW" status="Approved">註釋統計資料</key>
+   <key id="BusinessObject{::}Ac0Comment" locale="zh_TW" status="Approved">註釋</key>
+   <key id="BusinessObject{::}Ac0ConversationIncludeRel" locale="zh_TW" status="Approved">階段作業包含關係</key>
+   <key id="BusinessObject{::}Ac0ConversationSrcRel" locale="zh_TW" status="Approved">階段作業來源關係</key>
+   <key id="BusinessObject{::}Ac0Conversation" locale="zh_TW" status="Approved">階段作業</key>
+   <key id="BusinessObject{::}Ac0SubscriptionRecord" locale="zh_TW" status="Approved">訂閱</key>
+   <key id="BusinessObject{::}Ac0UserFeedRecord" locale="zh_TW" status="Approved">使用者動態記錄</key>
+   <key id="LOVValueDescription{::}Ac0IncludedActions{::}Snapshot" locale="zh_TW" status="Approved">表示向階段作業新增 3D 快照的動作。</key>
+   <key id="LOVValueDescription{::}Ac0IncludedActions{::}TaggedObj" locale="zh_TW" status="Approved">表示在階段作業中標記使用者的動作。</key>
+   <key id="LOVValueDescription{::}Ac0IncludedActions{::}UserMention" locale="zh_TW" status="Approved">表示在階段作業中提及業務物件的動作</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}ConvTypeChanged" locale="zh_TW" status="Approved">表示當使用者變更階段作業類型時的訊息類型。</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}MultipleActions" locale="zh_TW" status="Approved">表示當使用者變更多個欄位時的訊息類型，所有變更將整合到一條訊息中。</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}ParticipantAdded" locale="zh_TW" status="Approved">表示當使用者向階段作業新增參與者時的訊息類型。</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}ParticipantRemoved" locale="zh_TW" status="Approved">表示當使用者從階段作業中移除參與者時的訊息類型。</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}PriorityChanged" locale="zh_TW" status="Approved">表示當使用者變更階段作業優先順序時的訊息類型。</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}StatusChanged" locale="zh_TW" status="Approved">表示當使用者變更階段作業狀態時的訊息類型。</key>
+   <key id="LOVValueDescription{::}Ac0ConversationPriority{::}High" locale="zh_TW" status="Approved">表示優先順序高的可動作對話。</key>
+   <key id="LOVValueDescription{::}Ac0ConversationPriority{::}Low" locale="zh_TW" status="Approved">表示優先順序低的可動作對話。</key>
+   <key id="LOVValueDescription{::}Ac0ConversationPriority{::}Medium" locale="zh_TW" status="Approved">表示優先順序中等的可動作對話。</key>
+   <key id="LOVValueDescription{::}Ac0ConversationStatus{::}Closed" locale="zh_TW" status="Approved">代表動作已完成的可動作對話。</key>
+   <key id="LOVValueDescription{::}Ac0ConversationStatus{::}In Progress" locale="zh_TW" status="Approved">表示參與者正在檢視的可動作對話。</key>
+   <key id="LOVValueDescription{::}Ac0ConversationStatus{::}Open" locale="zh_TW" status="Approved">表示開放的可動作對話。</key>
+   <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}ACTIVE_COLLABORATION" locale="zh_TW" status="Approved">主動協同</key>
+   <key id="LOVValue{::}Ac0IncludedActions{::}Snapshot" locale="zh_TW" status="Approved">快照</key>
+   <key id="LOVValue{::}Ac0IncludedActions{::}TaggedObj" locale="zh_TW" status="Approved">標記的物件</key>
+   <key id="LOVValue{::}Ac0IncludedActions{::}UserMention" locale="zh_TW" status="Approved">使用者提及</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}ConvTypeChanged" locale="zh_TW" status="Approved">階段作業類型已變更</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}MultipleActions" locale="zh_TW" status="Approved">多個動作</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}ParticipantAdded" locale="zh_TW" status="Approved">參與者已新增</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}ParticipantRemoved" locale="zh_TW" status="Approved">參與者已移除</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}PriorityChanged" locale="zh_TW" status="Approved">優先順序已變更</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}StatusChanged" locale="zh_TW" status="Approved">狀態已變更</key>
+   <key id="LOVValue{::}Ac0ConversationPriority{::}High" locale="zh_TW" status="Approved">高</key>
+   <key id="LOVValue{::}Ac0ConversationPriority{::}Low" locale="zh_TW" status="Approved">低</key>
+   <key id="LOVValue{::}Ac0ConversationPriority{::}Medium" locale="zh_TW" status="Approved">中</key>
+   <key id="LOVValue{::}Ac0ConversationStatus{::}Closed" locale="zh_TW" status="Approved">已結束</key>
+   <key id="LOVValue{::}Ac0ConversationStatus{::}In Progress" locale="zh_TW" status="Approved">進行中</key>
+   <key id="LOVValue{::}Ac0ConversationStatus{::}Open" locale="zh_TW" status="Approved">開啟</key>
+   <key id="LOVValue{::}Fnd0SourceApplicationType{::}ACTIVE_COLLABORATION" locale="zh_TW" status="Approved">主動協同</key>
+   <key id="Property{::}Ac0CommentStatsRecord{::}ac0Comment" locale="zh_TW" status="Approved">註釋</key>
+   <key id="Property{::}Ac0CommentStatsRecord{::}ac0IsUpvoted" locale="zh_TW" status="Approved">點贊</key>
+   <key id="Property{::}Ac0CommentStatsRecord{::}ac0UserId" locale="zh_TW" status="Approved">使用者</key>
+   <key id="Property{::}Ac0Comment{::}ac0AutoMsgType" locale="zh_TW" status="Approved">自動訊息類型</key>
+   <key id="Property{::}Ac0Comment{::}ac0CommentTitle" locale="zh_TW" status="Approved">註釋標題</key>
+   <key id="Property{::}Ac0Comment{::}ac0CreateDate" locale="zh_TW" status="Approved">建立日期</key>
+   <key id="Property{::}Ac0Comment{::}ac0CreateUserId" locale="zh_TW" status="Approved">建立使用者</key>
+   <key id="Property{::}Ac0Comment{::}ac0DateModified" locale="zh_TW" status="Approved">修改日期</key>
+   <key id="Property{::}Ac0Comment{::}ac0IsQuestion" locale="zh_TW" status="Approved">提問</key>
+   <key id="Property{::}Ac0Comment{::}ac0OwningConversation" locale="zh_TW" status="Approved">所有權階段作業</key>
+   <key id="Property{::}Ac0Comment{::}ac0PlainText" locale="zh_TW" status="Approved">純文字</key>
+   <key id="Property{::}Ac0Comment{::}ac0RichText" locale="zh_TW" status="Approved">富文字</key>
+   <key id="Property{::}Ac0Comment{::}ac0RootComment" locale="zh_TW" status="Approved">根註釋</key>
+   <key id="Property{::}Ac0ConversationIncludeRel{::}ac0Comment" locale="zh_TW" status="Approved">註釋</key>
+   <key id="Property{::}Ac0ConversationIncludeRel{::}ac0IncludeAction" locale="zh_TW" status="Approved">包含動作</key>
+   <key id="Property{::}Ac0ConversationIncludeRel{::}ac0IncludedObj" locale="zh_TW" status="Approved">包含的物件</key>
+   <key id="Property{::}Ac0ConversationSrcRel{::}ac0Conversation" locale="zh_TW" status="Approved">階段作業</key>
+   <key id="Property{::}Ac0ConversationSrcRel{::}ac0SourceRefString" locale="zh_TW" status="Approved">來源識別碼</key>
+   <key id="Property{::}Ac0ConversationSrcRel{::}ac0Source" locale="zh_TW" status="Approved">來源</key>
+   <key id="Property{::}Ac0Conversation{::}ac0ClosingUserId" locale="zh_TW" status="Approved">結束使用者</key>
+   <key id="Property{::}Ac0Conversation{::}ac0CreateUserId" locale="zh_TW" status="Approved">建立使用者</key>
+   <key id="Property{::}Ac0Conversation{::}ac0DateClosed" locale="zh_TW" status="Approved">結束日期</key>
+   <key id="Property{::}Ac0Conversation{::}ac0IsPrivate" locale="zh_TW" status="Approved">私有</key>
+   <key id="Property{::}Ac0Conversation{::}ac0Priority" locale="zh_TW" status="Approved">優先順序</key>
+   <key id="Property{::}Ac0Conversation{::}ac0PrivateParticipants" locale="zh_TW" status="Approved">參與者</key>
+   <key id="Property{::}Ac0Conversation{::}ac0Status" locale="zh_TW" status="Approved">狀態</key>
+   <key id="Property{::}Ac0SubscriptionRecord{::}ac0TargetConversation" locale="zh_TW" status="Approved">目標階段作業</key>
+   <key id="Property{::}Ac0SubscriptionRecord{::}ac0TargetObject" locale="zh_TW" status="Approved">目標物件</key>
+   <key id="Property{::}Ac0SubscriptionRecord{::}ac0UserId" locale="zh_TW" status="Approved">使用者</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0AffectedComment" locale="zh_TW" status="Approved">受影響的註釋</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0AffectedConversation" locale="zh_TW" status="Approved">受影響的階段作業</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0AffectedUserId" locale="zh_TW" status="Approved">受影響的使用者</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0EntryDate" locale="zh_TW" status="Approved">條目日期</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0IsRead" locale="zh_TW" status="Approved">已讀</key>
+   <key id="Event{::}Ac0_Conversation_Notification" locale="zh_TW" status="Approved">階段作業通知</key>
+</Add>
+</TcBusinessDataLocalization>

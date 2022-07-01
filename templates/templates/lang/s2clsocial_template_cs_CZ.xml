@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:17:53 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}S2clAnswer" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1. Answers</key>
+   <key id="BusinessObject{::}S2clAudioDataset" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1. Audio</key>
+   <key id="BusinessObject{::}S2clAutoSubscriptionPref" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1. Automatic subscription preferences for user</key>
+   <key id="BusinessObject{::}S2clCommentaryProvider" locale="cs_CZ" status="Approved">Poskytovatel komentáře</key>
+   <key id="BusinessObject{::}S2clCommentary" locale="cs_CZ" status="Approved">Komentář</key>
+   <key id="BusinessObject{::}S2clEnvelope" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1 Social Envelope</key>
+   <key id="BusinessObject{::}S2clExperience" locale="cs_CZ" status="Approved">Zkušenost</key>
+   <key id="BusinessObject{::}S2clNotification" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1 Social Notification</key>
+   <key id="BusinessObject{::}S2clQuestion" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1. Question</key>
+   <key id="BusinessObject{::}S2clScalarRating" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1. Rating</key>
+   <key id="BusinessObject{::}S2clSocialSummary" locale="cs_CZ" status="Approved">Sociální souhrn</key>
+   <key id="BusinessObject{::}S2clTagPropogation" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1. Propagation Tag</key>
+   <key id="BusinessObject{::}S2clTag" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1. Tags</key>
+   <key id="BusinessObject{::}S2clToggleRating" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1 Helpful</key>
+   <key id="BusinessObject{::}S2clVideoDataset" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1 Video</key>
+   <key id="Property{::}Dataset{::}s2clFmsFileTickets" locale="cs_CZ" status="Approved">Tikety souborů</key>
+   <key id="Property{::}S2clAnswer{::}creation_date" locale="cs_CZ" status="Approved">Odpovězeno</key>
+   <key id="Property{::}S2clAnswer{::}s2clCommentPlainText" locale="cs_CZ" status="Approved">Odpověď</key>
+   <key id="Property{::}S2clAnswer{::}s2clIsBestAnswer" locale="cs_CZ" status="Approved">Nejlepší odpověď</key>
+   <key id="Property{::}S2clAnswer{::}s2clTargetObjectName" locale="cs_CZ" status="Approved">Odpověď na</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clNewComment" locale="cs_CZ" status="Approved">Nový komentář</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clNewExperience" locale="cs_CZ" status="Approved">Nová zkušenost</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clNewItemRevision" locale="cs_CZ" status="Approved">Nová revize položky</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clNewItem" locale="cs_CZ" status="Approved">Nová položka</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clNewQuestion" locale="cs_CZ" status="Approved">Nový dotaz</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clNewScalarRating" locale="cs_CZ" status="Approved">Nové skalární hodnocení</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clNewToggle" locale="cs_CZ" status="Approved">Komentář se líbil</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clReplyToComment" locale="cs_CZ" status="Approved">Odpovědět na komentář</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clTransferOfOwnership" locale="cs_CZ" status="Approved">Přenos vlastnictví</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clUser" locale="cs_CZ" status="Approved">Uživatel</key>
+   <key id="Property{::}S2clCommentary{::}object_name" locale="cs_CZ" status="Approved">Předmět</key>
+   <key id="Property{::}S2clCommentary{::}owning_user" locale="cs_CZ" status="Approved">Autor</key>
+   <key id="Property{::}S2clCommentary{::}s2clCellProperties" locale="cs_CZ" status="Approved">Vlastnosti sociální buňky</key>
+   <key id="Property{::}S2clCommentary{::}s2clCommentPlainText" locale="cs_CZ" status="Approved">Komentář</key>
+   <key id="Property{::}S2clCommentary{::}s2clCommentRichText" locale="cs_CZ" status="Approved">Komentář</key>
+   <key id="Property{::}S2clCommentary{::}s2clContextObjects" locale="cs_CZ" status="Approved">Kontext</key>
+   <key id="Property{::}S2clCommentary{::}s2clDatasets" locale="cs_CZ" status="Approved">Připojený obsah</key>
+   <key id="Property{::}S2clCommentary{::}s2clForumObject" locale="cs_CZ" status="Approved">Fórum</key>
+   <key id="Property{::}S2clCommentary{::}s2clParentRootComment" locale="cs_CZ" status="Approved">Vlákno</key>
+   <key id="Property{::}S2clCommentary{::}s2clRatingValue" locale="cs_CZ" status="Approved">Hodnocení</key>
+   <key id="Property{::}S2clCommentary{::}s2clTargetObjectName" locale="cs_CZ" status="Approved">Komentář k</key>
+   <key id="Property{::}S2clCommentary{::}s2clTargetObject" locale="cs_CZ" status="Approved">Komentář pro</key>
+   <key id="Property{::}S2clEnvelope{::}s2clAttachments" locale="cs_CZ" status="Approved">Připojený obsah</key>
+   <key id="Property{::}S2clExperience{::}creation_date" locale="cs_CZ" status="Approved">Sdíleno</key>
+   <key id="Property{::}S2clExperience{::}s2clCommentPlainText" locale="cs_CZ" status="Approved">Zkušenost</key>
+   <key id="Property{::}S2clNotification{::}s2clActionDescription" locale="cs_CZ" status="Approved">Popis akce</key>
+   <key id="Property{::}S2clNotification{::}s2clActionName" locale="cs_CZ" status="Approved">Název akce</key>
+   <key id="Property{::}S2clNotification{::}s2clModifiedObjects" locale="cs_CZ" status="Approved">Upravené objekty</key>
+   <key id="Property{::}S2clNotification{::}s2clTargetObject" locale="cs_CZ" status="Approved">Cílový objekt</key>
+   <key id="Property{::}S2clQuestion{::}creation_date" locale="cs_CZ" status="Approved">Podáno</key>
+   <key id="Property{::}S2clQuestion{::}s2clBestAnswer" locale="cs_CZ" status="Approved">Nejlepší odpověď</key>
+   <key id="Property{::}S2clQuestion{::}s2clCommentPlainText" locale="cs_CZ" status="Approved">Dotaz</key>
+   <key id="Property{::}S2clQuestion{::}s2clIsOpen" locale="cs_CZ" status="Approved">Otevřít</key>
+   <key id="Property{::}S2clQuestion{::}s2clTargetObjectName" locale="cs_CZ" status="Approved">Otázka na</key>
+   <key id="Property{::}S2clScalarRating{::}creation_date" locale="cs_CZ" status="Approved">Hodnoceno</key>
+   <key id="Property{::}S2clScalarRating{::}s2clCommentPlainText" locale="cs_CZ" status="Approved">Hodnocení oprávnění</key>
+   <key id="Property{::}S2clScalarRating{::}s2clTargetObjectName" locale="cs_CZ" status="Approved">Hodnocení</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clAverageRating" locale="cs_CZ" status="Approved">Průměrné hodnocení</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clNotificationPreferences" locale="cs_CZ" status="Approved">Předvolby upozornění</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clSendToList" locale="cs_CZ" status="Approved">Odeslat</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clSubscribers" locale="cs_CZ" status="Approved">Předplatitelé</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clSubscriptions" locale="cs_CZ" status="Approved">Předplatné</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clSummaryForObject" locale="cs_CZ" status="Approved">Souhrn pro</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTags" locale="cs_CZ" status="Approved">Štítky</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotal1Star" locale="cs_CZ" status="Approved">1 hvězdička</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotal2Star" locale="cs_CZ" status="Approved">2 hvězdičky</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotal3Star" locale="cs_CZ" status="Approved">3 hvězdičky</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotal4Star" locale="cs_CZ" status="Approved">4 hvězdičky</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotal5Star" locale="cs_CZ" status="Approved">5 hvězdiček</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotalAnswered" locale="cs_CZ" status="Approved">Celkem odpovědí</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotalComments" locale="cs_CZ" status="Approved">Celkem komentářů</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotalExperiences" locale="cs_CZ" status="Approved">Celkem zkušeností</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotalFollows" locale="cs_CZ" status="Approved">Celkem sledovaných položek</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotalLikes" locale="cs_CZ" status="Approved">Nalezen užitečný</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotalQuestions" locale="cs_CZ" status="Approved">Celkem dotazů</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotalRatings" locale="cs_CZ" status="Approved">Celkem hodnocení</key>
+   <key id="Property{::}S2clTagPropogation{::}s2clParentObjectType" locale="cs_CZ" status="Approved">Typ nadřazeného objektu</key>
+   <key id="Property{::}S2clTagPropogation{::}s2clRelationType" locale="cs_CZ" status="Approved">Typ relace</key>
+   <key id="Property{::}S2clTagPropogation{::}s2clSecondaryObjectType" locale="cs_CZ" status="Approved">Typ sekundárního objektu</key>
+   <key id="Property{::}S2clTagPropogation{::}s2clSequenceId" locale="cs_CZ" status="Approved">ID sekvence</key>
+   <key id="Property{::}S2clTagPropogation{::}s2clTagPropagationDir" locale="cs_CZ" status="Approved">Směr propagace štítku</key>
+   <key id="Property{::}S2clTag{::}s2clIsBlackListed" locale="cs_CZ" status="Approved">Na blacklistu</key>
+   <key id="Property{::}S2clTag{::}s2clIsWhiteListed" locale="cs_CZ" status="Approved">Na whitelistu</key>
+   <key id="Property{::}S2clTag{::}s2clTagName" locale="cs_CZ" status="Approved">Název štítku</key>
+   <key id="Property{::}S2clToggleRating{::}creation_date" locale="cs_CZ" status="Approved">Nalezen užitečný pro</key>
+   <key id="Property{::}SavedSearch{::}s2clLastRunDate" locale="cs_CZ" status="Approved">Datum posledního spuštění</key>
+   <key id="Property{::}WorkspaceObject{::}s2clCommentaryObjects" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1. Commentary</key>
+   <key id="Property{::}WorkspaceObject{::}s2clCommentaryRatingObjects" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1 Ratings</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTags" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1. Tags</key>
+   <key id="Property{::}WorkspaceObject{::}s2clUserRatingValue" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1. User Rating Value</key>
+
+   <key id="Property{::}S2clTag{::}s2clSubscribersFromSummary" locale="cs_CZ" status="Approved">Předplatitelé</key>
+   <key id="Property{::}User{::}s2clSendToListFromSummary" locale="cs_CZ" status="Approved">Odeslat</key>
+   <key id="Property{::}User{::}s2clSubscribersFromSummary" locale="cs_CZ" status="Approved">Následovníci</key>
+   <key id="Property{::}User{::}s2clSubscriptionsFmSy" locale="cs_CZ" status="Approved">Sledované objekty</key>
+   <key id="Property{::}WorkspaceObject{::}s2clAverageRatingFmSy" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1. Average Ratings</key>
+   <key id="Property{::}WorkspaceObject{::}s2clSendToListFromSummary" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1. Send To</key>
+   <key id="Property{::}WorkspaceObject{::}s2clSubscribersFromSummary" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1. Followers</key>
+   <key id="Property{::}WorkspaceObject{::}s2clSubscriptionsFmSy" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1. Objects Followed</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTagsFromSummary" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1. Tags From Summary</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotal1StarFromSummary" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1. 1 star</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotal2StarFromSummary" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1. 2 star</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotal3StarFromSummary" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1. 3 star</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotal4StarFromSummary" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1. 4 star</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotal5StarFromSummary" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1. 5 star</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotalAnsweredFmSy" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1 Total Answered</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotalCommentsFmSy" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1 Total Comments</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotalExperiencesFmSy" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1 Total Experiences</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotalFollowsFromSummary" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1 Total Follows</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotalLikesFromSummary" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1 Fpund Helpful</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotalQuestionsFmSy" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1 Total Questions</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotalRatingsFromSummary" locale="cs_CZ" status="Approved">Zrušeno. Viz dokument Support Announcement AW5.1 Total Ratings</key>
+
+   <key id="Event{::}S2clNew_Commentary" locale="cs_CZ" status="Approved">Nový komentář.</key>
+   <key id="Event{::}S2clSubscriptionEvent" locale="cs_CZ" status="Approved">Událost předplatného</key>
+
+   <key id="CommandDisplayName{::}S2clHelpful" locale="cs_CZ" status="Approved">Užitečný</key>
+   <key id="CommandDisplayName{::}S2clSCAddAnswerNew" locale="cs_CZ" status="Approved">Odpovědět</key>
+   <key id="CommandDisplayName{::}S2clSCAddCommentNew" locale="cs_CZ" status="Approved">Odpovědět</key>
+   <key id="CommandDisplayName{::}S2clSCAddQuestionNew" locale="cs_CZ" status="Approved">Odpovědět</key>
+   <key id="CommandDisplayName{::}S2clSCAddRatingNew" locale="cs_CZ" status="Approved">Odpovědět</key>
+   <key id="CommandDisplayName{::}S2clSCCommentaryTool" locale="cs_CZ" status="Approved">Komentář</key>
+   <key id="CommandDisplayName{::}S2clSocialCollaborationOpen" locale="cs_CZ" status="Approved">Otevřít</key>
+</Add>
+</TcBusinessDataLocalization>

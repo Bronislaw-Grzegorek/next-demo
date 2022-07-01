@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2020.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Tue Nov 02 07:16:22 PM 2021" TcVersion="tc13000.0.0">
+    <Add>
+   <Library createRelease="Awp05.0.0" description="Active Workspace Assistant" isThirdParty="false" name="Awa0awassistant" namespace="" serviceLibrary="false">
+     <DependentOn name="metaframework"/>
+     <DependentOn name="sa"/>
+     <DependentOn name="tccore"/>
+     <DependentOn name="tc"/>
+     <DependentOn name="cxpom"/>
+   </Library>
+   <OperationInputType artifactName="Awa0RelevantObjectsPro_alt0CreI" description="CreateInput object for &quot;Awa0RelevantObjectsProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Awa0RelevantObjectsPro_alt0CreI" typeName="Awa0RelevantObjectsPro_alt0CreI"/>
+   <OperationInputType artifactName="Awa0RelevantObjectsPro_alt0SvAI" description="SaveAsInput object for &quot;Awa0RelevantObjectsProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Awa0RelevantObjectsPro_alt0SvAI" typeName="Awa0RelevantObjectsPro_alt0SvAI"/>
+   <TcRuntimeType artifactName="Awa0RelevantObjectsProvider" description="Relevant Objects Provider enabled the client with the user's own and team's most relevant and recent data." isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Awa0RelevantObjectsProvider" typeName="Awa0RelevantObjectsProvider"/>
+   <BusinessObjectInterface createRelease="Awp05.0.0" description="Interface Name for Business Object Awa0RelevantObjectsProvider" libraryName="Awa0awassistant" name="Awa0RelevantObjectsProvider" namespace="awa0awassistant" primaryInterface="true" typeName="Awa0RelevantObjectsProvider"/>
+   <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Awa0RelevantObjectsProvider"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="Awa0RelevantObjectsProvider" value="Awa0RelevantObjectsPro_alt0CreI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="Awa0RelevantObjectsProvider" value="Awa0RelevantObjectsPro_alt0SvAI"/>
+   <Functionality description="This feature enables the Active Workspace client with the features of predictive commands for the guided navigations of the application. This also enables the users to quickly access the own and team's recent data." displayName="Active Workspace Assistant" enabledForVerificationRules="false" name="Awa0AwAssistant"/>
+</Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

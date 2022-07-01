@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:16:11 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Ac0ActiveCollabDataProvider" locale="ko_KR" status="Approved">Active Collaboration 데이터 제공자</key>
+   <key id="BusinessObject{::}Ac0CommentStatsRecord" locale="ko_KR" status="Approved">주석 통계</key>
+   <key id="BusinessObject{::}Ac0Comment" locale="ko_KR" status="Approved">주석</key>
+   <key id="BusinessObject{::}Ac0ConversationIncludeRel" locale="ko_KR" status="Approved">대화 포함 관계</key>
+   <key id="BusinessObject{::}Ac0ConversationSrcRel" locale="ko_KR" status="Approved">대화 소스 관계</key>
+   <key id="BusinessObject{::}Ac0Conversation" locale="ko_KR" status="Approved">대화</key>
+   <key id="BusinessObject{::}Ac0SubscriptionRecord" locale="ko_KR" status="Approved">이벤트 통보 요청</key>
+   <key id="BusinessObject{::}Ac0UserFeedRecord" locale="ko_KR" status="Approved">사용자 피드 기록</key>
+   <key id="LOVValueDescription{::}Ac0IncludedActions{::}Snapshot" locale="ko_KR" status="Approved">대화에 3D 스냅샷을 추가하기 위한 작업을 나타냅니다.</key>
+   <key id="LOVValueDescription{::}Ac0IncludedActions{::}TaggedObj" locale="ko_KR" status="Approved">대화에서 사용자를 태그하기 위한 작업을 나타냅니다.</key>
+   <key id="LOVValueDescription{::}Ac0IncludedActions{::}UserMention" locale="ko_KR" status="Approved">대화에서 비즈니스 개체를 멘션하기 위한 작업을 나타냅니다</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}ConvTypeChanged" locale="ko_KR" status="Approved">사용자가 대화 유형을 변경할 때의 메시지 유형을 나타냅니다.</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}MultipleActions" locale="ko_KR" status="Approved">사용자가 여러 필드를 변경하고 모든 변경 사항이 메시지 하나에 포함될 때의 메시지 유형을 나타냅니다.</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}ParticipantAdded" locale="ko_KR" status="Approved">사용자가 대화에 참가자를 추가할 때의 메시지 유형을 나타냅니다.</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}ParticipantRemoved" locale="ko_KR" status="Approved">사용자가 대화에서 참가자를 제거할 때의 메시지 유형을 나타냅니다.</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}PriorityChanged" locale="ko_KR" status="Approved">사용자가 대화 우선순위를 변경할 때의 메시지 유형을 나타냅니다.</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}StatusChanged" locale="ko_KR" status="Approved">사용자가 대화 상태를 변경할 때의 메시지 유형을 나타냅니다.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationPriority{::}High" locale="ko_KR" status="Approved">높은 우선순위를 가진 실행 가능한 대화를 나타냅니다.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationPriority{::}Low" locale="ko_KR" status="Approved">낮은 우선순위를 가진 실행 가능한 대화를 나타냅니다.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationPriority{::}Medium" locale="ko_KR" status="Approved">중간 우선순위를 가진 실행 가능한 대화를 나타냅니다.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationStatus{::}Closed" locale="ko_KR" status="Approved">작업이 완료된 실행 가능한 대화를 나타냅니다.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationStatus{::}In Progress" locale="ko_KR" status="Approved">참가자가 검토 중인 실행 가능한 대화를 나타냅니다.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationStatus{::}Open" locale="ko_KR" status="Approved">열려 있는 실행 가능한 대화를 나타냅니다.</key>
+   <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}ACTIVE_COLLABORATION" locale="ko_KR" status="Approved">Active Collaboration</key>
+   <key id="LOVValue{::}Ac0IncludedActions{::}Snapshot" locale="ko_KR" status="Approved">스냅샷</key>
+   <key id="LOVValue{::}Ac0IncludedActions{::}TaggedObj" locale="ko_KR" status="Approved">태그된 개체</key>
+   <key id="LOVValue{::}Ac0IncludedActions{::}UserMention" locale="ko_KR" status="Approved">사용자 멘션</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}ConvTypeChanged" locale="ko_KR" status="Approved">대화 유형 변경됨</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}MultipleActions" locale="ko_KR" status="Approved">복수 작업</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}ParticipantAdded" locale="ko_KR" status="Approved">추가된 참가자</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}ParticipantRemoved" locale="ko_KR" status="Approved">제거된 참가자</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}PriorityChanged" locale="ko_KR" status="Approved">우선순위 변경</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}StatusChanged" locale="ko_KR" status="Approved">상태 변경</key>
+   <key id="LOVValue{::}Ac0ConversationPriority{::}High" locale="ko_KR" status="Approved">높음</key>
+   <key id="LOVValue{::}Ac0ConversationPriority{::}Low" locale="ko_KR" status="Approved">낮음</key>
+   <key id="LOVValue{::}Ac0ConversationPriority{::}Medium" locale="ko_KR" status="Approved">중간</key>
+   <key id="LOVValue{::}Ac0ConversationStatus{::}Closed" locale="ko_KR" status="Approved">닫힘</key>
+   <key id="LOVValue{::}Ac0ConversationStatus{::}In Progress" locale="ko_KR" status="Approved">진행 중</key>
+   <key id="LOVValue{::}Ac0ConversationStatus{::}Open" locale="ko_KR" status="Approved">열기</key>
+   <key id="LOVValue{::}Fnd0SourceApplicationType{::}ACTIVE_COLLABORATION" locale="ko_KR" status="Approved">Active Collaboration</key>
+   <key id="Property{::}Ac0CommentStatsRecord{::}ac0Comment" locale="ko_KR" status="Approved">주석</key>
+   <key id="Property{::}Ac0CommentStatsRecord{::}ac0IsUpvoted" locale="ko_KR" status="Approved">공감함</key>
+   <key id="Property{::}Ac0CommentStatsRecord{::}ac0UserId" locale="ko_KR" status="Approved">사용자</key>
+   <key id="Property{::}Ac0Comment{::}ac0AutoMsgType" locale="ko_KR" status="Approved">자동 메시지 유형</key>
+   <key id="Property{::}Ac0Comment{::}ac0CommentTitle" locale="ko_KR" status="Approved">주석 제목</key>
+   <key id="Property{::}Ac0Comment{::}ac0CreateDate" locale="ko_KR" status="Approved">생성일</key>
+   <key id="Property{::}Ac0Comment{::}ac0CreateUserId" locale="ko_KR" status="Approved">생성자</key>
+   <key id="Property{::}Ac0Comment{::}ac0DateModified" locale="ko_KR" status="Approved">수정일</key>
+   <key id="Property{::}Ac0Comment{::}ac0IsQuestion" locale="ko_KR" status="Approved">질문</key>
+   <key id="Property{::}Ac0Comment{::}ac0OwningConversation" locale="ko_KR" status="Approved">소유 대화</key>
+   <key id="Property{::}Ac0Comment{::}ac0PlainText" locale="ko_KR" status="Approved">일반 텍스트</key>
+   <key id="Property{::}Ac0Comment{::}ac0RichText" locale="ko_KR" status="Approved">서식 있는 텍스트</key>
+   <key id="Property{::}Ac0Comment{::}ac0RootComment" locale="ko_KR" status="Approved">루트 주석</key>
+   <key id="Property{::}Ac0ConversationIncludeRel{::}ac0Comment" locale="ko_KR" status="Approved">주석</key>
+   <key id="Property{::}Ac0ConversationIncludeRel{::}ac0IncludeAction" locale="ko_KR" status="Approved">작업 포함</key>
+   <key id="Property{::}Ac0ConversationIncludeRel{::}ac0IncludedObj" locale="ko_KR" status="Approved">포함된 개체</key>
+   <key id="Property{::}Ac0ConversationSrcRel{::}ac0Conversation" locale="ko_KR" status="Approved">대화</key>
+   <key id="Property{::}Ac0ConversationSrcRel{::}ac0SourceRefString" locale="ko_KR" status="Approved">소스 ID</key>
+   <key id="Property{::}Ac0ConversationSrcRel{::}ac0Source" locale="ko_KR" status="Approved">소스</key>
+   <key id="Property{::}Ac0Conversation{::}ac0ClosingUserId" locale="ko_KR" status="Approved">닫은 사용자</key>
+   <key id="Property{::}Ac0Conversation{::}ac0CreateUserId" locale="ko_KR" status="Approved">생성자</key>
+   <key id="Property{::}Ac0Conversation{::}ac0DateClosed" locale="ko_KR" status="Approved">데이터 닫힘</key>
+   <key id="Property{::}Ac0Conversation{::}ac0IsPrivate" locale="ko_KR" status="Approved">비공개</key>
+   <key id="Property{::}Ac0Conversation{::}ac0Priority" locale="ko_KR" status="Approved">우선순위</key>
+   <key id="Property{::}Ac0Conversation{::}ac0PrivateParticipants" locale="ko_KR" status="Approved">참가자</key>
+   <key id="Property{::}Ac0Conversation{::}ac0Status" locale="ko_KR" status="Approved">상태</key>
+   <key id="Property{::}Ac0SubscriptionRecord{::}ac0TargetConversation" locale="ko_KR" status="Approved">타겟 대화</key>
+   <key id="Property{::}Ac0SubscriptionRecord{::}ac0TargetObject" locale="ko_KR" status="Approved">타겟 개체</key>
+   <key id="Property{::}Ac0SubscriptionRecord{::}ac0UserId" locale="ko_KR" status="Approved">사용자</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0AffectedComment" locale="ko_KR" status="Approved">영향 받은 주석</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0AffectedConversation" locale="ko_KR" status="Approved">영향 받은 대화</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0AffectedUserId" locale="ko_KR" status="Approved">영향 받은 사용자</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0EntryDate" locale="ko_KR" status="Approved">입력일</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0IsRead" locale="ko_KR" status="Approved">읽음</key>
+   <key id="Event{::}Ac0_Conversation_Notification" locale="ko_KR" status="Approved">대화 알림</key>
+</Add>
+</TcBusinessDataLocalization>

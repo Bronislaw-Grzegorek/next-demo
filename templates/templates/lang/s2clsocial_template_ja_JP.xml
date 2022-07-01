@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:17:53 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}S2clAnswer" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Answerを参照</key>
+   <key id="BusinessObject{::}S2clAudioDataset" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Audioを参照</key>
+   <key id="BusinessObject{::}S2clAutoSubscriptionPref" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Automatic subscription preferences for userを参照</key>
+   <key id="BusinessObject{::}S2clCommentaryProvider" locale="ja_JP" status="Approved">コメントプロバイダ</key>
+   <key id="BusinessObject{::}S2clCommentary" locale="ja_JP" status="Approved">コメント</key>
+   <key id="BusinessObject{::}S2clEnvelope" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Social Envelopeを参照</key>
+   <key id="BusinessObject{::}S2clExperience" locale="ja_JP" status="Approved">エクスペリエンス</key>
+   <key id="BusinessObject{::}S2clNotification" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Social Notificationを参照</key>
+   <key id="BusinessObject{::}S2clQuestion" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Questionを参照</key>
+   <key id="BusinessObject{::}S2clScalarRating" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Ratingを参照</key>
+   <key id="BusinessObject{::}S2clSocialSummary" locale="ja_JP" status="Approved">ソーシャルサマリ</key>
+   <key id="BusinessObject{::}S2clTagPropogation" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Propogation Tagを参照</key>
+   <key id="BusinessObject{::}S2clTag" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Tagsを参照</key>
+   <key id="BusinessObject{::}S2clToggleRating" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Helpfulを参照</key>
+   <key id="BusinessObject{::}S2clVideoDataset" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Videoを参照</key>
+   <key id="Property{::}Dataset{::}s2clFmsFileTickets" locale="ja_JP" status="Approved">チケットを保存</key>
+   <key id="Property{::}S2clAnswer{::}creation_date" locale="ja_JP" status="Approved">次へのアンサー</key>
+   <key id="Property{::}S2clAnswer{::}s2clCommentPlainText" locale="ja_JP" status="Approved">回答</key>
+   <key id="Property{::}S2clAnswer{::}s2clIsBestAnswer" locale="ja_JP" status="Approved">ベストアンサー</key>
+   <key id="Property{::}S2clAnswer{::}s2clTargetObjectName" locale="ja_JP" status="Approved">～への回答</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clNewComment" locale="ja_JP" status="Approved">新規コメント</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clNewExperience" locale="ja_JP" status="Approved">新規エクスペリエンス</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clNewItemRevision" locale="ja_JP" status="Approved">新規アイテムリビジョン</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clNewItem" locale="ja_JP" status="Approved">新規アイテム</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clNewQuestion" locale="ja_JP" status="Approved">新規質問</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clNewScalarRating" locale="ja_JP" status="Approved">新規スカラレーティング</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clNewToggle" locale="ja_JP" status="Approved">「いいね」コメント</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clReplyToComment" locale="ja_JP" status="Approved">コメントへの返信</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clTransferOfOwnership" locale="ja_JP" status="Approved">所有権の移管</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clUser" locale="ja_JP" status="Approved">ユーザ</key>
+   <key id="Property{::}S2clCommentary{::}object_name" locale="ja_JP" status="Approved">サブジェクト</key>
+   <key id="Property{::}S2clCommentary{::}owning_user" locale="ja_JP" status="Approved">オーサー</key>
+   <key id="Property{::}S2clCommentary{::}s2clCellProperties" locale="ja_JP" status="Approved">ソーシャルセルプロパティ</key>
+   <key id="Property{::}S2clCommentary{::}s2clCommentPlainText" locale="ja_JP" status="Approved">コメント</key>
+   <key id="Property{::}S2clCommentary{::}s2clCommentRichText" locale="ja_JP" status="Approved">コメント</key>
+   <key id="Property{::}S2clCommentary{::}s2clContextObjects" locale="ja_JP" status="Approved">コンテキスト</key>
+   <key id="Property{::}S2clCommentary{::}s2clDatasets" locale="ja_JP" status="Approved">アタッチメント</key>
+   <key id="Property{::}S2clCommentary{::}s2clForumObject" locale="ja_JP" status="Approved">フォーラム</key>
+   <key id="Property{::}S2clCommentary{::}s2clParentRootComment" locale="ja_JP" status="Approved">スレッド</key>
+   <key id="Property{::}S2clCommentary{::}s2clRatingValue" locale="ja_JP" status="Approved">レーティング</key>
+   <key id="Property{::}S2clCommentary{::}s2clTargetObjectName" locale="ja_JP" status="Approved">～へのコメント</key>
+   <key id="Property{::}S2clCommentary{::}s2clTargetObject" locale="ja_JP" status="Approved">次へのコメント</key>
+   <key id="Property{::}S2clEnvelope{::}s2clAttachments" locale="ja_JP" status="Approved">アタッチメント</key>
+   <key id="Property{::}S2clExperience{::}creation_date" locale="ja_JP" status="Approved">次で共有</key>
+   <key id="Property{::}S2clExperience{::}s2clCommentPlainText" locale="ja_JP" status="Approved">エクスペリエンス</key>
+   <key id="Property{::}S2clNotification{::}s2clActionDescription" locale="ja_JP" status="Approved">アクション説明</key>
+   <key id="Property{::}S2clNotification{::}s2clActionName" locale="ja_JP" status="Approved">アクション名</key>
+   <key id="Property{::}S2clNotification{::}s2clModifiedObjects" locale="ja_JP" status="Approved">修正済みオブジェクト</key>
+   <key id="Property{::}S2clNotification{::}s2clTargetObject" locale="ja_JP" status="Approved">ターゲットオブジェクト</key>
+   <key id="Property{::}S2clQuestion{::}creation_date" locale="ja_JP" status="Approved">次で提起</key>
+   <key id="Property{::}S2clQuestion{::}s2clBestAnswer" locale="ja_JP" status="Approved">ベストアンサー</key>
+   <key id="Property{::}S2clQuestion{::}s2clCommentPlainText" locale="ja_JP" status="Approved">質問</key>
+   <key id="Property{::}S2clQuestion{::}s2clIsOpen" locale="ja_JP" status="Approved">開く</key>
+   <key id="Property{::}S2clQuestion{::}s2clTargetObjectName" locale="ja_JP" status="Approved">～の質問</key>
+   <key id="Property{::}S2clScalarRating{::}creation_date" locale="ja_JP" status="Approved">次のレーティング</key>
+   <key id="Property{::}S2clScalarRating{::}s2clCommentPlainText" locale="ja_JP" status="Approved">レーティング正当化</key>
+   <key id="Property{::}S2clScalarRating{::}s2clTargetObjectName" locale="ja_JP" status="Approved">～のレーティング</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clAverageRating" locale="ja_JP" status="Approved">平均レーティング</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clNotificationPreferences" locale="ja_JP" status="Approved">通知プリファレンス</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clSendToList" locale="ja_JP" status="Approved">送信先</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clSubscribers" locale="ja_JP" status="Approved">サブスクライバ</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clSubscriptions" locale="ja_JP" status="Approved">サブスクリプション</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clSummaryForObject" locale="ja_JP" status="Approved">次に対するサマリ</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTags" locale="ja_JP" status="Approved">タグ</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotal1Star" locale="ja_JP" status="Approved">1つ星</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotal2Star" locale="ja_JP" status="Approved">2つ星</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotal3Star" locale="ja_JP" status="Approved">3つ星</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotal4Star" locale="ja_JP" status="Approved">4つ星</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotal5Star" locale="ja_JP" status="Approved">5つ星</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotalAnswered" locale="ja_JP" status="Approved">全体回答</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotalComments" locale="ja_JP" status="Approved">全体コメント</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotalExperiences" locale="ja_JP" status="Approved">全体エクスペリエンス</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotalFollows" locale="ja_JP" status="Approved">全体フォロー</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotalLikes" locale="ja_JP" status="Approved">役に立つことが分かった</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotalQuestions" locale="ja_JP" status="Approved">全体質問</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotalRatings" locale="ja_JP" status="Approved">全体レーティング</key>
+   <key id="Property{::}S2clTagPropogation{::}s2clParentObjectType" locale="ja_JP" status="Approved">親オブジェクトタイプ</key>
+   <key id="Property{::}S2clTagPropogation{::}s2clRelationType" locale="ja_JP" status="Approved">リレーションタイプ</key>
+   <key id="Property{::}S2clTagPropogation{::}s2clSecondaryObjectType" locale="ja_JP" status="Approved">セカンダリオブジェクトタイプ</key>
+   <key id="Property{::}S2clTagPropogation{::}s2clSequenceId" locale="ja_JP" status="Approved">シーケンスID</key>
+   <key id="Property{::}S2clTagPropogation{::}s2clTagPropagationDir" locale="ja_JP" status="Approved">タグ伝播方向</key>
+   <key id="Property{::}S2clTag{::}s2clIsBlackListed" locale="ja_JP" status="Approved">ブラックリスト</key>
+   <key id="Property{::}S2clTag{::}s2clIsWhiteListed" locale="ja_JP" status="Approved">ホワイトリスト</key>
+   <key id="Property{::}S2clTag{::}s2clTagName" locale="ja_JP" status="Approved">タグ名</key>
+   <key id="Property{::}S2clToggleRating{::}creation_date" locale="ja_JP" status="Approved">次について役に立つことが分かった</key>
+   <key id="Property{::}SavedSearch{::}s2clLastRunDate" locale="ja_JP" status="Approved">最終実行日</key>
+   <key id="Property{::}WorkspaceObject{::}s2clCommentaryObjects" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Commentaryを参照</key>
+   <key id="Property{::}WorkspaceObject{::}s2clCommentaryRatingObjects" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Ratingsを参照</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTags" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Tagsを参照</key>
+   <key id="Property{::}WorkspaceObject{::}s2clUserRatingValue" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. User Rating Valueを参照</key>
+
+   <key id="Property{::}S2clTag{::}s2clSubscribersFromSummary" locale="ja_JP" status="Approved">サブスクライバ</key>
+   <key id="Property{::}User{::}s2clSendToListFromSummary" locale="ja_JP" status="Approved">送信先</key>
+   <key id="Property{::}User{::}s2clSubscribersFromSummary" locale="ja_JP" status="Approved">フォロワー</key>
+   <key id="Property{::}User{::}s2clSubscriptionsFmSy" locale="ja_JP" status="Approved">フォローされたオブジェクト</key>
+   <key id="Property{::}WorkspaceObject{::}s2clAverageRatingFmSy" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Average Ratingsを参照</key>
+   <key id="Property{::}WorkspaceObject{::}s2clSendToListFromSummary" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Send Toを参照</key>
+   <key id="Property{::}WorkspaceObject{::}s2clSubscribersFromSummary" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Followersを参照</key>
+   <key id="Property{::}WorkspaceObject{::}s2clSubscriptionsFmSy" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Objects Followedを参照</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTagsFromSummary" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Tags From Summaryを参照</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotal1StarFromSummary" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. 1 starを参照</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotal2StarFromSummary" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. 2 starを参照</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotal3StarFromSummary" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. 3 starを参照</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotal4StarFromSummary" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. 4 starを参照</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotal5StarFromSummary" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. 5 starを参照</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotalAnsweredFmSy" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Total Answeredを参照</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotalCommentsFmSy" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Total Commentsを参照</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotalExperiencesFmSy" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Total Experiencesを参照</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotalFollowsFromSummary" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Total Followsを参照</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotalLikesFromSummary" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Found Helpfulを参照</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotalQuestionsFmSy" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Total Questionsを参照</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotalRatingsFromSummary" locale="ja_JP" status="Approved">廃止済み - Support Announcement AW5.1. Total Ratingsを参照</key>
+
+   <key id="Event{::}S2clNew_Commentary" locale="ja_JP" status="Approved">新規コメント</key>
+   <key id="Event{::}S2clSubscriptionEvent" locale="ja_JP" status="Approved">サブスクリプションイベント</key>
+
+   <key id="CommandDisplayName{::}S2clHelpful" locale="ja_JP" status="Approved">役に立った</key>
+   <key id="CommandDisplayName{::}S2clSCAddAnswerNew" locale="ja_JP" status="Approved">返信</key>
+   <key id="CommandDisplayName{::}S2clSCAddCommentNew" locale="ja_JP" status="Approved">返信</key>
+   <key id="CommandDisplayName{::}S2clSCAddQuestionNew" locale="ja_JP" status="Approved">返信</key>
+   <key id="CommandDisplayName{::}S2clSCAddRatingNew" locale="ja_JP" status="Approved">返信</key>
+   <key id="CommandDisplayName{::}S2clSCCommentaryTool" locale="ja_JP" status="Approved">コメント</key>
+   <key id="CommandDisplayName{::}S2clSocialCollaborationOpen" locale="ja_JP" status="Approved">開く</key>
+</Add>
+</TcBusinessDataLocalization>

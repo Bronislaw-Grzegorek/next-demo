@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:21 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Sub0SubscriptionProvider" locale="pl_PL" status="Approved">Dostawca subskrypcji</key>
+   <key id="BusinessObject{::}Sub0NotificationProvider" locale="pl_PL" status="Approved">Dostawca powiadomień</key>
+   <key id="BusinessObject{::}Sub0SubscribleTypesProvider" locale="pl_PL" status="Approved">Dostawca typów subskrybowalnych</key>
+
+   <key id="CommandDisplayName{::}Sub0AddFollower" locale="pl_PL" status="Approved">Dodaj obserwatora</key>
+   <key id="CommandDisplayName{::}Sub0AddSubscriptionCriteria" locale="pl_PL" status="Approved">Dodaj</key>
+   <key id="CommandDisplayName{::}Sub0CreateObjectTypeSubscription" locale="pl_PL" status="Approved">Typ obserwowania</key>
+   <key id="CommandDisplayName{::}Sub0DeleteMessage" locale="pl_PL" status="Approved">Usuń komunikaty</key>
+   <key id="CommandDisplayName{::}Sub0DeleteSubscription" locale="pl_PL" status="Approved">Usuń</key>
+   <key id="CommandDisplayName{::}Sub0EditSubscriptionCriteria" locale="pl_PL" status="Approved">Edycja</key>
+   <key id="CommandDisplayName{::}Sub0SaveAsSubscription" locale="pl_PL" status="Approved">Zapisz jako</key>
+   <key id="CommandDisplayName{::}Sub0Subscribe" locale="pl_PL" status="Approved">Obserwuj</key>
+   <key id="CommandDisplayName{::}Sub0TemporaryTransferNotification" locale="pl_PL" status="Approved">Przenieś powiadomienie</key>
+   <key id="ConditionDescription{::}Sub0CopyCmdCond" locale="pl_PL" status="Approved">Ten warunek ma zawsze wartość False dla elementów ImanSubscription.</key>
+   <key id="ConditionDescription{::}Sub0DeleteSubscriptionCmdCond" locale="pl_PL" status="Approved">Ten warunek określa, czy można usunąć przekazany element subskrypcji.</key>
+   <key id="ConditionDescription{::}Sub0SaveAsSubscriptionCmdCond" locale="pl_PL" status="Approved">Ten warunek określa, czy przekazany element subskrypcji można zapisać pod inną nazwą.</key>
+   <key id="ConditionDescription{::}Sub0StartEditTableCmdCond" locale="pl_PL" status="Approved">Ten warunek ma zawsze wartość false dla elementu ImanSubscription.</key>
+   <key id="ConditionDescription{::}Sub0TemporaryTransferNotificationCmdCond" locale="pl_PL" status="Approved">Ten warunek określa, czy można tymczasowo przenieść przekazany element subskrypcji.</key>
+</Add>
+</TcBusinessDataLocalization>

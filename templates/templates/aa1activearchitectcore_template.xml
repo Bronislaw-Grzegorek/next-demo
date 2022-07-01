@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2020.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Tue Nov 02 07:16:46 PM 2021" TcVersion="tc13000.0.0">
+    <Add>
+   <Functionality description="Component for the template - aa1activearchitectcore" displayName="Active Architect Core" enabledForVerificationRules="false" name="Aa1ActiveArchitectCore"/>
+</Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:05 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}SS1ShapeSearchDataProvider" locale="ja_JP" status="Approved">形状検索データプロバイダ</key>
+
+   <key id="CommandDisplayName{::}SS1ShapeSearchFilter" locale="ja_JP" status="Approved">形状検索フィルタ</key>
+   <key id="CommandDisplayName{::}SS1ShapeSearch" locale="ja_JP" status="Approved">形状検索</key>
+   <key id="ConditionDescription{::}SS1CanDoShapeSearch" locale="ja_JP" status="Approved">オブジェクトが形状検索を実行できるかをチェックします。</key>
+</Add>
+</TcBusinessDataLocalization>

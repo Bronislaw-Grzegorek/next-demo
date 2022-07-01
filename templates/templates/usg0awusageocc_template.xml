@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2020.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Tue Nov 02 07:18:29 PM 2021" TcVersion="tc13000.0.0">
+    <Add>
+   <TcPropertyAttach typeName="Awb0ConditionalElement">
+      <TcProperty arrayLength="0" description="usg0ArchetypeType is a string type property which represents type value of archetype revision object. NULL value is allowed which doesn't affect the behavior." isArray="false" propMaxStringLength="32" propName="usg0ArchetypeType" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Awb0ConditionalElement">
+      <TcProperty arrayLength="0" description="usg0UsageOccRev is a typed reference property which represents specific usage occurrence revision object. NULL value is allowed which doesn't affect the behavior." isArray="false" propMaxStringLength="0" propName="usg0UsageOccRev" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="Fnd0AbstractOccRevision" referencedTypeConstant=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Awb0ConditionalElement">
+      <TcProperty arrayLength="0" description="usg0UsageOccRevDesc is a string type property which represents description of usage occurrence. NULL value is allowed which does not affect the behavior." isArray="false" propMaxStringLength="240" propName="usg0UsageOccRevDesc" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Awb0ConditionalElement">
+      <TcProperty arrayLength="0" description="Represents the occurrence revision effectivity formula." isArray="false" propMaxStringLength="4000" propName="usg0UsageOccRevEffFormula" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Awb0ConditionalElement">
+      <TcProperty arrayLength="0" description="usg0UsageOccRevId is a string type property which represents revision id of usage occurrence. NULL value is allowed which does not affect the behavior." isArray="false" propMaxStringLength="32" propName="usg0UsageOccRevId" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Awb0ConditionalElement">
+      <TcProperty arrayLength="0" description="usg0UsageOccRevLastModDate is a date type property which represents last modified date of usage occurrence revision object. NULL value is allowed which doesn't affect the behavior." isArray="false" propMaxStringLength="0" propName="usg0UsageOccRevLastModDate" propTypeName="Runtime" propValueType="PROP_date" referencedType="" referencedTypeConstant=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Awb0ConditionalElement">
+      <TcProperty arrayLength="0" description="usg0UsageOccRevLastModUser is a typed reference property which represents last modified user of the usage occurrence revision object. NULL value is allowed which doesn't affect the behavior." isArray="false" propMaxStringLength="0" propName="usg0UsageOccRevLastModUser" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="User" referencedTypeConstant=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Awb0ConditionalElement">
+      <TcProperty arrayLength="0" description="usg0UsageOccRevName is a string type property which represents name of usage occurrence. NULL value is allowed which does not affect the behavior." isArray="false" propMaxStringLength="128" propName="usg0UsageOccRevName" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Awb0ConditionalElement">
+      <TcProperty arrayLength="0" description="usg0UsageOccRevOwningGroup is a typed reference property which represents owning Group of usage occurrence revision object. NULL value is allowed which doesn't affect the behavior." isArray="false" propMaxStringLength="0" propName="usg0UsageOccRevOwningGroup" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="Group" referencedTypeConstant=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Awb0ConditionalElement">
+      <TcProperty arrayLength="0" description="usg0UsageOccRevOwningUser is a typed reference property which represents owner of usage occurrence. NULL value is allowed which doesn't affect the behavior." isArray="false" propMaxStringLength="0" propName="usg0UsageOccRevOwningUser" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="User" referencedTypeConstant=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Awb0ConditionalElement">
+      <TcProperty arrayLength="-1" description="usg0UsageOccRevRelStatus is a typed reference property which represents release status of usage occurrence. NULL value is allowed which doesn't affect the behavior." isArray="true" propMaxStringLength="0" propName="usg0UsageOccRevRelStatus" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="ReleaseStatus" referencedTypeConstant=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Awb0ConditionalElement">
+      <TcProperty arrayLength="0" description="usg0UsageOccThreadId is a string type property which represents thread id of usage occurrence. NULL value is allowed which does not affect the behavior." isArray="false" propMaxStringLength="128" propName="usg0UsageOccThreadId" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+   </TcPropertyAttach>
+   <TcGlobalConstantAttach constantName="Awb0InlineAuthoringPropertyMap" value="">
+      <ConstantValue value="Awb0ConditionalElement.awb0Archetype-Fnd0AbstractOccRevision.fnd0Child"/>
+   </TcGlobalConstantAttach>
+   <TcGlobalConstantAttach constantName="Awb0InlineAuthoringPropertyMap" value="">
+      <ConstantValue value="Awb0ConditionalElement.usg0UsageOccRevDesc-Fnd0AbstractOccRevision.object_desc"/>
+   </TcGlobalConstantAttach>
+   <TcGlobalConstantAttach constantName="Awb0InlineAuthoringPropertyMap" value="">
+      <ConstantValue value="Awb0ConditionalElement.usg0UsageOccRevId-Fnd0AbstractOccRevision.fnd0RevisionId"/>
+   </TcGlobalConstantAttach>
+   <TcGlobalConstantAttach constantName="Awb0InlineAuthoringPropertyMap" value="">
+      <ConstantValue value="Awb0ConditionalElement.usg0UsageOccRevName-Fnd0AbstractOccRevision.object_name"/>
+   </TcGlobalConstantAttach>
+   <TcGlobalConstantAttach constantName="Awb0InlineAuthoringPropertyMap" value="">
+      <ConstantValue value="Awb0ConditionalElement.usg0UsageOccThreadId-Fnd0AbstractOccRevision.wso_thread:fnd0ThreadId"/>
+   </TcGlobalConstantAttach>
+   <TcTypeConstantAttach constantName="Awp0WorkflowSubmittable" typeName="Fnd0AbstractOccRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="usg0ArchetypeType" typeName="Awb0ConditionalElement" value="fnd0bl_line_object_type"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="usg0UsageOccRev" typeName="Awb0ConditionalElement" value="fnd0OccurrenceRevision"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="usg0UsageOccRevDesc" typeName="Awb0ConditionalElement" value="fnd0OccRevObjectDesc"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="usg0UsageOccRevEffFormula" typeName="Awb0ConditionalElement" value="fnd0OccRevEffFormula"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="usg0UsageOccRevId" typeName="Awb0ConditionalElement" value="fnd0OccRevRevisionId"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="usg0UsageOccRevLastModDate" typeName="Awb0ConditionalElement" value="fnd0OccRevLastModDate"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="usg0UsageOccRevLastModUser" typeName="Awb0ConditionalElement" value="fnd0OccRevLastModUser"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="usg0UsageOccRevName" typeName="Awb0ConditionalElement" value="fnd0OccRevObjectName"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="usg0UsageOccRevOwningGroup" typeName="Awb0ConditionalElement" value="fnd0OccRevOwningGroup"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="usg0UsageOccRevOwningUser" typeName="Awb0ConditionalElement" value="fnd0OccRevOwningUser"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="usg0UsageOccRevRelStatus" typeName="Awb0ConditionalElement" value="fnd0OccRevReleaseStatusList"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="usg0UsageOccThreadId" typeName="Awb0ConditionalElement" value="fnd0OccRevThreadId"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" propertyName="usg0UsageOccRevDesc" typeName="Awb0ConditionalElement" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" propertyName="usg0UsageOccRevId" typeName="Awb0ConditionalElement" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" propertyName="usg0UsageOccRevName" typeName="Awb0ConditionalElement" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" propertyName="usg0UsageOccThreadId" typeName="Awb0ConditionalElement" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awb0Archetype" typeName="Awb0ConditionalElement" value="false"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="usg0ArchetypeType" typeName="Awb0ConditionalElement" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="usg0UsageOccRev" typeName="Awb0ConditionalElement" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="usg0UsageOccRevEffFormula" typeName="Awb0ConditionalElement" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="usg0UsageOccRevLastModDate" typeName="Awb0ConditionalElement" value="false"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="usg0UsageOccRevLastModUser" typeName="Awb0ConditionalElement" value="false"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="usg0UsageOccRevOwningGroup" typeName="Awb0ConditionalElement" value="false"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="usg0UsageOccRevOwningUser" typeName="Awb0ConditionalElement" value="false"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="usg0UsageOccRevRelStatus" typeName="Awb0ConditionalElement" value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="usg0ArchetypeType" typeName="Awb0ConditionalElement" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="usg0UsageOccRev" typeName="Awb0ConditionalElement" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="usg0UsageOccRevDesc" typeName="Awb0ConditionalElement" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="usg0UsageOccRevEffFormula" typeName="Awb0ConditionalElement" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="usg0UsageOccRevId" typeName="Awb0ConditionalElement" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="usg0UsageOccRevLastModDate" typeName="Awb0ConditionalElement" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="usg0UsageOccRevLastModUser" typeName="Awb0ConditionalElement" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="usg0UsageOccRevName" typeName="Awb0ConditionalElement" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="usg0UsageOccRevOwningGroup" typeName="Awb0ConditionalElement" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="usg0UsageOccRevOwningUser" typeName="Awb0ConditionalElement" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="usg0UsageOccRevRelStatus" typeName="Awb0ConditionalElement" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="usg0UsageOccThreadId" typeName="Awb0ConditionalElement" value="Write"/>
+   <Functionality description="Component for the template - usg0awusageocc" displayName="Active Workspace Usage BOM" enabledForVerificationRules="false" name="Usg0awusageocc"/>
+</Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

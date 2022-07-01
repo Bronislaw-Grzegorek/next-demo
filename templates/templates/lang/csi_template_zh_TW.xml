@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Wed Oct 20 03:20:04 PM 2021">
+    <Add>
+   <key id="Property{::}ScheduleTask{::}csi0parentChange" locale="zh_TW" status="Approved">父變更</key>
+</Add>
+</TcBusinessDataLocalization>

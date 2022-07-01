@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:05 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}SS1ShapeSearchDataProvider" locale="pl_PL" status="Approved">Dostawca danych wyszukiwania kształtów</key>
+
+   <key id="CommandDisplayName{::}SS1ShapeSearchFilter" locale="pl_PL" status="Approved">Filtr wyszukiwania kształtów</key>
+   <key id="CommandDisplayName{::}SS1ShapeSearch" locale="pl_PL" status="Approved">Wyszukiwanie kształtów</key>
+   <key id="ConditionDescription{::}SS1CanDoShapeSearch" locale="pl_PL" status="Approved">Sprawdza, czy element może wykonywać wyszukiwanie kształtów.</key>
+</Add>
+</TcBusinessDataLocalization>

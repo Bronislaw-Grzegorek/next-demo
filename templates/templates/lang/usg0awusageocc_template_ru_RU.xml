@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:29 PM 2021">
+    <Add>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0ArchetypeType" locale="ru_RU" status="Approved">Тип архетипа</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevDesc" locale="ru_RU" status="Approved">Описание использования</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevEffFormula" locale="ru_RU" status="Approved">Применяемость ревизии использования</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevId" locale="ru_RU" status="Approved">Ревизия использования</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevLastModDate" locale="ru_RU" status="Approved">Дата последнего изменения использования</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevLastModUser" locale="ru_RU" status="Approved">Последний изменяющий пользователь использования</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevName" locale="ru_RU" status="Approved">Имя использования</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevOwningGroup" locale="ru_RU" status="Approved">Идентификатор группы использования</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevOwningUser" locale="ru_RU" status="Approved">Владелец использования</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRevRelStatus" locale="ru_RU" status="Approved">Состояние выпуска использования</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccRev" locale="ru_RU" status="Approved">Вхождение использования</key>
+   <key id="Property{::}Awb0ConditionalElement{::}usg0UsageOccThreadId" locale="ru_RU" status="Approved">ID использования</key>
+</Add>
+</TcBusinessDataLocalization>

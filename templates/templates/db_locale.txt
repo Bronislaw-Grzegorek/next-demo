@@ -1,0 +1,6 @@
+en_US
+fr_FR
+de_DE
+it_IT
+es_ES
+pt_BR

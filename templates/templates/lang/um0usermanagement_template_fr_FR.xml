@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:28 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Um0AdminGroupdataProvider" locale="fr_FR" status="Approved">Fournisseur de données du Groupe Administration</key>
+   <key id="BusinessObject{::}Um0AdminRoledataProvider" locale="fr_FR" status="Approved">Fournisseur de données du Rôle Administration</key>
+   <key id="BusinessObject{::}Um0AdminUserdataProvider" locale="fr_FR" status="Approved">Fournisseur de données d'Utilisateur Administration</key>
+   <key id="BusinessObject{::}um0AdminDataProvider" locale="fr_FR" status="Approved">Fournisseur de données d'administration</key>
+
+   <key id="CommandDisplayName{::}Um0AddInAnOrganization" locale="fr_FR" status="Approved">Ajouter</key>
+   <key id="CommandDisplayName{::}Um0ChangePassword" locale="fr_FR" status="Approved">Changer le mot de passe</key>
+   <key id="CommandDisplayName{::}Um0CreateGroup" locale="fr_FR" status="Approved">Ajouter</key>
+   <key id="CommandDisplayName{::}Um0CreateRole" locale="fr_FR" status="Approved">Ajouter</key>
+   <key id="CommandDisplayName{::}Um0CreateUser" locale="fr_FR" status="Approved">Ajouter</key>
+   <key id="CommandDisplayName{::}Um0NavigateObject" locale="fr_FR" status="Approved">Naviguer</key>
+   <key id="CommandDisplayName{::}Um0RemoveAdminObjects" locale="fr_FR" status="Approved">Supprimer</key>
+   <key id="CommandDisplayName{::}Um0ShowAddObjects" locale="fr_FR" status="Approved">Ajouter</key>
+   <key id="ConditionDescription{::}Um0AddInAnOrganizationCmdCond" locale="fr_FR" status="Approved">Condition de visibilité de la commande "Ajouter" sur le panneau "Outils et Informations". La commande est visible seulement si l'objet sélectionné est de type "Groupe" avec mode de sélection "Quelconque".</key>
+   <key id="ConditionDescription{::}Um0RemoveAdminObjectsCmdCond" locale="fr_FR" status="Approved">Condition de visibilité de la commande "Supprimer". La commande doit être visible seulement si l'objet sélectionné est de type "Rôle" ou "Utilisateur" sur la Zone de travail secondaire...</key>
+   <key id="ConditionDescription{::}Um0ShowAddObjectsCmdCond" locale="fr_FR" status="Approved">Condition de visibilité de la commande "Ajouter" sur des objets Zone de travail secondaire. La commande est visible seulement si l'objet sélectionné est de type "Groupe" ou "Rôle".</key>
+</Add>
+</TcBusinessDataLocalization>

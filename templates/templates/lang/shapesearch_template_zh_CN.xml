@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:05 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}SS1ShapeSearchDataProvider" locale="zh_CN" status="Approved">形状搜索数据提供程序</key>
+
+   <key id="CommandDisplayName{::}SS1ShapeSearchFilter" locale="zh_CN" status="Approved">形状搜索过滤</key>
+   <key id="CommandDisplayName{::}SS1ShapeSearch" locale="zh_CN" status="Approved">形状搜索</key>
+   <key id="ConditionDescription{::}SS1CanDoShapeSearch" locale="zh_CN" status="Approved">检查对象是否可以执行形状搜索。</key>
+</Add>
+</TcBusinessDataLocalization>

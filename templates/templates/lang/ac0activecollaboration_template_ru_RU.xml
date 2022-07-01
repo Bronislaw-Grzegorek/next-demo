@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:16:11 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Ac0ActiveCollabDataProvider" locale="ru_RU" status="Approved">Поставщик данных Active Collaboration</key>
+   <key id="BusinessObject{::}Ac0CommentStatsRecord" locale="ru_RU" status="Approved">Статистика комментариев</key>
+   <key id="BusinessObject{::}Ac0Comment" locale="ru_RU" status="Approved">Комментарий</key>
+   <key id="BusinessObject{::}Ac0ConversationIncludeRel" locale="ru_RU" status="Approved">Отношение включения беседы</key>
+   <key id="BusinessObject{::}Ac0ConversationSrcRel" locale="ru_RU" status="Approved">Исходное отношение беседы</key>
+   <key id="BusinessObject{::}Ac0Conversation" locale="ru_RU" status="Approved">Беседа</key>
+   <key id="BusinessObject{::}Ac0SubscriptionRecord" locale="ru_RU" status="Approved">Подписки</key>
+   <key id="BusinessObject{::}Ac0UserFeedRecord" locale="ru_RU" status="Approved">Запись ленты пользователя</key>
+   <key id="LOVValueDescription{::}Ac0IncludedActions{::}Snapshot" locale="ru_RU" status="Approved">Представляет действие добавления 3D снимка в беседу.</key>
+   <key id="LOVValueDescription{::}Ac0IncludedActions{::}TaggedObj" locale="ru_RU" status="Approved">Представляет действие пометки пользователя в беседе.</key>
+   <key id="LOVValueDescription{::}Ac0IncludedActions{::}UserMention" locale="ru_RU" status="Approved">Представляет действие упоминания бизнес-объекта в беседе</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}ConvTypeChanged" locale="ru_RU" status="Approved">Представляет тип сообщения, когда пользователь меняет тип беседы.</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}MultipleActions" locale="ru_RU" status="Approved">Представляет тип сообщения, когда пользователь изменяет несколько полей, и все изменения оформляются в одно сообщение.</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}ParticipantAdded" locale="ru_RU" status="Approved">Представляет тип сообщения, когда пользователь добавляет участника в беседу.</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}ParticipantRemoved" locale="ru_RU" status="Approved">Представляет тип сообщения, когда пользователь удаляет участника из беседы.</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}PriorityChanged" locale="ru_RU" status="Approved">Представляет тип сообщения, когда пользователь меняет приоритет беседы.</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}StatusChanged" locale="ru_RU" status="Approved">Представляет тип сообщения, когда пользователь изменяет состояние беседы.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationPriority{::}High" locale="ru_RU" status="Approved">Представляет обсуждение, по которому требуются действия, с высоким приоритетом.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationPriority{::}Low" locale="ru_RU" status="Approved">Представляет обсуждение, по которому требуются действия, с низким приоритетом.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationPriority{::}Medium" locale="ru_RU" status="Approved">Представляет обсуждение, по которому требуются действия, со средним приоритетом.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationStatus{::}Closed" locale="ru_RU" status="Approved">Представляет обсуждение, по которому требуются действия и для которого действие завершено.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationStatus{::}In Progress" locale="ru_RU" status="Approved">Представляет обсуждение, по которому требуются действия и которое рассматривается участниками.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationStatus{::}Open" locale="ru_RU" status="Approved">Представляет открытое обсуждение, по которому требуются действия.</key>
+   <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}ACTIVE_COLLABORATION" locale="ru_RU" status="Approved">Active Collaboration</key>
+   <key id="LOVValue{::}Ac0IncludedActions{::}Snapshot" locale="ru_RU" status="Approved">Снимок</key>
+   <key id="LOVValue{::}Ac0IncludedActions{::}TaggedObj" locale="ru_RU" status="Approved">Помеченный объект</key>
+   <key id="LOVValue{::}Ac0IncludedActions{::}UserMention" locale="ru_RU" status="Approved">Упоминание пользователя</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}ConvTypeChanged" locale="ru_RU" status="Approved">Тип беседы изменен</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}MultipleActions" locale="ru_RU" status="Approved">Несколько действий</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}ParticipantAdded" locale="ru_RU" status="Approved">Участник добавлен</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}ParticipantRemoved" locale="ru_RU" status="Approved">Участник удален</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}PriorityChanged" locale="ru_RU" status="Approved">Приоритет изменен</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}StatusChanged" locale="ru_RU" status="Approved">Статус изменен</key>
+   <key id="LOVValue{::}Ac0ConversationPriority{::}High" locale="ru_RU" status="Approved">Высокий</key>
+   <key id="LOVValue{::}Ac0ConversationPriority{::}Low" locale="ru_RU" status="Approved">Низкий</key>
+   <key id="LOVValue{::}Ac0ConversationPriority{::}Medium" locale="ru_RU" status="Approved">Средний</key>
+   <key id="LOVValue{::}Ac0ConversationStatus{::}Closed" locale="ru_RU" status="Approved">Закрыто</key>
+   <key id="LOVValue{::}Ac0ConversationStatus{::}In Progress" locale="ru_RU" status="Approved">Выполняется</key>
+   <key id="LOVValue{::}Ac0ConversationStatus{::}Open" locale="ru_RU" status="Approved">Открыть</key>
+   <key id="LOVValue{::}Fnd0SourceApplicationType{::}ACTIVE_COLLABORATION" locale="ru_RU" status="Approved">Active Collaboration</key>
+   <key id="Property{::}Ac0CommentStatsRecord{::}ac0Comment" locale="ru_RU" status="Approved">Комментарий</key>
+   <key id="Property{::}Ac0CommentStatsRecord{::}ac0IsUpvoted" locale="ru_RU" status="Approved">Положительный отзыв</key>
+   <key id="Property{::}Ac0CommentStatsRecord{::}ac0UserId" locale="ru_RU" status="Approved">Пользователь</key>
+   <key id="Property{::}Ac0Comment{::}ac0AutoMsgType" locale="ru_RU" status="Approved">Тип автоматического сообщения</key>
+   <key id="Property{::}Ac0Comment{::}ac0CommentTitle" locale="ru_RU" status="Approved">Заголовок комментария</key>
+   <key id="Property{::}Ac0Comment{::}ac0CreateDate" locale="ru_RU" status="Approved">Дата создания</key>
+   <key id="Property{::}Ac0Comment{::}ac0CreateUserId" locale="ru_RU" status="Approved">Автор</key>
+   <key id="Property{::}Ac0Comment{::}ac0DateModified" locale="ru_RU" status="Approved">Измененная дата</key>
+   <key id="Property{::}Ac0Comment{::}ac0IsQuestion" locale="ru_RU" status="Approved">Вопрос</key>
+   <key id="Property{::}Ac0Comment{::}ac0OwningConversation" locale="ru_RU" status="Approved">Владение беседой</key>
+   <key id="Property{::}Ac0Comment{::}ac0PlainText" locale="ru_RU" status="Approved">Простой текст</key>
+   <key id="Property{::}Ac0Comment{::}ac0RichText" locale="ru_RU" status="Approved">Формат RTF</key>
+   <key id="Property{::}Ac0Comment{::}ac0RootComment" locale="ru_RU" status="Approved">Корневой комментарий</key>
+   <key id="Property{::}Ac0ConversationIncludeRel{::}ac0Comment" locale="ru_RU" status="Approved">Комментарий</key>
+   <key id="Property{::}Ac0ConversationIncludeRel{::}ac0IncludeAction" locale="ru_RU" status="Approved">Включить действие</key>
+   <key id="Property{::}Ac0ConversationIncludeRel{::}ac0IncludedObj" locale="ru_RU" status="Approved">Включенных объект</key>
+   <key id="Property{::}Ac0ConversationSrcRel{::}ac0Conversation" locale="ru_RU" status="Approved">Беседа</key>
+   <key id="Property{::}Ac0ConversationSrcRel{::}ac0SourceRefString" locale="ru_RU" status="Approved">Идентификатор источника</key>
+   <key id="Property{::}Ac0ConversationSrcRel{::}ac0Source" locale="ru_RU" status="Approved">Источник</key>
+   <key id="Property{::}Ac0Conversation{::}ac0ClosingUserId" locale="ru_RU" status="Approved">Пользователь, выполнивший закрытие</key>
+   <key id="Property{::}Ac0Conversation{::}ac0CreateUserId" locale="ru_RU" status="Approved">Автор</key>
+   <key id="Property{::}Ac0Conversation{::}ac0DateClosed" locale="ru_RU" status="Approved">Дата закрытия</key>
+   <key id="Property{::}Ac0Conversation{::}ac0IsPrivate" locale="ru_RU" status="Approved">Закрытый</key>
+   <key id="Property{::}Ac0Conversation{::}ac0Priority" locale="ru_RU" status="Approved">Приоритет</key>
+   <key id="Property{::}Ac0Conversation{::}ac0PrivateParticipants" locale="ru_RU" status="Approved">Участники</key>
+   <key id="Property{::}Ac0Conversation{::}ac0Status" locale="ru_RU" status="Approved">Состояние</key>
+   <key id="Property{::}Ac0SubscriptionRecord{::}ac0TargetConversation" locale="ru_RU" status="Approved">Целевое обсуждение</key>
+   <key id="Property{::}Ac0SubscriptionRecord{::}ac0TargetObject" locale="ru_RU" status="Approved">Целевой объект</key>
+   <key id="Property{::}Ac0SubscriptionRecord{::}ac0UserId" locale="ru_RU" status="Approved">Пользователь</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0AffectedComment" locale="ru_RU" status="Approved">Затронутый комментарий</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0AffectedConversation" locale="ru_RU" status="Approved">Затронутое обсуждение</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0AffectedUserId" locale="ru_RU" status="Approved">Затронутый пользователь</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0EntryDate" locale="ru_RU" status="Approved">Дата записи</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0IsRead" locale="ru_RU" status="Approved">Чтение</key>
+   <key id="Event{::}Ac0_Conversation_Notification" locale="ru_RU" status="Approved">Уведомление об обсуждении</key>
+</Add>
+</TcBusinessDataLocalization>

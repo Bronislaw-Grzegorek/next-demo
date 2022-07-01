@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:21 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Sub0SubscriptionProvider" locale="en_US" status="Approved">Subscription Provider</key>
+   <key id="BusinessObject{::}Sub0NotificationProvider" locale="en_US" status="Approved">Notification Provider</key>
+   <key id="BusinessObject{::}Sub0SubscribleTypesProvider" locale="en_US" status="Approved">Subscribable Types Provider</key>
+
+   <key id="CommandDisplayName{::}Sub0AddFollower" locale="en_US" status="Approved">Add Follower</key>
+   <key id="CommandDisplayName{::}Sub0AddSubscriptionCriteria" locale="en_US" status="Approved">Add</key>
+   <key id="CommandDisplayName{::}Sub0CreateObjectTypeSubscription" locale="en_US" status="Approved">Follow Type</key>
+   <key id="CommandDisplayName{::}Sub0DeleteMessage" locale="en_US" status="Approved">Delete Messages</key>
+   <key id="CommandDisplayName{::}Sub0DeleteSubscription" locale="en_US" status="Approved">Delete</key>
+   <key id="CommandDisplayName{::}Sub0EditSubscriptionCriteria" locale="en_US" status="Approved">Edit</key>
+   <key id="CommandDisplayName{::}Sub0SaveAsSubscription" locale="en_US" status="Approved">Save As</key>
+   <key id="CommandDisplayName{::}Sub0Subscribe" locale="en_US" status="Approved">Follow</key>
+   <key id="CommandDisplayName{::}Sub0TemporaryTransferNotification" locale="en_US" status="Approved">Transfer Notification</key>
+   <key id="ConditionDescription{::}Sub0CopyCmdCond" locale="en_US" status="Approved">This condition always evaluates to false for ImanSubscription objects.</key>
+   <key id="ConditionDescription{::}Sub0DeleteSubscriptionCmdCond" locale="en_US" status="Approved">This condition determines if the passed subscription object is deletable or not.</key>
+   <key id="ConditionDescription{::}Sub0SaveAsSubscriptionCmdCond" locale="en_US" status="Approved">This condition determines if the passed subscription object  is allowed for save as or not.</key>
+   <key id="ConditionDescription{::}Sub0StartEditTableCmdCond" locale="en_US" status="Approved">This condition always evaluate to false for ImanSubscription object.</key>
+   <key id="ConditionDescription{::}Sub0TemporaryTransferNotificationCmdCond" locale="en_US" status="Approved">This condition determines if the passed subscription object is allowed for temporary transferable or not.</key>
+</Add>
+</TcBusinessDataLocalization>

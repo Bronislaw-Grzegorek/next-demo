@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:28 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Um0AdminGroupdataProvider" locale="ja_JP" status="Approved">管理グループデータプロバイダ</key>
+   <key id="BusinessObject{::}Um0AdminRoledataProvider" locale="ja_JP" status="Approved">管理ロールデータプロバイダ</key>
+   <key id="BusinessObject{::}Um0AdminUserdataProvider" locale="ja_JP" status="Approved">管理ユーザデータプロバイダ</key>
+   <key id="BusinessObject{::}um0AdminDataProvider" locale="ja_JP" status="Approved">管理データプロバイダ</key>
+
+   <key id="CommandDisplayName{::}Um0AddInAnOrganization" locale="ja_JP" status="Approved">追加</key>
+   <key id="CommandDisplayName{::}Um0ChangePassword" locale="ja_JP" status="Approved">パスワードを変更</key>
+   <key id="CommandDisplayName{::}Um0CreateGroup" locale="ja_JP" status="Approved">追加</key>
+   <key id="CommandDisplayName{::}Um0CreateRole" locale="ja_JP" status="Approved">追加</key>
+   <key id="CommandDisplayName{::}Um0CreateUser" locale="ja_JP" status="Approved">追加</key>
+   <key id="CommandDisplayName{::}Um0NavigateObject" locale="ja_JP" status="Approved">ナビゲート</key>
+   <key id="CommandDisplayName{::}Um0RemoveAdminObjects" locale="ja_JP" status="Approved">除去</key>
+   <key id="CommandDisplayName{::}Um0ShowAddObjects" locale="ja_JP" status="Approved">追加</key>
+   <key id="ConditionDescription{::}Um0AddInAnOrganizationCmdCond" locale="ja_JP" status="Approved">「ツールおよび情報」パネルで「追加」コマンドを表示する条件です。 選択したオブジェクトが「任意」選択モードの「グループ」のタイプのときにのみ、コマンドが表示されます。</key>
+   <key id="ConditionDescription{::}Um0RemoveAdminObjectsCmdCond" locale="ja_JP" status="Approved">「除去」コマンドの表示条件です。 選択したオブジェクトが、セカンダリ作業領域で「ロール」または「ユーザ」タイプのときにのみ、コマンドが表示されます。</key>
+   <key id="ConditionDescription{::}Um0ShowAddObjectsCmdCond" locale="ja_JP" status="Approved">セカンダリ作業領域オブジェクトで「追加」コマンドを表示する条件です。 選択したオブジェクトが「グループ」または「ロール」のタイプのときにのみ、コマンドが表示されます。</key>
+</Add>
+</TcBusinessDataLocalization>

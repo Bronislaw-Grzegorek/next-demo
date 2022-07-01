@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:21 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Sub0SubscriptionProvider" locale="it_IT" status="Approved">Provider sottoscrizione</key>
+   <key id="BusinessObject{::}Sub0NotificationProvider" locale="it_IT" status="Approved">Provider di notifiche</key>
+   <key id="BusinessObject{::}Sub0SubscribleTypesProvider" locale="it_IT" status="Approved">Provider di tipi sottoscrivibili</key>
+
+   <key id="CommandDisplayName{::}Sub0AddFollower" locale="it_IT" status="Approved">Aggiungi follower</key>
+   <key id="CommandDisplayName{::}Sub0AddSubscriptionCriteria" locale="it_IT" status="Approved">Aggiungi</key>
+   <key id="CommandDisplayName{::}Sub0CreateObjectTypeSubscription" locale="it_IT" status="Approved">Segui tipo</key>
+   <key id="CommandDisplayName{::}Sub0DeleteMessage" locale="it_IT" status="Approved">Elimina messaggi</key>
+   <key id="CommandDisplayName{::}Sub0DeleteSubscription" locale="it_IT" status="Approved">Elimina</key>
+   <key id="CommandDisplayName{::}Sub0EditSubscriptionCriteria" locale="it_IT" status="Approved">Modifica</key>
+   <key id="CommandDisplayName{::}Sub0SaveAsSubscription" locale="it_IT" status="Approved">Salva con nome</key>
+   <key id="CommandDisplayName{::}Sub0Subscribe" locale="it_IT" status="Approved">Segui</key>
+   <key id="CommandDisplayName{::}Sub0TemporaryTransferNotification" locale="it_IT" status="Approved">Avviso di trasferimento</key>
+   <key id="ConditionDescription{::}Sub0CopyCmdCond" locale="it_IT" status="Approved">Questa condizione risulta sempre falsa per gli oggetti ImanSubscription.</key>
+   <key id="ConditionDescription{::}Sub0DeleteSubscriptionCmdCond" locale="it_IT" status="Approved">Questa condizione determina se l'oggetto Sottoscrizione passato possa essere eliminato.</key>
+   <key id="ConditionDescription{::}Sub0SaveAsSubscriptionCmdCond" locale="it_IT" status="Approved">Questa condizione determina se l'oggetto Sottoscrizione passato possa essere salvato.</key>
+   <key id="ConditionDescription{::}Sub0StartEditTableCmdCond" locale="it_IT" status="Approved">Questa condizione risulta sempre falsa per l'oggetto ImanSubscription.</key>
+   <key id="ConditionDescription{::}Sub0TemporaryTransferNotificationCmdCond" locale="it_IT" status="Approved">Questa condizione determina se l'oggetto Sottoscrizione passato possa temporaneamente spostato.</key>
+</Add>
+</TcBusinessDataLocalization>

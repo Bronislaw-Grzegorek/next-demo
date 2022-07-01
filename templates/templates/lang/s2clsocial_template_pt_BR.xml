@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:17:53 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}S2clAnswer" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Resposta</key>
+   <key id="BusinessObject{::}S2clAudioDataset" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Áudio</key>
+   <key id="BusinessObject{::}S2clAutoSubscriptionPref" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Preferências de assinatura automática do usuário</key>
+   <key id="BusinessObject{::}S2clCommentaryProvider" locale="pt_BR" status="Approved">Provedor de comentário</key>
+   <key id="BusinessObject{::}S2clCommentary" locale="pt_BR" status="Approved">Comentário</key>
+   <key id="BusinessObject{::}S2clEnvelope" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Envelope de redes sociais</key>
+   <key id="BusinessObject{::}S2clExperience" locale="pt_BR" status="Approved">Experiência</key>
+   <key id="BusinessObject{::}S2clNotification" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Notificação de redes sociais</key>
+   <key id="BusinessObject{::}S2clQuestion" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Pergunta</key>
+   <key id="BusinessObject{::}S2clScalarRating" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Classificação</key>
+   <key id="BusinessObject{::}S2clSocialSummary" locale="pt_BR" status="Approved">Resumo das redes sociais</key>
+   <key id="BusinessObject{::}S2clTagPropogation" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Marca de propagação</key>
+   <key id="BusinessObject{::}S2clTag" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Marcas</key>
+   <key id="BusinessObject{::}S2clToggleRating" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Útil</key>
+   <key id="BusinessObject{::}S2clVideoDataset" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Vídeo</key>
+   <key id="Property{::}Dataset{::}s2clFmsFileTickets" locale="pt_BR" status="Approved">Bilhetes do arquivo</key>
+   <key id="Property{::}S2clAnswer{::}creation_date" locale="pt_BR" status="Approved">Respondido em</key>
+   <key id="Property{::}S2clAnswer{::}s2clCommentPlainText" locale="pt_BR" status="Approved">Respostas</key>
+   <key id="Property{::}S2clAnswer{::}s2clIsBestAnswer" locale="pt_BR" status="Approved">Melhor resposta</key>
+   <key id="Property{::}S2clAnswer{::}s2clTargetObjectName" locale="pt_BR" status="Approved">Responder para</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clNewComment" locale="pt_BR" status="Approved">Novo comentário</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clNewExperience" locale="pt_BR" status="Approved">Nova experiência</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clNewItemRevision" locale="pt_BR" status="Approved">Nova Revisão de Item</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clNewItem" locale="pt_BR" status="Approved">Novo item</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clNewQuestion" locale="pt_BR" status="Approved">Nova pergunta</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clNewScalarRating" locale="pt_BR" status="Approved">Nova classificação por escala</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clNewToggle" locale="pt_BR" status="Approved">Curtiu o comentário</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clReplyToComment" locale="pt_BR" status="Approved">Responder ao comentário</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clTransferOfOwnership" locale="pt_BR" status="Approved">Transferência de propriedade</key>
+   <key id="Property{::}S2clAutoSubscriptionPref{::}s2clUser" locale="pt_BR" status="Approved">Usuário</key>
+   <key id="Property{::}S2clCommentary{::}object_name" locale="pt_BR" status="Approved">Assunto</key>
+   <key id="Property{::}S2clCommentary{::}owning_user" locale="pt_BR" status="Approved">Autor</key>
+   <key id="Property{::}S2clCommentary{::}s2clCellProperties" locale="pt_BR" status="Approved">Propriedades da célula social</key>
+   <key id="Property{::}S2clCommentary{::}s2clCommentPlainText" locale="pt_BR" status="Approved">Comentário</key>
+   <key id="Property{::}S2clCommentary{::}s2clCommentRichText" locale="pt_BR" status="Approved">Comentário</key>
+   <key id="Property{::}S2clCommentary{::}s2clContextObjects" locale="pt_BR" status="Approved">Contexto</key>
+   <key id="Property{::}S2clCommentary{::}s2clDatasets" locale="pt_BR" status="Approved">Anexos</key>
+   <key id="Property{::}S2clCommentary{::}s2clForumObject" locale="pt_BR" status="Approved">Fórum</key>
+   <key id="Property{::}S2clCommentary{::}s2clParentRootComment" locale="pt_BR" status="Approved">Rosca</key>
+   <key id="Property{::}S2clCommentary{::}s2clRatingValue" locale="pt_BR" status="Approved">Classificação</key>
+   <key id="Property{::}S2clCommentary{::}s2clTargetObjectName" locale="pt_BR" status="Approved">Comentário para</key>
+   <key id="Property{::}S2clCommentary{::}s2clTargetObject" locale="pt_BR" status="Approved">Comentar sobre</key>
+   <key id="Property{::}S2clEnvelope{::}s2clAttachments" locale="pt_BR" status="Approved">Anexos</key>
+   <key id="Property{::}S2clExperience{::}creation_date" locale="pt_BR" status="Approved">Compartilhado em</key>
+   <key id="Property{::}S2clExperience{::}s2clCommentPlainText" locale="pt_BR" status="Approved">Experiência</key>
+   <key id="Property{::}S2clNotification{::}s2clActionDescription" locale="pt_BR" status="Approved">Descrição da ação</key>
+   <key id="Property{::}S2clNotification{::}s2clActionName" locale="pt_BR" status="Approved">Nome da ação</key>
+   <key id="Property{::}S2clNotification{::}s2clModifiedObjects" locale="pt_BR" status="Approved">Objetos modificados</key>
+   <key id="Property{::}S2clNotification{::}s2clTargetObject" locale="pt_BR" status="Approved">Objeto de destino</key>
+   <key id="Property{::}S2clQuestion{::}creation_date" locale="pt_BR" status="Approved">Gerado em</key>
+   <key id="Property{::}S2clQuestion{::}s2clBestAnswer" locale="pt_BR" status="Approved">Melhor resposta</key>
+   <key id="Property{::}S2clQuestion{::}s2clCommentPlainText" locale="pt_BR" status="Approved">Pergunta</key>
+   <key id="Property{::}S2clQuestion{::}s2clIsOpen" locale="pt_BR" status="Approved">Abrir</key>
+   <key id="Property{::}S2clQuestion{::}s2clTargetObjectName" locale="pt_BR" status="Approved">Pergunta sobre</key>
+   <key id="Property{::}S2clScalarRating{::}creation_date" locale="pt_BR" status="Approved">Classificado em</key>
+   <key id="Property{::}S2clScalarRating{::}s2clCommentPlainText" locale="pt_BR" status="Approved">Justificativa de classificação</key>
+   <key id="Property{::}S2clScalarRating{::}s2clTargetObjectName" locale="pt_BR" status="Approved">Classificação em</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clAverageRating" locale="pt_BR" status="Approved">Média de classificação</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clNotificationPreferences" locale="pt_BR" status="Approved">Preferências de notificação</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clSendToList" locale="pt_BR" status="Approved">Enviar para</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clSubscribers" locale="pt_BR" status="Approved">Assinantes</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clSubscriptions" locale="pt_BR" status="Approved">Inscrições</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clSummaryForObject" locale="pt_BR" status="Approved">Resumo de</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTags" locale="pt_BR" status="Approved">Marcas</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotal1Star" locale="pt_BR" status="Approved">1 estrela</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotal2Star" locale="pt_BR" status="Approved">2 estrelas</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotal3Star" locale="pt_BR" status="Approved">3 estrelas</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotal4Star" locale="pt_BR" status="Approved">4 estrelas</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotal5Star" locale="pt_BR" status="Approved">5 estrelas</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotalAnswered" locale="pt_BR" status="Approved">Total de respostas</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotalComments" locale="pt_BR" status="Approved">Total de comentários</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotalExperiences" locale="pt_BR" status="Approved">Total de experiências</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotalFollows" locale="pt_BR" status="Approved">Total de seguidores</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotalLikes" locale="pt_BR" status="Approved">Considerado útil</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotalQuestions" locale="pt_BR" status="Approved">Total de perguntas</key>
+   <key id="Property{::}S2clSocialSummary{::}s2clTotalRatings" locale="pt_BR" status="Approved">Total de classificações</key>
+   <key id="Property{::}S2clTagPropogation{::}s2clParentObjectType" locale="pt_BR" status="Approved">Tipo de objeto pai</key>
+   <key id="Property{::}S2clTagPropogation{::}s2clRelationType" locale="pt_BR" status="Approved">Tipo de relação</key>
+   <key id="Property{::}S2clTagPropogation{::}s2clSecondaryObjectType" locale="pt_BR" status="Approved">Tipo secundário de objeto</key>
+   <key id="Property{::}S2clTagPropogation{::}s2clSequenceId" locale="pt_BR" status="Approved">ID da Sequência</key>
+   <key id="Property{::}S2clTagPropogation{::}s2clTagPropagationDir" locale="pt_BR" status="Approved">Direção de propagação de marca</key>
+   <key id="Property{::}S2clTag{::}s2clIsBlackListed" locale="pt_BR" status="Approved">Preto na lista</key>
+   <key id="Property{::}S2clTag{::}s2clIsWhiteListed" locale="pt_BR" status="Approved">Branco na lista</key>
+   <key id="Property{::}S2clTag{::}s2clTagName" locale="pt_BR" status="Approved">Nome da etiqueta</key>
+   <key id="Property{::}S2clToggleRating{::}creation_date" locale="pt_BR" status="Approved">Considerado útil em</key>
+   <key id="Property{::}SavedSearch{::}s2clLastRunDate" locale="pt_BR" status="Approved">Data da última execução</key>
+   <key id="Property{::}WorkspaceObject{::}s2clCommentaryObjects" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Comentário</key>
+   <key id="Property{::}WorkspaceObject{::}s2clCommentaryRatingObjects" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Classificações</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTags" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Marcas</key>
+   <key id="Property{::}WorkspaceObject{::}s2clUserRatingValue" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Valor de classificação de usuário</key>
+
+   <key id="Property{::}S2clTag{::}s2clSubscribersFromSummary" locale="pt_BR" status="Approved">Assinantes</key>
+   <key id="Property{::}User{::}s2clSendToListFromSummary" locale="pt_BR" status="Approved">Enviar para</key>
+   <key id="Property{::}User{::}s2clSubscribersFromSummary" locale="pt_BR" status="Approved">Seguidores</key>
+   <key id="Property{::}User{::}s2clSubscriptionsFmSy" locale="pt_BR" status="Approved">Objetos seguidos</key>
+   <key id="Property{::}WorkspaceObject{::}s2clAverageRatingFmSy" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte AW 5.1. Média de classificações</key>
+   <key id="Property{::}WorkspaceObject{::}s2clSendToListFromSummary" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Enviar para</key>
+   <key id="Property{::}WorkspaceObject{::}s2clSubscribersFromSummary" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Seguidores</key>
+   <key id="Property{::}WorkspaceObject{::}s2clSubscriptionsFmSy" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Objetos seguidos</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTagsFromSummary" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Marcas do resumo</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotal1StarFromSummary" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. 1 estrela</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotal2StarFromSummary" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. 2 estrelas</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotal3StarFromSummary" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. 3 estrelas</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotal4StarFromSummary" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. 4 estrelas</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotal5StarFromSummary" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. 5 estrelas</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotalAnsweredFmSy" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Total de respostas</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotalCommentsFmSy" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Total de comentários</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotalExperiencesFmSy" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Total de experiências</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotalFollowsFromSummary" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Total de seguidores</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotalLikesFromSummary" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Considerado útil</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotalQuestionsFmSy" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Total de perguntas</key>
+   <key id="Property{::}WorkspaceObject{::}s2clTotalRatingsFromSummary" locale="pt_BR" status="Approved">Obsoleto. Consulte o Anúncio de Suporte do AW 5.1. Total de classificações</key>
+
+   <key id="Event{::}S2clNew_Commentary" locale="pt_BR" status="Approved">Novo comentário</key>
+   <key id="Event{::}S2clSubscriptionEvent" locale="pt_BR" status="Approved">Eventos de assinatura</key>
+
+   <key id="CommandDisplayName{::}S2clHelpful" locale="pt_BR" status="Approved">Útil</key>
+   <key id="CommandDisplayName{::}S2clSCAddAnswerNew" locale="pt_BR" status="Approved">Responder</key>
+   <key id="CommandDisplayName{::}S2clSCAddCommentNew" locale="pt_BR" status="Approved">Responder</key>
+   <key id="CommandDisplayName{::}S2clSCAddQuestionNew" locale="pt_BR" status="Approved">Responder</key>
+   <key id="CommandDisplayName{::}S2clSCAddRatingNew" locale="pt_BR" status="Approved">Responder</key>
+   <key id="CommandDisplayName{::}S2clSCCommentaryTool" locale="pt_BR" status="Approved">Comentário</key>
+   <key id="CommandDisplayName{::}S2clSocialCollaborationOpen" locale="pt_BR" status="Approved">Abrir</key>
+</Add>
+</TcBusinessDataLocalization>

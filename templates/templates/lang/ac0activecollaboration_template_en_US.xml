@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:16:11 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Ac0ActiveCollabDataProvider" locale="en_US" status="Approved">Active Collaboration Data Provider</key>
+   <key id="BusinessObject{::}Ac0CommentStatsRecord" locale="en_US" status="Approved">Comment Statistics</key>
+   <key id="BusinessObject{::}Ac0Comment" locale="en_US" status="Approved">Comment</key>
+   <key id="BusinessObject{::}Ac0ConversationIncludeRel" locale="en_US" status="Approved">Conversation Include Relation</key>
+   <key id="BusinessObject{::}Ac0ConversationSrcRel" locale="en_US" status="Approved">Conversation Source Relation</key>
+   <key id="BusinessObject{::}Ac0Conversation" locale="en_US" status="Approved">Conversation</key>
+   <key id="BusinessObject{::}Ac0SubscriptionRecord" locale="en_US" status="Approved">Subscriptions</key>
+   <key id="BusinessObject{::}Ac0UserFeedRecord" locale="en_US" status="Approved">User Feed Record</key>
+   <key id="LOVValueDescription{::}Ac0IncludedActions{::}Snapshot" locale="en_US" status="Approved">Represents the action for adding a 3D snapshot to the conversation.</key>
+   <key id="LOVValueDescription{::}Ac0IncludedActions{::}TaggedObj" locale="en_US" status="Approved">Represents the action for tagging a user in the conversation.</key>
+   <key id="LOVValueDescription{::}Ac0IncludedActions{::}UserMention" locale="en_US" status="Approved">Represents the action for mentioning a business object in the conversation</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}ConvTypeChanged" locale="en_US" status="Approved">Represents message type when user changes conversation type.</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}MultipleActions" locale="en_US" status="Approved">Represents message type when user changes multiple fields and all changes are folded into one message.</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}ParticipantAdded" locale="en_US" status="Approved">Represents message type when user adds a participant to the conversation.</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}ParticipantRemoved" locale="en_US" status="Approved">Represents message type when user removes a participant from the conversation.</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}PriorityChanged" locale="en_US" status="Approved">Represents message type when user changes conversation priority.</key>
+   <key id="LOVValueDescription{::}Ac0AutoMsgTypes{::}StatusChanged" locale="en_US" status="Approved">Represents message type when user changes conversation status.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationPriority{::}High" locale="en_US" status="Approved">Represents an actionable conversation with high priority.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationPriority{::}Low" locale="en_US" status="Approved">Represents an actionable conversation with low priority.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationPriority{::}Medium" locale="en_US" status="Approved">Represents an actionable conversation with medium priority.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationStatus{::}Closed" locale="en_US" status="Approved">Represents an actionable conversation for which action is completed.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationStatus{::}In Progress" locale="en_US" status="Approved">Represents an actionable conversation that is being reviewed by participants.</key>
+   <key id="LOVValueDescription{::}Ac0ConversationStatus{::}Open" locale="en_US" status="Approved">Represents an actionable conversation that is open.</key>
+   <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}ACTIVE_COLLABORATION" locale="en_US" status="Approved">Active Collaboration</key>
+   <key id="LOVValue{::}Ac0IncludedActions{::}Snapshot" locale="en_US" status="Approved">Snapshot</key>
+   <key id="LOVValue{::}Ac0IncludedActions{::}TaggedObj" locale="en_US" status="Approved">Tagged Object</key>
+   <key id="LOVValue{::}Ac0IncludedActions{::}UserMention" locale="en_US" status="Approved">User Mention</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}ConvTypeChanged" locale="en_US" status="Approved">Conversation Type Changed</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}MultipleActions" locale="en_US" status="Approved">Multiple Actions</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}ParticipantAdded" locale="en_US" status="Approved">Participant Added</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}ParticipantRemoved" locale="en_US" status="Approved">Participant Removed</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}PriorityChanged" locale="en_US" status="Approved">Priority Changed</key>
+   <key id="LOVValue{::}Ac0AutoMsgTypes{::}StatusChanged" locale="en_US" status="Approved">Status Changed</key>
+   <key id="LOVValue{::}Ac0ConversationPriority{::}High" locale="en_US" status="Approved">High</key>
+   <key id="LOVValue{::}Ac0ConversationPriority{::}Low" locale="en_US" status="Approved">Low</key>
+   <key id="LOVValue{::}Ac0ConversationPriority{::}Medium" locale="en_US" status="Approved">Medium</key>
+   <key id="LOVValue{::}Ac0ConversationStatus{::}Closed" locale="en_US" status="Approved">Closed</key>
+   <key id="LOVValue{::}Ac0ConversationStatus{::}In Progress" locale="en_US" status="Approved">In Progress</key>
+   <key id="LOVValue{::}Ac0ConversationStatus{::}Open" locale="en_US" status="Approved">Open</key>
+   <key id="LOVValue{::}Fnd0SourceApplicationType{::}ACTIVE_COLLABORATION" locale="en_US" status="Approved">Active Collaboration</key>
+   <key id="Property{::}Ac0CommentStatsRecord{::}ac0Comment" locale="en_US" status="Approved">Comment</key>
+   <key id="Property{::}Ac0CommentStatsRecord{::}ac0IsUpvoted" locale="en_US" status="Approved">Upvoted</key>
+   <key id="Property{::}Ac0CommentStatsRecord{::}ac0UserId" locale="en_US" status="Approved">User</key>
+   <key id="Property{::}Ac0Comment{::}ac0AutoMsgType" locale="en_US" status="Approved">Automated Message Type</key>
+   <key id="Property{::}Ac0Comment{::}ac0CommentTitle" locale="en_US" status="Approved">Comment Title</key>
+   <key id="Property{::}Ac0Comment{::}ac0CreateDate" locale="en_US" status="Approved">Create Date</key>
+   <key id="Property{::}Ac0Comment{::}ac0CreateUserId" locale="en_US" status="Approved">Create User</key>
+   <key id="Property{::}Ac0Comment{::}ac0DateModified" locale="en_US" status="Approved">Modified Date</key>
+   <key id="Property{::}Ac0Comment{::}ac0IsQuestion" locale="en_US" status="Approved">Question</key>
+   <key id="Property{::}Ac0Comment{::}ac0OwningConversation" locale="en_US" status="Approved">Owning Conversation</key>
+   <key id="Property{::}Ac0Comment{::}ac0PlainText" locale="en_US" status="Approved">Plain Text</key>
+   <key id="Property{::}Ac0Comment{::}ac0RichText" locale="en_US" status="Approved">Rich Text</key>
+   <key id="Property{::}Ac0Comment{::}ac0RootComment" locale="en_US" status="Approved">Root Comment</key>
+   <key id="Property{::}Ac0ConversationIncludeRel{::}ac0Comment" locale="en_US" status="Approved">Comment</key>
+   <key id="Property{::}Ac0ConversationIncludeRel{::}ac0IncludeAction" locale="en_US" status="Approved">Include Action</key>
+   <key id="Property{::}Ac0ConversationIncludeRel{::}ac0IncludedObj" locale="en_US" status="Approved">Included Object</key>
+   <key id="Property{::}Ac0ConversationSrcRel{::}ac0Conversation" locale="en_US" status="Approved">Conversation</key>
+   <key id="Property{::}Ac0ConversationSrcRel{::}ac0SourceRefString" locale="en_US" status="Approved">Source Identifier</key>
+   <key id="Property{::}Ac0ConversationSrcRel{::}ac0Source" locale="en_US" status="Approved">Source</key>
+   <key id="Property{::}Ac0Conversation{::}ac0ClosingUserId" locale="en_US" status="Approved">Closing User</key>
+   <key id="Property{::}Ac0Conversation{::}ac0CreateUserId" locale="en_US" status="Approved">Create User</key>
+   <key id="Property{::}Ac0Conversation{::}ac0DateClosed" locale="en_US" status="Approved">Date Closed</key>
+   <key id="Property{::}Ac0Conversation{::}ac0IsPrivate" locale="en_US" status="Approved">Private</key>
+   <key id="Property{::}Ac0Conversation{::}ac0Priority" locale="en_US" status="Approved">Priority</key>
+   <key id="Property{::}Ac0Conversation{::}ac0PrivateParticipants" locale="en_US" status="Approved">Participants</key>
+   <key id="Property{::}Ac0Conversation{::}ac0Status" locale="en_US" status="Approved">Status</key>
+   <key id="Property{::}Ac0SubscriptionRecord{::}ac0TargetConversation" locale="en_US" status="Approved">Target Conversation</key>
+   <key id="Property{::}Ac0SubscriptionRecord{::}ac0TargetObject" locale="en_US" status="Approved">Target Object</key>
+   <key id="Property{::}Ac0SubscriptionRecord{::}ac0UserId" locale="en_US" status="Approved">User</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0AffectedComment" locale="en_US" status="Approved">Affected Comment</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0AffectedConversation" locale="en_US" status="Approved">Affected Conversation</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0AffectedUserId" locale="en_US" status="Approved">Affected User</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0EntryDate" locale="en_US" status="Approved">Entry Date</key>
+   <key id="Property{::}Ac0UserFeedRecord{::}ac0IsRead" locale="en_US" status="Approved">Read</key>
+   <key id="Event{::}Ac0_Conversation_Notification" locale="en_US" status="Approved">Conversation Notification</key>
+</Add>
+</TcBusinessDataLocalization>

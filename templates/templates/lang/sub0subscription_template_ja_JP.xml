@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:21 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Sub0SubscriptionProvider" locale="ja_JP" status="Approved">サブスクリプションプロバイダ</key>
+   <key id="BusinessObject{::}Sub0NotificationProvider" locale="ja_JP" status="Approved">通知プロバイダ</key>
+   <key id="BusinessObject{::}Sub0SubscribleTypesProvider" locale="ja_JP" status="Approved">サブスクライブ可能なタイププロバイダ</key>
+
+   <key id="CommandDisplayName{::}Sub0AddFollower" locale="ja_JP" status="Approved">フォロワーを追加</key>
+   <key id="CommandDisplayName{::}Sub0AddSubscriptionCriteria" locale="ja_JP" status="Approved">追加</key>
+   <key id="CommandDisplayName{::}Sub0CreateObjectTypeSubscription" locale="ja_JP" status="Approved">フォロータイプ</key>
+   <key id="CommandDisplayName{::}Sub0DeleteMessage" locale="ja_JP" status="Approved">メッセージを削除</key>
+   <key id="CommandDisplayName{::}Sub0DeleteSubscription" locale="ja_JP" status="Approved">削除</key>
+   <key id="CommandDisplayName{::}Sub0EditSubscriptionCriteria" locale="ja_JP" status="Approved">編集</key>
+   <key id="CommandDisplayName{::}Sub0SaveAsSubscription" locale="ja_JP" status="Approved">名前を変えて保存</key>
+   <key id="CommandDisplayName{::}Sub0Subscribe" locale="ja_JP" status="Approved">フォロー</key>
+   <key id="CommandDisplayName{::}Sub0TemporaryTransferNotification" locale="ja_JP" status="Approved">転送通知</key>
+   <key id="ConditionDescription{::}Sub0CopyCmdCond" locale="ja_JP" status="Approved">この条件は、ImanSubscriptionオブジェクトに対して常に偽と評価します。</key>
+   <key id="ConditionDescription{::}Sub0DeleteSubscriptionCmdCond" locale="ja_JP" status="Approved">この条件は、合格したサブスクリプションオブジェクトが削除可能であるかを決定します。</key>
+   <key id="ConditionDescription{::}Sub0SaveAsSubscriptionCmdCond" locale="ja_JP" status="Approved">この条件は、合格したサブスクリプションオブジェクトが別名保存を許可されるかを決定します。</key>
+   <key id="ConditionDescription{::}Sub0StartEditTableCmdCond" locale="ja_JP" status="Approved">この条件は、ImanSubscriptionオブジェクトに対して常に偽と評価します。</key>
+   <key id="ConditionDescription{::}Sub0TemporaryTransferNotificationCmdCond" locale="ja_JP" status="Approved">この条件は、合格したサブスクリプションオブジェクトが一時転送可を許可されるかを決定します。</key>
+</Add>
+</TcBusinessDataLocalization>

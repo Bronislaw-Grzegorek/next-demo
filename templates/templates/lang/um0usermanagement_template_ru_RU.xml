@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:28 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Um0AdminGroupdataProvider" locale="ru_RU" status="Approved">Провайдер данных группы администратора</key>
+   <key id="BusinessObject{::}Um0AdminRoledataProvider" locale="ru_RU" status="Approved">Провайдер данных роли Администратор</key>
+   <key id="BusinessObject{::}Um0AdminUserdataProvider" locale="ru_RU" status="Approved">Провайдер данных пользователя администратора</key>
+   <key id="BusinessObject{::}um0AdminDataProvider" locale="ru_RU" status="Approved">Поставщик данных по администрированию</key>
+
+   <key id="CommandDisplayName{::}Um0AddInAnOrganization" locale="ru_RU" status="Approved">Добавить</key>
+   <key id="CommandDisplayName{::}Um0ChangePassword" locale="ru_RU" status="Approved">Изменить пароль</key>
+   <key id="CommandDisplayName{::}Um0CreateGroup" locale="ru_RU" status="Approved">Добавить</key>
+   <key id="CommandDisplayName{::}Um0CreateRole" locale="ru_RU" status="Approved">Добавить</key>
+   <key id="CommandDisplayName{::}Um0CreateUser" locale="ru_RU" status="Approved">Добавить</key>
+   <key id="CommandDisplayName{::}Um0NavigateObject" locale="ru_RU" status="Approved">Навигация</key>
+   <key id="CommandDisplayName{::}Um0RemoveAdminObjects" locale="ru_RU" status="Approved">Исключить</key>
+   <key id="CommandDisplayName{::}Um0ShowAddObjects" locale="ru_RU" status="Approved">Добавить</key>
+   <key id="ConditionDescription{::}Um0AddInAnOrganizationCmdCond" locale="ru_RU" status="Approved">Условие видимости команды "Добавить" на панели "Сервис и информация". Команда отображается, только если тип выбранного объекта "Группа" в режиме выбора "Любой".</key>
+   <key id="ConditionDescription{::}Um0RemoveAdminObjectsCmdCond" locale="ru_RU" status="Approved">Условие видимости команды "Удалить". Команда должна отображаться, только если выбранный объект имеет тип "Роль" или "Пользователь" во вторичной рабочей области.</key>
+   <key id="ConditionDescription{::}Um0ShowAddObjectsCmdCond" locale="ru_RU" status="Approved">Условие видимости команды "Добавить" для объектов вторичной рабочей области. Команда отображается, только если тип выбранного объекта "Группа" или "Роль".</key>
+</Add>
+</TcBusinessDataLocalization>

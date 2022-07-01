@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:16:22 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Awa0RelevantObjectsProvider" locale="zh_TW" status="Approved">相關物件提供程式</key>
+</Add>
+</TcBusinessDataLocalization>

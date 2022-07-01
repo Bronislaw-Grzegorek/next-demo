@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2020.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes ActiveRelease="Awp05.0.0" currentTemplateVersion="13.0_0" displayName="Active Workspace Assistant" enableOpsDataDeploy="false" guid="5DFD24AF99AFFD3941ADF450054886F9" isDescriptionMandatory="true" name="awa0awassistant" optional="true" prefixes="Awa0" teamcenterTemplate="true">
+    <include file="foundation_template.xml"/>
+    <include file="aws2_template.xml"/>
+</TcBusinessDataIncludes>

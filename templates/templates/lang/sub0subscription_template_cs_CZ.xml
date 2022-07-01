@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:18:21 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Sub0SubscriptionProvider" locale="cs_CZ" status="Approved">Zprostředkovatel předplatného</key>
+   <key id="BusinessObject{::}Sub0NotificationProvider" locale="cs_CZ" status="Approved">Zprostředkovatel oznámení</key>
+   <key id="BusinessObject{::}Sub0SubscribleTypesProvider" locale="cs_CZ" status="Approved">Poskytovatel předplatitelných typů</key>
+
+   <key id="CommandDisplayName{::}Sub0AddFollower" locale="cs_CZ" status="Approved">Přidat následovníka</key>
+   <key id="CommandDisplayName{::}Sub0AddSubscriptionCriteria" locale="cs_CZ" status="Approved">Přidat</key>
+   <key id="CommandDisplayName{::}Sub0CreateObjectTypeSubscription" locale="cs_CZ" status="Approved">Typ sledování</key>
+   <key id="CommandDisplayName{::}Sub0DeleteMessage" locale="cs_CZ" status="Approved">Odstranit zprávy</key>
+   <key id="CommandDisplayName{::}Sub0DeleteSubscription" locale="cs_CZ" status="Approved">Odstranit</key>
+   <key id="CommandDisplayName{::}Sub0EditSubscriptionCriteria" locale="cs_CZ" status="Approved">Upravit</key>
+   <key id="CommandDisplayName{::}Sub0SaveAsSubscription" locale="cs_CZ" status="Approved">Uložit jako</key>
+   <key id="CommandDisplayName{::}Sub0Subscribe" locale="cs_CZ" status="Approved">Sledovat</key>
+   <key id="CommandDisplayName{::}Sub0TemporaryTransferNotification" locale="cs_CZ" status="Approved">Převod oznámení</key>
+   <key id="ConditionDescription{::}Sub0CopyCmdCond" locale="cs_CZ" status="Approved">Tato podmínka je u objektů ImanSubscription vždy vyhodnocena jako false.</key>
+   <key id="ConditionDescription{::}Sub0DeleteSubscriptionCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje, zda je zadaný objekt předplatného odstranitelný, či nikoliv.</key>
+   <key id="ConditionDescription{::}Sub0SaveAsSubscriptionCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje, zda je povoleno zadaný objekt předplatného uložit jako či nikoliv.</key>
+   <key id="ConditionDescription{::}Sub0StartEditTableCmdCond" locale="cs_CZ" status="Approved">Tato podmínka je u objektů ImanSubscription vždy vyhodnocena jako false.</key>
+   <key id="ConditionDescription{::}Sub0TemporaryTransferNotificationCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje, zda je povoleno, aby byl zadaný objekt předplatného dočasně přenositelný či nikoliv.</key>
+</Add>
+</TcBusinessDataLocalization>

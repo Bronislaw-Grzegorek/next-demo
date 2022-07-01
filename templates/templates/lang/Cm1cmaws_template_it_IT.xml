@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:15:56 PM 2021">
+    <Add>
+   <key id="BusinessObject{::}Cm1ChangeHistoryElement" locale="it_IT" status="Approved">Modifica elemento cronistoria</key>
+   <key id="BusinessObject{::}Cm1ImpactAnalysisProvider" locale="it_IT" status="Approved">Fornitore dell'analisi dell'impatto</key>
+   <key id="BusinessObject{::}Cm1LineageImpactedProvider" locale="it_IT" status="Approved">Provider oggetto con variazioni per la derivazione</key>
+   <key id="BusinessObject{::}Cm1MyChangesProvider" locale="it_IT" status="Approved">Provider delle modifiche</key>
+   <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CHANGE" locale="it_IT" status="Approved">Change Manager</key>
+   <key id="LOVValue{::}Fnd0SourceApplicationType{::}CHANGE" locale="it_IT" status="Approved">Change Manager</key>
+   <key id="Property{::}Cm1ChangeHistoryElement{::}cm1AuthorizingCNObject" locale="it_IT" status="Approved">Autorizzazione avviso di modifica</key>
+   <key id="Property{::}Cm1ChangeHistoryElement{::}cm1AuthorizingChangeNotice" locale="it_IT" status="Approved">Autorizzazione avviso di modifica</key>
+   <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Closure" locale="it_IT" status="Approved">Chiusura</key>
+   <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Disposition" locale="it_IT" status="Approved">Disposizione</key>
+   <key id="Property{::}Cm1ChangeHistoryElement{::}cm1ImpactedItem" locale="it_IT" status="Approved">Item con modifiche</key>
+   <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatedBy" locale="it_IT" status="Approved">Incorporato da</key>
+   <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatedInto" locale="it_IT" status="Approved">Incorporato in</key>
+   <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatedStatus" locale="it_IT" status="Approved">Stato incorporato</key>
+   <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatesChanges" locale="it_IT" status="Approved">Incorpora le modifiche di</key>
+   <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Markup" locale="it_IT" status="Approved">Markup</key>
+   <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Maturity" locale="it_IT" status="Approved">Maturità </key>
+   <key id="Property{::}Cm1ChangeHistoryElement{::}cm1SolutionItemObject" locale="it_IT" status="Approved">Soluzione</key>
+   <key id="Property{::}Cm1ChangeHistoryElement{::}cm1SolutionItem" locale="it_IT" status="Approved">Item soluzione</key>
+
+   <key id="CommandDisplayName{::}Cm1ChangeFilters" locale="it_IT" status="Approved">Filtri</key>
+   <key id="CommandDisplayName{::}Cm1ReleaseStatusEffectivity" locale="it_IT" status="Approved">Effettività stato di rilascio</key>
+   <key id="CommandDisplayName{::}Cm1ReportProblemTool" locale="it_IT" status="Approved">Segnalazione problema</key>
+   <key id="CommandDisplayName{::}Cm1SequenceChange" locale="it_IT" status="Approved">Modifica sequenza</key>
+   <key id="CommandDisplayName{::}Cm1ShowCreateChangeInContext" locale="it_IT" status="Approved">Crea modifica</key>
+   <key id="CommandDisplayName{::}Cm1ShowCreateChange" locale="it_IT" status="Approved">Crea modifica</key>
+   <key id="CommandDisplayName{::}Cm1ShowDeriveChange" locale="it_IT" status="Approved">Deriva modifica</key>
+   <key id="CommandDisplayName{::}Cm1ShowSetLineage" locale="it_IT" status="Approved">Imposta derivazione</key>
+   <key id="CommandDisplayName{::}Cm1UnsetLineage" locale="it_IT" status="Approved">Annulla impostazione derivazione</key>
+   <key id="ConditionDescription{::}Cm1AddToFavoritesCmdCond" locale="it_IT" status="Approved">La condizione per l'ECN è impostata come contesto per gli oggetti 4GD</key>
+   <key id="ConditionDescription{::}Cm1Awp0CutCmdCond" locale="it_IT" status="Approved">Questa condizione definisce i criteri di attivazione dei comandi di modifica della dipendenza GnChangeNoticeRevision e consente di verificare tali criteri in base alla sessione utente e all'oggetto business in contesto.</key>
+   <key id="ConditionDescription{::}Cm1HideReleaseStatusEffectivityCmdCond" locale="it_IT" status="Approved">Condizione per nascondere il comando di struttura per l'assegnazione dell'effettività dello stato di rilascio. Viene invece visualizzato il comando specifico di Change Manager.</key>
+   <key id="ConditionDescription{::}Cm1SequenceChangeCmdCond" locale="it_IT" status="Approved">Questa condizione definisce i criteri di attivazione dei comandi di modifica della dipendenza GnChangeNoticeRevision e consente di verificare tali criteri in base alla sessione utente e all'oggetto Revisione avviso di modifica in contesto.</key>
+   <key id="ConditionDescription{::}Cm1ShowCreateChangeInContextCmdCond" locale="it_IT" status="Approved">Crea condizione del comando Modifica in contesto</key>
+   <key id="ConditionDescription{::}Cm1ShowDeriveChangeCmdCond" locale="it_IT" status="Approved">Condizione che determina se visualizzare o nascondere il comando Deriva.</key>
+   <key id="ConditionDescription{::}Cm1ShowSetLineageCmdCond" locale="it_IT" status="Approved">Consente di abilitare il comando per l'impostazione della derivazione se gli oggetti selezionati sono dello stesso tipo e la derivazione non è impostata.</key>
+   <key id="ConditionDescription{::}Cm1UnsetLineageCmdCond" locale="it_IT" status="Approved">Consente di abilitare il comando per annullare l'impostazione della derivazione se gli oggetti selezionati sono dello stesso tipo e la derivazione è impostata.</key>
+
+   <key id="Property{::}ChangeNoticeRevision{::}cm1IsMassUpdateAllowed" locale="it_IT" status="Approved">Aggiornamento di massa consentito</key>
+</Add>
+</TcBusinessDataLocalization>
