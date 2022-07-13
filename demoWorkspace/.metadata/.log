@@ -225,3 +225,15 @@ java.io.FileNotFoundException: C:\Users\grzegore\GitProjects\next-demo\demoWorks
 	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2338)
 	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:521)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SESSION 2022-07-07 14:12:09.732 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-07-07 14:12:14.907
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.runtime 4 1 2022-07-07 14:12:50.328
+!MESSAGE Either the persisted object was not found or no model class match was foundfor the object type ***com.teamcenter.bmide.foundation.core.model.TcStandardType***. The stored memento is "com.teamcenter.bmide.server.ui.internal.formeditorinput.ServerPluginFormEditorInputFactory|bg6template|com.teamcenter.bmide.foundation.core.model.TcStandardType|ItemRevision"
