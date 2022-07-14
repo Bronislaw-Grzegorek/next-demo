@@ -1,6 +1,0 @@
-
-<svg enable-background="new 0 0 24 24" id="Artwork" version="1.1" viewBox="0 0 24 24" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
-  <path class="aw-theme-iconOutline" d="M20,24H4V12h16V24z M5,23h14V13H5V23z" fill="#464646"/>
-  <path class="aw-theme-iconOutline" d="M21.5,5H20V0H4v5H2.5C1.1,5,0,6.1,0,7.5V18h3v-1H1V7.5C1,6.7,1.7,6,2.5,6h19C22.3,6,23,6.7,23,7.5V17h-2v1h3  V7.5C24,6.1,22.9,5,21.5,5z M5,1h14v4H5V1z" fill="#464646"/>
-  <rect class="aw-theme-iconOutline" fill="#464646" height="1" width="3" x="17" y="9"/>
-</svg>

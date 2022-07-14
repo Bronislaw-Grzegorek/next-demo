@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Nov 02 07:17:48 PM 2021">
-    <Add>
-   <key id="BusinessObject{::}Rb0ReportsDataProvider" locale="en_US" status="Approved">Reports Data Provider</key>
-</Add>
-</TcBusinessDataLocalization>
