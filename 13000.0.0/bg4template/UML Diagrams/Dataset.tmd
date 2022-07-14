@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<com.teamcenter.graphmodel:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.teamcenter.bmide.foundation.core="http:///com/teamcenter/bmide/foundation/core/model/tcmodel.ecore" xmlns:com.teamcenter.bmide.server.uml.viewmodel="http:///com.teamcenter.bmide.server.uml.viewmodel/viewmodel.ecore" xmlns:com.teamcenter.graphmodel="http:///com/teamcenter/graphmodel/graphmodel.ecore" zoom="0.75">
+  <contents xsi:type="com.teamcenter.bmide.server.uml.viewmodel:NamedElementViewNode" location="387,89" dimension="381,361">
+    <outgoingConnections xsi:type="com.teamcenter.bmide.server.uml.viewmodel:GRMRelationLink" target="//@contents.2" primaryCardinality="0..0" primaryLabel="P" secondaryLabel="S" secondaryCardinality="0..0" relation="IMAN_specification" startPosition="5" endPosition="5"/>
+    <outgoingConnections xsi:type="com.teamcenter.bmide.server.uml.viewmodel:GRMRelationLink" target="//@contents.1" primaryCardinality="0..0" primaryLabel="P" secondaryLabel="S" secondaryCardinality="0..0" relation="IMAN_specification" startPosition="40" endPosition="5"/>
+    <outgoingConnections xsi:type="com.teamcenter.bmide.server.uml.viewmodel:TypedReferenceLink" target="//@contents.6"/>
+    <outgoingConnections xsi:type="com.teamcenter.bmide.server.uml.viewmodel:GRMRelationLink" target="//@contents.5" primaryCardinality="0..0" primaryLabel="P" secondaryLabel="S" secondaryCardinality="0..0" relation="IMAN_specification" startPosition="80" endPosition="5"/>
+    <outgoingConnections xsi:type="com.teamcenter.bmide.server.uml.viewmodel:GRMRelationLink" target="//@contents.3" primaryCardinality="0..0" primaryLabel="P" secondaryLabel="S" secondaryCardinality="0..0" relation="IMAN_specification" startPosition="120" endPosition="5"/>
+    <outgoingConnections xsi:type="com.teamcenter.bmide.server.uml.viewmodel:GRMRelationLink" target="//@contents.4" primaryCardinality="0..0" primaryLabel="P" secondaryLabel="S" secondaryCardinality="0..0" relation="IMAN_specification" startPosition="160" endPosition="5"/>
+    <modelObject xsi:type="com.teamcenter.bmide.foundation.core:TcStandardType" href="../../TcModelGhostFilePath#TcStandardType/Dataset"/>
+  </contents>
+  <contents xsi:type="com.teamcenter.bmide.server.uml.viewmodel:NamedElementViewNode" incomingConnections="//@contents.0/@outgoingConnections.1" location="964,158" dimension="89,47">
+    <modelObject xsi:type="com.teamcenter.bmide.foundation.core:TcDataset" href="../../TcModelGhostFilePath#TcDataset/MSExcel"/>
+  </contents>
+  <contents xsi:type="com.teamcenter.bmide.server.uml.viewmodel:NamedElementViewNode" incomingConnections="//@contents.0/@outgoingConnections.0" location="959,85" dimension="111,47">
+    <modelObject xsi:type="com.teamcenter.bmide.foundation.core:TcDataset" href="../../TcModelGhostFilePath#TcDataset/GIF"/>
+  </contents>
+  <contents xsi:type="com.teamcenter.bmide.server.uml.viewmodel:NamedElementViewNode" incomingConnections="//@contents.0/@outgoingConnections.4" location="980,325" dimension="86,47">
+    <modelObject xsi:type="com.teamcenter.bmide.foundation.core:TcDataset" href="../../TcModelGhostFilePath#TcDataset/Text"/>
+  </contents>
+  <contents xsi:type="com.teamcenter.bmide.server.uml.viewmodel:NamedElementViewNode" incomingConnections="//@contents.0/@outgoingConnections.5" location="981,413" dimension="89,47">
+    <modelObject xsi:type="com.teamcenter.bmide.foundation.core:TcDataset" href="../../TcModelGhostFilePath#TcDataset/UGPART"/>
+  </contents>
+  <contents xsi:type="com.teamcenter.bmide.server.uml.viewmodel:NamedElementViewNode" incomingConnections="//@contents.0/@outgoingConnections.3" location="976,250" dimension="49,47">
+    <modelObject xsi:type="com.teamcenter.bmide.foundation.core:TcDataset" href="../../TcModelGhostFilePath#TcDataset/Zip"/>
+  </contents>
+  <contents xsi:type="com.teamcenter.bmide.server.uml.viewmodel:NamedElementViewNode" incomingConnections="//@contents.0/@outgoingConnections.2" location="15,70" dimension="288,461">
+    <modelObject xsi:type="com.teamcenter.bmide.foundation.core:TcClass" href="../../TcModelGhostFilePath#TcClass/Tool"/>
+  </contents>
+</com.teamcenter.graphmodel:Diagram>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<com.teamcenter.graphmodel:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.teamcenter.bmide.foundation.core="http:///com/teamcenter/bmide/foundation/core/model/tcmodel.ecore" xmlns:com.teamcenter.bmide.server.uml.viewmodel="http:///com.teamcenter.bmide.server.uml.viewmodel/viewmodel.ecore" xmlns:com.teamcenter.graphmodel="http:///com/teamcenter/graphmodel/graphmodel.ecore">
+  <contents xsi:type="com.teamcenter.bmide.server.uml.viewmodel:NamedElementViewNode" location="25,30" dimension="352,313">
+    <outgoingConnections xsi:type="com.teamcenter.bmide.server.uml.viewmodel:GRMRelationLink" target="//@contents.1" primaryCardinality="0..*" primaryLabel="" secondaryLabel="" secondaryCardinality="0..*" relation="IMAN_reference" startPosition="5" endPosition="5"/>
+    <modelObject xsi:type="com.teamcenter.bmide.foundation.core:TcStandardType" href="../../TcModelGhostFilePath#TcStandardType/Item"/>
+  </contents>
+  <contents xsi:type="com.teamcenter.bmide.server.uml.viewmodel:NamedElementViewNode" incomingConnections="//@contents.0/@outgoingConnections.0" location="584,32" dimension="339,428">
+    <modelObject xsi:type="com.teamcenter.bmide.foundation.core:TcStandardType" href="../../TcModelGhostFilePath#TcStandardType/ItemRevision"/>
+  </contents>
+  <contents xsi:type="com.teamcenter.bmide.server.uml.viewmodel:NamedElementViewNode" location="56,442" dimension="274,181">
+    <modelObject xsi:type="com.teamcenter.bmide.foundation.core:TcForm" href="../../TcModelGhostFilePath#TcForm/Item Master"/>
+  </contents>
+  <contents xsi:type="com.teamcenter.bmide.server.uml.viewmodel:NamedElementViewNode" location="640,529" dimension="283,181">
+    <modelObject xsi:type="com.teamcenter.bmide.foundation.core:TcForm" href="../../TcModelGhostFilePath#TcForm/ItemRevision Master"/>
+  </contents>
+</com.teamcenter.graphmodel:Diagram>

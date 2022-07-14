@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ASCII"?>
+<com.teamcenter.graphmodel:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.teamcenter.bmide.foundation.core="http:///com/teamcenter/bmide/foundation/core/model/tcmodel.ecore" xmlns:com.teamcenter.bmide.server.uml.viewmodel="http:///com.teamcenter.bmide.server.uml.viewmodel/viewmodel.ecore" xmlns:com.teamcenter.graphmodel="http:///com/teamcenter/graphmodel/graphmodel.ecore" zoom="0.75">
+  <contents xsi:type="com.teamcenter.bmide.server.uml.viewmodel:NamedElementViewNode" incomingConnections="//@contents.1/@outgoingConnections.0" location="22,277" dimension="252,93">
+    <modelObject xsi:type="com.teamcenter.bmide.foundation.core:TcStandardType" href="../../TcModelGhostFilePath#TcStandardType/SP5PartEng"/>
+  </contents>
+  <contents xsi:type="com.teamcenter.bmide.server.uml.viewmodel:NamedElementViewNode" incomingConnections="//@contents.2/@outgoingConnections.0" location="103,149" dimension="252,33">
+    <outgoingConnections xsi:type="com.teamcenter.bmide.server.uml.viewmodel:InheritanceLink" target="//@contents.0"/>
+    <outgoingConnections xsi:type="com.teamcenter.bmide.server.uml.viewmodel:InheritanceLink" target="//@contents.4"/>
+    <modelObject xsi:type="com.teamcenter.bmide.foundation.core:TcStandardType" href="../../TcModelGhostFilePath#TcStandardType/SP5AbsPart"/>
+  </contents>
+  <contents xsi:type="com.teamcenter.bmide.server.uml.viewmodel:NamedElementViewNode" incomingConnections="//@contents.3/@outgoingConnections.0" location="82,-52" dimension="307,147">
+    <outgoingConnections xsi:type="com.teamcenter.bmide.server.uml.viewmodel:InheritanceLink" target="//@contents.1"/>
+    <modelObject xsi:type="com.teamcenter.bmide.foundation.core:TcStandardType" href="../../TcModelGhostFilePath#TcStandardType/Part"/>
+  </contents>
+  <contents xsi:type="com.teamcenter.bmide.server.uml.viewmodel:NamedElementViewNode" location="499,-125" dimension="314,309">
+    <outgoingConnections xsi:type="com.teamcenter.bmide.server.uml.viewmodel:InheritanceLink" target="//@contents.2"/>
+    <outgoingConnections xsi:type="com.teamcenter.bmide.server.uml.viewmodel:InheritanceLink" target="//@contents.7"/>
+    <modelObject xsi:type="com.teamcenter.bmide.foundation.core:TcStandardType" href="../../TcModelGhostFilePath#TcStandardType/Item"/>
+  </contents>
+  <contents xsi:type="com.teamcenter.bmide.server.uml.viewmodel:NamedElementViewNode" incomingConnections="//@contents.1/@outgoingConnections.1" location="294,268" dimension="252,93">
+    <modelObject xsi:type="com.teamcenter.bmide.foundation.core:TcStandardType" href="../../TcModelGhostFilePath#TcStandardType/SP5PartMfg"/>
+  </contents>
+  <contents xsi:type="com.teamcenter.bmide.server.uml.viewmodel:NamedElementViewNode" incomingConnections="//@contents.6/@outgoingConnections.0" location="916,359" dimension="134,73">
+    <modelObject xsi:type="com.teamcenter.bmide.foundation.core:TcStandardType" href="../../TcModelGhostFilePath#TcStandardType/SP5PrDesNX"/>
+  </contents>
+  <contents xsi:type="com.teamcenter.bmide.server.uml.viewmodel:NamedElementViewNode" incomingConnections="//@contents.7/@outgoingConnections.0" location="922,168" dimension="163,73">
+    <outgoingConnections xsi:type="com.teamcenter.bmide.server.uml.viewmodel:InheritanceLink" target="//@contents.5"/>
+    <outgoingConnections xsi:type="com.teamcenter.bmide.server.uml.viewmodel:InheritanceLink" target="//@contents.8">
+      <bendpoints>913,341</bendpoints>
+    </outgoingConnections>
+    <outgoingConnections xsi:type="com.teamcenter.bmide.server.uml.viewmodel:InheritanceLink" target="//@contents.9">
+      <bendpoints>1088,335</bendpoints>
+    </outgoingConnections>
+    <modelObject xsi:type="com.teamcenter.bmide.foundation.core:TcStandardType" href="../../TcModelGhostFilePath#TcStandardType/SP5AbsPrDes"/>
+  </contents>
+  <contents xsi:type="com.teamcenter.bmide.server.uml.viewmodel:NamedElementViewNode" incomingConnections="//@contents.3/@outgoingConnections.1" location="946,-8" dimension="134,73">
+    <outgoingConnections xsi:type="com.teamcenter.bmide.server.uml.viewmodel:InheritanceLink" target="//@contents.6"/>
+    <modelObject xsi:type="com.teamcenter.bmide.foundation.core:TcStandardType" href="../../TcModelGhostFilePath#TcStandardType/Design"/>
+  </contents>
+  <contents xsi:type="com.teamcenter.bmide.server.uml.viewmodel:NamedElementViewNode" incomingConnections="//@contents.6/@outgoingConnections.1" location="769,307" dimension="145,73">
+    <modelObject xsi:type="com.teamcenter.bmide.foundation.core:TcStandardType" href="../../TcModelGhostFilePath#TcStandardType/SP5PrDesCreo"/>
+  </contents>
+  <contents xsi:type="com.teamcenter.bmide.server.uml.viewmodel:NamedElementViewNode" incomingConnections="//@contents.6/@outgoingConnections.2" location="1065,335" dimension="136,73">
+    <modelObject xsi:type="com.teamcenter.bmide.foundation.core:TcStandardType" href="../../TcModelGhostFilePath#TcStandardType/SP5PrDesSW"/>
+  </contents>
+</com.teamcenter.graphmodel:Diagram>
